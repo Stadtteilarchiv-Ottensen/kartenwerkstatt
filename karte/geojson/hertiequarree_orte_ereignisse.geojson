@@ -1,0 +1,449 @@
+
+{
+    "type": "FeatureCollection",
+    "generator": "JOSM",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "description": "Nach den Krawallen zur sogenannten „Stadtteilkonferenz“, sendete der NDR von hier aus live ein „Hamburger Journal vor Ort“. Ursache der Ausschreitungen war eine für den 22.06.1993 anberaumte „Stadtteilkonferenz“ der Bürgervereine mit dem Thema „Altona darf nicht verkommen!“ („Asylanten, Punker und Penner sind an allem Schuld“, <a title=\"Altonaer Bürgerverein von 1848 e.V., Wolfgang Vacano, Interessensgemeinschaft Gr. &amp; Neue Gr. Bergstraße, Wilfried Müller, Trägerverbund Gr. &amp; Neue Gr. Bergstraße, und Horst Andresen. „Es reicht! Altona darf nicht verkommen! Forderungskatalog zur Beseitigung der Mißstände in ALTONA Mai 1993“. Hotel Stadt Altona, 1993.\" href=\"https://altona.ws/dok/artikel/quarree/es-reicht-buergervereine-1993.pdf\">siehe Forderungskatalog</a>)",
+                "label": "Hamburger Journal",
+                "leafletID": "hamburgerjournal",
+                "name": "Hamburger Journal vor Ort",
+                "orteereignisse": "1"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.93054627299,
+                    53.55221550658
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "description": "Carstensen wurde mitgeteilt, er hätte eine Ordnungswidrigkeit nach §19 HWG begangen, indem er den „Luftraum unerlaubt in Anspruch genommen“ habe. Unter Androhung von Zwangsmitteln wie Bußgeld und Erzwingungshaft stellte die Behörde fest, die „weitere Überspannung des Weges“ müsse untersagt werden, zumal sonst „der mit der unerlaubten Nutzung verfolgte Zweck voll erreicht würde“. Siehe den Gegenstand der Ordnungswidrigkeit oben im Bild",
+                "image_src": "PICT0006_1.jpg",
+                "image_src_c": "Stadtteilarchiv Ottensen",
+                "label": "Luftraumverletzung",
+                "leafletID": "luftraumverletzung",
+                "name": "Luftraumverletzung",
+                "orteereignisse": "1"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.92939829692,
+                    53.55200277176
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "description": "Sitzungen der Bezirksversammlung und der Ausschüsse",
+                "label": "Rathaus",
+                "leafletID": "rathaus",
+                "name": "Rathaus Altona",
+                "orteereignisse": "1"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.93539571226,
+                    53.54695990163
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "description": "Der Abriss des alten Bahnhofs ist ein schönes Beispiel dafür, wie man es mit dem Bismarckbad nicht hätte tun dürfen.",
+                "label": "Bf. Altona",
+                "leafletID": "bfaltona",
+                "name": "Bahnhof Altona",
+                "orteereignisse": "1"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.93503092647,
+                    53.55221550658
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "description": "Hier wurde 1990 unter dem Motto „Verrat an Ottensen“ gegen das „Umkippen“ der SPD in Sachen Hertie-Quarree demonstriert.",
+                "image_src": "doc01527020210119172640_001.jpg",
+                "image_src_c": "Henning Scholz, taz, 27.9.1990 (Stadtteilarchiv Ottensen)",
+                "label": "SPD",
+                "leafletID": "spd",
+                "name": "SPD-Kreisverband Altona",
+                "orteereignisse": "1"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.93650078237,
+                    53.54819975978
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "description": "Dieser Teil Ottensens wurde oft als Paradebeispiel für die kommende Entwicklung Ottensens zum Luxusquartier („Schicki-Micki-Slum“) angeführt.",
+                "label": "Friedensallee",
+                "leafletID": "friedensallee",
+                "name": "Friedensallee",
+                "orteereignisse": "1"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.92728470683,
+                    53.55465663748
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "description": "Es gab im Herbst 1991 mehrere Naziangriffe auf den Punkerplatz. Dies ist relevant im Hinblick auf die Debatte um \"Antisemitismus in Ottensen\", die im Zusammenhang des Friedhofskonflikts aufgeworfen wurde.",
+                "label": "Naziangriffe",
+                "leafletID": "naziangriffe",
+                "name": "Naziangriffe 1991",
+                "orteereignisse": "1"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.92580413282,
+                    53.55267442125
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "description": "Verkehrsblockaden als Demonstration gegen Verkehrschaos",
+                "image_src": "kein-quarree_lessingtunnel2.jpg",
+                "image_src_c": "Stadtteilarchiv Ottensen 1991",
+                "label": "Lessingtunnel",
+                "leafletID": "lessingtunnel",
+                "name": "Lessingtunnel",
+                "orteereignisse": "1"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.93430136561,
+                    53.55565726924
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "description": "Verschiedene Informationsveranstaltungen",
+                "label": "GAL",
+                "leafletID": "galnoeltingstr",
+                "name": "GAL Kreisverband Altona",
+                "orteereignisse": "1"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.92744028032,
+                    53.55218682086
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "description": "Diskussionsforum zum Thema „Stadtplanung von unten“ in der Fabrik am 22.02.1993",
+                "label": "Ottenser Rundschlag",
+                "leafletID": "rundschlagfabrik",
+                "name": "„Ottenser Rundschlag“",
+                "orteereignisse": "1"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.92918908060,
+                    53.55667062059
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "description": "Die Infostände der Initiativen standen und Demos begannen meistens hier.",
+                "label": "Ottenser Kreuz",
+                "leafletID": "kreuz",
+                "name": "Ottenser Kreuz",
+                "orteereignisse": "1"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.93030487955,
+                    53.55216451221
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "description": "In der Motte traf sich wöchentlich das „Stadtteilplenum Ottensen“",
+                "label": "Motte",
+                "leafletID": "motte",
+                "name": "Stadtteilzentrum „Die MOTTE“",
+                "orteereignisse": "1"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.92762803763,
+                    53.55023158085
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "description": "Mehrmalige Demonstrationen und Sitzblockaden orthodoxer Juden 1992 im Hohenesch sowie der Großen und Kleinen Rainstraße",
+                "image_src": "juden-sitzblockade.jpg",
+                "image_src_c": "Stadtteilarchiv Ottensen",
+                "label": "Orthodoxe Demos",
+                "leafletID": "orthdemos",
+                "name": "Demonstrationen orthodoxer Juden",
+                "orteereignisse": "1"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.93203758657,
+                    53.55353806568
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "description": "Sogenannte „Stadtteilkonferenz“ der Bürgervereine am 22.06.1993 mit dem Thema „Altona darf nicht verkommen!“ („Asylanten, Punker und Penner sind an allem Schuld“). Da zurecht massive Proteste erwartet wurden, wurde die Veranstaltung schließlich abgesagt. <a title=\"Altonaer Bürgerverein von 1848 e.V., Wolfgang Vacano, Interessensgemeinschaft Gr. &amp; Neue Gr. Bergstraße, Wilfried Müller, Trägerverbund Gr. &amp; Neue Gr. Bergstraße, und Horst Andresen. „Es reicht! Altona darf nicht verkommen! Forderungskatalog zur Beseitigung der Mißstände in ALTONA Mai 1993“. Hotel Stadt Altona, 1993.\" href=\"https://altona.ws/dok/artikel/quarree/es-reicht-buergervereine-1993.pdf\">Link zum Forderungskatalog</a>",
+                "image_src": "es-reicht-buergervereine-1993.jpg",
+                "image_src_c": "Stadtteilarchiv Ottensen, Copyright 1993 Altonaer Bürgerverein von 1848",
+                "label": "„Stadtteilkonferenz“",
+                "leafletID": "stadtteilkonferenzbuergervereine",
+                "name": "„Stadtteilkonferenz“ der Bürgervereine",
+                "orteereignisse": "1"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.94942902982,
+                    53.55155898724
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "description": "Logo der Projektgegner",
+                "image_src": "doc01570620210225170031_001.jpg",
+                "image_src_c": "Stadtteilarchiv Ottensen",
+                "leafletID": "hertiequarreenein",
+                "name": "Logo",
+                "orteereignisse": "1"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.93191957205,
+                    53.55276205965
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "description": "In den Zeisehallen stellten die Investoren am 8.11.1994 mit dem „Mercado“ ihr neues Konzept für das Hertie-Quarree vor.",
+                "label": "Vorstellung „Mercado“",
+                "leafletID": "zeisemercado",
+                "name": "Vorstellung des „Mercado“-Konzepts",
+                "orteereignisse": "1"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.92713450849,
+                    53.55418817753
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "description": "Straßenfest 23.5.1991 in der Ottenser Hauptstraße. Eine von vielen Veranstaltungen gegen das Quarree.",
+                "image_src": "ATP347.jpg",
+                "image_src_c": "Alf Trojan 1992 (Stadtteilarchiv Ottensen)",
+                "label": "Straßenfest",
+                "leafletID": "strassenfest1991",
+                "name": "Straßenfest 1991",
+                "orteereignisse": "1"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.93287443042,
+                    53.55226649770
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "description": "Hier wurde im Februar 1990 das Mottenburger Manifest unterschrieben. Außerdem fanden hier mehrere Ausschusssitzungen statt. Insbesondere im Oktober 1990 stimmte hier der Bauausschuss dem <em>Quarree</em> zu",
+                "label": "Aula Bleickenallee",
+                "leafletID": "aulableickenallee",
+                "name": "Aula der Schule Bleickenallee",
+                "orteereignisse": "1"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.92193638742,
+                    53.55049451707
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "description": "Treffpunkt der „AnwohnerInneninitiative gegen das HERTIE-Quarree“, alle 2 Wochen donnerstags",
+                "label": "Stadtteilarchiv",
+                "leafletID": "stadtteilarchiv",
+                "name": "Stadtteilarchiv Ottensen",
+                "orteereignisse": "1"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.92974161834,
+                    53.55515854490
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "description": "Die Osterkirche mit Pfarrer Axel Braun engagierte sich aktiv für die Bürger und gegen das Quarree. <em>Traf sich hier die „Interessengemeinschaft Osterkirchenviertel“?</em>",
+                "label": "Osterkirche",
+                "leafletID": "osterkirche",
+                "name": "Osterkirche",
+                "orteereignisse": "1"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.93254989117,
+                    53.55511711745
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "description": "Wandbild in der Kl. Rainstr.vom Juni 1991 gegen das Hertie-Quarree von Hildegrund Schuster. Heute ist nur noch die Ergänzung von 1993 zum Thema jüdischer Friedhof erhalten.",
+                "image_src": "doc01573020210302164454_001.jpg",
+                "image_src_c": "Alf Trojan (Stadtteilarchiv Ottensen)",
+                "label": "Wandbild",
+                "leafletID": "wandbildklrainstr",
+                "name": "Wandbild Kleine Rainstraße 21",
+                "orteereignisse": "1"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.93046447501,
+                    53.55374839469
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "description": "Die Pläne, halb Ottensen für einen Autobahnzubringer vom Bf. Altona bis zur Reitbahn abzureißen, stand noch lange im Raum. Hier war die BIVO sehr aktiv, noch bevor sie anfing, sich mit der drohenden Verkehrsproblematik des Hertie-Quarrees zu beschäftigen.",
+                "label": "Autobahnzubringer",
+                "leafletID": "autobahnzubringer",
+                "name": "Autobahnzubringer",
+                "orteereignisse": "1"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.92897986293,
+                    53.55133590009
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "description": "Informations- und Diskussionsveranstaltungen, insbesondere eine der ersten öffentlichen Anhörungen am 28.11.1989",
+                "label": "Aula Gaußstraße",
+                "leafletID": "aulagaussstr",
+                "name": "Aula Gaußstraße",
+                "orteereignisse": "1"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.92488681734,
+                    53.55844871236
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "description": "Hier bestand nach der Schließung von Hertie im August 1991 bis zur Aufstellung des Bauzauns 1994 ein wilder Flohmarkt.",
+                "image_src": "Ottenser-Hauptstraße-fliegende-Händler.jpg",
+                "image_src_c": "Walter Borchers 1992 (Stadtteilarchiv Ottensen)",
+                "label": "Wilder Flohmarkt",
+                "leafletID": "wilderflohmarkt",
+                "name": "Wilder Flohmarkt",
+                "orteereignisse": "1"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.93197321355,
+                    53.55223781201
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "description": "Der Toom-Markt (heute REWE) wurde bereits 1989 wie später das Quarree per Evokation durch den Hamburger Senat genehmigt. Dennoch wurde weiter von einer „schlechten Versorgungslage“ phantasiert. Je nach Publikum wurde auch mal davon gesprochen, wie gut sich das Quarree doch in die „dichte Einzelhandelsstruktur“ Altonas einfüge.",
+                "label": "Toom",
+                "leafletID": "toom",
+                "name": "Supermarkt Toom",
+                "orteereignisse": "1"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.93720888019,
+                    53.55400015920
+                ]
+            }
+        }
+    ]
+}

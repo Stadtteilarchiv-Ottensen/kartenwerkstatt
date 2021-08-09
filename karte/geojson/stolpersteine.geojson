@@ -1,0 +1,4624 @@
+
+{
+    "type": "FeatureCollection",
+    "generator": "JOSM",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "historic": "memorial",
+                "memorial:addr": "Bernstorffstraße 159, Hamburg",
+                "memorial:addr:city": "Hamburg",
+                "memorial:addr:housenumber": "159",
+                "memorial:addr:street": "Bernstorffstraße",
+                "memorial:type": "stolperstein",
+                "name": "Fella Fajgla Rotmensz",
+                "network": "Stolpersteine Hamburg",
+                "person:date_of_birth": "1889"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.95940730000,
+                    53.55976080000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "historic": "memorial",
+                "memorial:addr": "Jessenstraße 1, Hamburg",
+                "memorial:addr:city": "Hamburg",
+                "memorial:addr:housenumber": "1",
+                "memorial:addr:street": "Jessenstraße",
+                "memorial:type": "stolperstein",
+                "name": "Camille Charpentier",
+                "network": "Stolpersteine Hamburg",
+                "person:date_of_birth": "1922",
+                "wheelchair": "yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.94650840000,
+                    53.55114650000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "historic": "memorial",
+                "memorial:addr": "Königstraße 10a, Hamburg",
+                "memorial:addr:city": "Hamburg",
+                "memorial:addr:housenumber": "10a",
+                "memorial:addr:street": "Königstraße",
+                "memorial:type": "stolperstein",
+                "name": "Eduard Duckesz",
+                "network": "Stolpersteine Hamburg",
+                "person:date_of_birth": "1868",
+                "person:date_of_death": "1944-03-06",
+                "wheelchair": "yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.95055600000,
+                    53.54942770000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "historic": "memorial",
+                "memorial:addr": "Am Felde 26, Hamburg",
+                "memorial:addr:city": "Hamburg",
+                "memorial:addr:housenumber": "26",
+                "memorial:addr:street": "Am Felde",
+                "memorial:text": "Hier wohnte Wilhelmine Möller geb. Frentz Jg. 1866 eingewiesen 1943 Alsterdorfer Anstalten 'verlegt' 16.8.1943 Heilanstalt Am Steinhof ermordet 29.9.1944",
+                "memorial:type": "stolperstein",
+                "memorial:website": "https://www.stolpersteine-hamburg.de/?&MAIN_ID=7&r_name=Wilhelmine+M%F6ller&BIO_ID=5895",
+                "name": "Wilhelmine Möller geb. Frentz",
+                "network": "Stolpersteine Hamburg",
+                "person:date_of_birth": "1866",
+                "person:date_of_death": "1944-09-29",
+                "wheelchair": "yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.93274870000,
+                    53.54918580000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "historic": "memorial",
+                "memorial:addr": "Esmarchstraße 74, Hamburg",
+                "memorial:addr:city": "Hamburg",
+                "memorial:addr:postcode": "22767",
+                "memorial:type": "stolperstein",
+                "name": "Anton Wohinz",
+                "network": "Stolpersteine Hamburg",
+                "wheelchair": "yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.94633300000,
+                    53.55451300000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "historic": "memorial",
+                "memorial:addr": "Försterweg 43",
+                "memorial:addr:city": "Hamburg",
+                "memorial:addr:housenumber": "43",
+                "memorial:addr:postcode": "22525",
+                "memorial:addr:street": "Försterweg",
+                "memorial:addr:suburb": "Stellingen",
+                "memorial:text": "Hier wohnte Ilse Lazarus Jg. 1926 deportiert 1943 Theresienstadt 1944 in Auschwitz ermordet",
+                "memorial:type": "stolperstein",
+                "name": "Ilse Lazarus",
+                "network": "Stolpersteine Hamburg",
+                "person:date_of_birth": "1926",
+                "person:date_of_death": "1944"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.93041270000,
+                    53.57856860000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "historic": "memorial",
+                "memorial:addr": "Bei der Johanniskirche 5, Hamburg",
+                "memorial:addr:city": "Hamburg",
+                "memorial:addr:street": "Bei der Johanniskirche",
+                "memorial:type": "stolperstein",
+                "name": "Wolfgang David Hillelsohn",
+                "network": "Stolpersteine Hamburg"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.95279800000,
+                    53.55960270000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "historic": "memorial",
+                "memorial:addr": "Bernstorffstraße 155",
+                "memorial:addr:city": "Hamburg",
+                "memorial:addr:housenumber": "155",
+                "memorial:addr:street": "Bernstorffstraße",
+                "memorial:type": "stolperstein",
+                "name": "Gustav Mösing",
+                "network": "Stolpersteine Hamburg"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.95934340000,
+                    53.55951500000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "historic": "memorial",
+                "memorial:addr": "Lehmweg 44, Hamburg",
+                "memorial:type": "stolperstein",
+                "name": "Wilhelm Jotkowitz",
+                "network": "Stolpersteine Hamburg",
+                "person:date_of_birth": "1877",
+                "person:date_of_death": "1941"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.94838960000,
+                    53.55048820000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "description": "Stolperstein",
+                "historic": "memorial",
+                "memorial:addr": "Neumühlen 40, Hamburg",
+                "memorial:addr:city": "Hamburg",
+                "memorial:addr:housenumber": "40",
+                "memorial:addr:street": "Neumühlen",
+                "memorial:text": "Hier wohnte Gretchen Susmann Jg. 1885 deportiert 1941 Riga tot in Dünamünde",
+                "memorial:type": "stolperstein",
+                "memorial:website": "http://www.stolpersteine-hamburg.de/?&MAIN_ID=7&BIO_ID=1128",
+                "name": "Gretchen Susmann",
+                "network": "Stolpersteine Hamburg",
+                "wheelchair": "yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.91660160000,
+                    53.54448030000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "historic": "memorial",
+                "memorial:addr": "Goethestraße 37, Hamburg",
+                "memorial:addr:city": "Hamburg",
+                "memorial:addr:housenumber": "37",
+                "memorial:addr:street": "Goethestraße",
+                "memorial:type": "stolperstein",
+                "name": "Rita Sommer",
+                "network": "Stolpersteine Hamburg",
+                "person:date_of_birth": "1892",
+                "wheelchair": "yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.93961230000,
+                    53.55310500000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "historic": "memorial",
+                "image": "File:Stolpersteine_002.jpg",
+                "memorial:addr": "Grottenstraße 9, Hamburg",
+                "memorial:addr:city": "Hamburg",
+                "memorial:addr:housenumber": "9",
+                "memorial:addr:postcode": "22605",
+                "memorial:addr:street": "Grottenstraße",
+                "memorial:addr:suburb": "Othmarschen",
+                "memorial:text": "Hier wohnte Dr. Käthe Starke-Goldschmidt Jg.1905 deportiert Theresienstadt überlebt",
+                "memorial:type": "stolperstein",
+                "name": "Dr. Käthe Starke-Goldschmidt",
+                "network": "Stolpersteine Hamburg",
+                "person:date_of_birth": "1905",
+                "website": "http://www.stolpersteine-hamburg.de/?MAIN_ID=7&BIO_ID=264",
+                "wheelchair": "yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.87960230000,
+                    53.55691800000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "historic": "memorial",
+                "memorial:addr": "Schnellstraße 22, Hamburg",
+                "memorial:addr:city": "Hamburg",
+                "memorial:addr:street": "Schnellstraße",
+                "memorial:type": "stolperstein",
+                "name": "Willi Honig",
+                "network": "Stolpersteine Hamburg"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.94225560000,
+                    53.55746210000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "historic": "memorial",
+                "memorial:addr": "Stresemannstraße 71, Hamburg",
+                "memorial:type": "stolperstein",
+                "name": "Thea Zloczower",
+                "network": "Stolpersteine Hamburg"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.95945220000,
+                    53.56034060000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "historic": "memorial",
+                "memorial:addr": "Sternstraße 29, Hamburg",
+                "memorial:type": "stolperstein",
+                "name": "Mirjam Aschkenazy geb. Aschkenazy",
+                "network": "Stolpersteine Hamburg",
+                "person:date_of_birth": "1874",
+                "wheelchair": "yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.96695830000,
+                    53.55862370000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "historic": "memorial",
+                "memorial:addr": "Jessenstraße 1, Hamburg",
+                "memorial:addr:city": "Hamburg",
+                "memorial:addr:housenumber": "1",
+                "memorial:addr:street": "Jessenstraße",
+                "memorial:type": "stolperstein",
+                "name": "Hilaire Mars",
+                "network": "Stolpersteine Hamburg",
+                "person:date_of_birth": "1922",
+                "wheelchair": "yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.94650800000,
+                    53.55112130000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "description": "Stolperstein",
+                "historic": "memorial",
+                "memorial:addr": "Propst-Paulsen-Straße 1, Hamburg",
+                "memorial:addr:city": "Hamburg",
+                "memorial:addr:housenumber": "1",
+                "memorial:addr:street": "Propst-Paulsen-Straße",
+                "memorial:text": "Hier wohnte Paul Drucker Jg. 1863 deportiert 1942 Theresienstadt ermordet 10.8.1942",
+                "memorial:type": "stolperstein",
+                "name": "Paul Drucker",
+                "network": "Stolpersteine Hamburg",
+                "wheelchair": "yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.81233070000,
+                    53.56097270000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "historic": "memorial",
+                "memorial:addr": "Unzerstraße 10, Hamburg",
+                "memorial:addr:city": "Hamburg",
+                "memorial:addr:street": "Unzerstraße",
+                "memorial:type": "stolperstein",
+                "name": "Willi Hans Miersch",
+                "network": "Stolpersteine Hamburg"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.95100450000,
+                    53.55153350000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "historic": "memorial",
+                "memorial:addr": "Schanzenstraße 14, Hamburg",
+                "memorial:type": "stolperstein",
+                "name": "Sabina 'Sali' Ehrlich geb. Goldenberg",
+                "network": "Stolpersteine Hamburg",
+                "person:date_of_birth": "1908"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.96469470000,
+                    53.55982880000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "historic": "memorial",
+                "memorial:addr": "Susannenstraße 4, Hamburg",
+                "memorial:type": "stolperstein",
+                "name": "Hermann Borchardt",
+                "network": "Stolpersteine Hamburg"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.96263060000,
+                    53.56193880000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "historic": "memorial",
+                "memorial:addr": "Bartelsstraße 72, Hamburg",
+                "memorial:type": "stolperstein",
+                "name": "Siegfried Beer",
+                "network": "Stolpersteine Hamburg"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.96284440000,
+                    53.56382080000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "description": "Stolperstein",
+                "historic": "memorial",
+                "memorial:addr": "Breite Straße 0, Hamburg",
+                "memorial:addr:city": "Hamburg",
+                "memorial:addr:housenumber": "0",
+                "memorial:addr:postcode": "22767",
+                "memorial:addr:street": "Breite Straße",
+                "memorial:addr:suburb": "Altona-Altstadt",
+                "memorial:note": "Stolperstein liegt Ecke Breite Straße/Pepermölenbek",
+                "memorial:text": "Hier wohnte Regina Kargauer Jg. 1915 deportiert 1941 Lodz ermordet 18.2.1942",
+                "memorial:type": "stolperstein",
+                "name": "Regina Kargauer",
+                "network": "Stolpersteine Hamburg",
+                "person:date_of_birth": "1915",
+                "wheelchair": "yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.95299720000,
+                    53.54655820000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "description": "Stolperstein",
+                "historic": "memorial",
+                "memorial:addr": "Erik-Blumenfeld-Platz 15, Hamburg",
+                "memorial:addr:city": "Hamburg",
+                "memorial:addr:housenumber": "15",
+                "memorial:addr:street": "Erik-Blumenfeld-Platz",
+                "memorial:text": "Hier wohnte Dr. Walter Bismarck Alexander Jg. 1871 deportiert 1942 Theresienstadt tot am 6.12.1942",
+                "memorial:type": "stolperstein",
+                "name": "Dr. Walter Bismarck Alexander",
+                "network": "Stolpersteine Hamburg",
+                "wheelchair": "yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.81401500000,
+                    53.56320600000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "historic": "memorial",
+                "memorial:addr": "Pepermölenbek, Hamburg",
+                "memorial:addr:city": "Hamburg",
+                "memorial:addr:street": "Pepermölenbek",
+                "memorial:type": "stolperstein",
+                "name": "John Kugelmann",
+                "network": "Stolpersteine Hamburg",
+                "person:date_of_birth": "1884",
+                "person:date_of_death": "1943-05-07"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.95527760000,
+                    53.54909170000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "description": "Stolperstein",
+                "historic": "memorial",
+                "memorial:addr": "Mühlenberger Weg 18, Hamburg",
+                "memorial:addr:city": "Hamburg",
+                "memorial:addr:housenumber": "18",
+                "memorial:addr:postcode": "22587",
+                "memorial:addr:street": "Mühlenberger Weg",
+                "memorial:addr:suburb": "Blankenese",
+                "memorial:text": "Hier wohnte Dr. Wilhelm Güttler Jg. 1884 verhaftet 1937 eingewiesen \"Heilanstalt\" Langenhorn ermordet 15.5.1938",
+                "memorial:type": "stolperstein",
+                "memorial:website": "http://www.stolpersteine-hamburg.de/?&MAIN_ID=7&BIO_ID=2701",
+                "name": "Dr. Wilhelm Güttler",
+                "network": "Stolpersteine Hamburg",
+                "wheelchair": "yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.81909990000,
+                    53.55565700000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "historic": "memorial",
+                "memorial:addr": "Schulterblatt 18, Hamburg",
+                "memorial:addr:city": "Hamburg",
+                "memorial:addr:housenumber": "18",
+                "memorial:addr:postcode": "20357",
+                "memorial:addr:street": "Schulterblatt",
+                "memorial:addr:suburb": "Sternschanze",
+                "memorial:text": "Hier wohnte Bruno Niemann Jg. 1898 Eingewiesen 1939 Alsterdorfer Anstalten Verlegt 1943 Heilanstalt Mainkofen TOT 19.5.1945",
+                "memorial:type": "stolperstein",
+                "name": "Bruno Niemann",
+                "network": "Stolpersteine Hamburg",
+                "person:date_of_birth": "1898",
+                "person:date_of_death": "1945-05-19"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.96341240000,
+                    53.56043820000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "historic": "memorial",
+                "image": "File:Familie_Pulka.jpg",
+                "memorial:addr": "Bernstorffstraße 99, Hamburg",
+                "memorial:addr:city": "Hamburg",
+                "memorial:addr:housenumber": "99",
+                "memorial:addr:postcode": "22767",
+                "memorial:addr:street": "Bernstorffstraße",
+                "memorial:addr:suburb": "Altona-Altstadt",
+                "memorial:type": "stolperstein",
+                "name": "Markus Pulka",
+                "network": "Stolpersteine Hamburg"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.95859320000,
+                    53.55771430000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "description": "Stolperstein",
+                "historic": "memorial",
+                "memorial:addr": "Am Felde 2, Hamburg",
+                "memorial:addr:city": "Hamburg",
+                "memorial:addr:housenumber": "2",
+                "memorial:addr:street": "Am Felde",
+                "memorial:text": "Hier wohnte Herrman Franck Jg. 1876 deportiert 1942 Theresienstadt ermordet 10.1.1943",
+                "memorial:type": "stolperstein",
+                "name": "Hermann Franck",
+                "network": "Stolpersteine Hamburg",
+                "wheelchair": "yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.93255200000,
+                    53.54840000000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "historic": "memorial",
+                "memorial:addr": "Kleiner Schäferkamp 43, Hamburg",
+                "memorial:text": "Hier wohnte Cäsar Wolf Jg. 1874, Entrechtet/ Gedemütigt, flucht in den Tod 13.05.1933.",
+                "memorial:type": "stolperstein",
+                "name": "Cäsar Wolf",
+                "network": "Stolpersteine Hamburg"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.96686440000,
+                    53.56594430000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "description": "Stolperstein",
+                "historic": "memorial",
+                "memorial:addr": "Richard-Dehmel-Straße 1, Hamburg",
+                "memorial:addr:city": "Hamburg",
+                "memorial:addr:housenumber": "1",
+                "memorial:addr:street": "Richard-Dehmel-Straße",
+                "memorial:text": "Hier wohnte Ida Dehmel geb. Coblenz Jg. 1870 Freitod 29.9.1942",
+                "memorial:type": "stolperstein",
+                "name": "Ida Dehmel geb. Coblenz",
+                "network": "Stolpersteine Hamburg",
+                "wheelchair": "yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.79816920000,
+                    53.56552700000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "historic": "memorial",
+                "image": "File:Familie_Pulka.jpg",
+                "memorial:addr": "Bernstorffstraße 99, Hamburg",
+                "memorial:addr:city": "Hamburg",
+                "memorial:addr:housenumber": "99",
+                "memorial:addr:postcode": "22767",
+                "memorial:addr:street": "Bernstorffstraße",
+                "memorial:addr:suburb": "Altona-Altstadt",
+                "memorial:type": "stolperstein",
+                "name": "Erwin Pulka",
+                "network": "Stolpersteine Hamburg"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.95859120000,
+                    53.55770210000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "historic": "memorial",
+                "memorial:addr": "Försterweg 43",
+                "memorial:addr:city": "Hamburg",
+                "memorial:addr:housenumber": "43",
+                "memorial:addr:postcode": "22525",
+                "memorial:addr:street": "Försterweg",
+                "memorial:addr:suburb": "Stellingen",
+                "memorial:text": "Hier wohnte Lina Falck geb. Heimann Jg. 1892 deportiert 1942 Auschwitz ermordet",
+                "memorial:type": "stolperstein",
+                "name": "Lina Falck geb. Heimann",
+                "network": "Stolpersteine Hamburg",
+                "person:date_of_birth": "1892"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.93039010000,
+                    53.57856260000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "description": "Stolperstein",
+                "historic": "memorial",
+                "memorial:addr": "Bahrenfelder Straße 205, Hamburg",
+                "memorial:addr:city": "Hamburg",
+                "memorial:addr:housenumber": "205",
+                "memorial:addr:street": "Bahrenfelder Straße",
+                "memorial:text": "Hier wohnte Kurt Beusse, Jg. 1920, verhaftet, enthauptet 19.9.1943, Zuchthaus Brandenburg Görden.",
+                "memorial:type": "stolperstein",
+                "name": "Kurt Beusse",
+                "network": "Stolpersteine Hamburg",
+                "wheelchair": "yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.92845100000,
+                    53.55568900000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "description": "Stolperstein",
+                "historic": "memorial",
+                "memorial:addr": "Klopstockterrasse 4, Hamburg",
+                "memorial:addr:city": "Hamburg",
+                "memorial:addr:housenumber": "4",
+                "memorial:addr:street": "Klopstockterrasse",
+                "memorial:text": "Hier wohnte Paul Friedrich Jaffé Jg. 1911 deportiert 1941 Lodz 1942 Chelmno ermordet",
+                "memorial:type": "stolperstein",
+                "name": "Paul Friedrich Jaffé",
+                "network": "Stolpersteine Hamburg",
+                "wheelchair": "yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.93196490000,
+                    53.54608970000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "description": "Stolperstein",
+                "historic": "memorial",
+                "memorial:addr": "Behnstraße 17, Hamburg",
+                "memorial:addr:city": "Hamburg",
+                "memorial:addr:housenumber": "17",
+                "memorial:addr:street": "Behnstraße",
+                "memorial:text": "Hier wohnte Fanny Rosentreter geb. Weinberger, Jg. 1898, deportiert 1941 Lodz, 1942 Chelmno, ermordet",
+                "memorial:type": "stolperstein",
+                "name": "Fanny Rosentreter",
+                "network": "Stolpersteine Hamburg",
+                "person:date_of_birth": "1898",
+                "person:date_of_death": "1942",
+                "wheelchair": "yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.94199780000,
+                    53.54746370000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "description": "Stolperstein",
+                "historic": "memorial",
+                "memorial:addr": "Schmarjestraße 6, Hamburg",
+                "memorial:addr:city": "Hamburg",
+                "memorial:addr:housenumber": "6",
+                "memorial:addr:street": "Schmarjestraße",
+                "memorial:text": "Hier wohnte Berta Leider geb. Kleinberger Jg. 1890 deportiert 1941 ermordet in Riga",
+                "memorial:type": "stolperstein",
+                "name": "Berta Leider geb. Kleinberger",
+                "network": "Stolpersteine Hamburg",
+                "wheelchair": "yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.94078610000,
+                    53.54907090000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "description": "Stolperstein",
+                "historic": "memorial",
+                "memorial:addr": "Hospitalstraße 82",
+                "memorial:addr:city": "Hamburg",
+                "memorial:addr:postcode": "22767",
+                "memorial:type": "stolperstein",
+                "name": "Anton Wohinz",
+                "network": "Stolpersteine Hamburg"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.94688700000,
+                    53.55499900000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "historic": "memorial",
+                "image": "File:Jetti_and_Adele_Löw.jpg",
+                "memorial:addr": "Schulterblatt 39, Hamburg",
+                "memorial:addr:city": "Hamburg",
+                "memorial:addr:housenumber": "39",
+                "memorial:addr:postcode": "20357",
+                "memorial:addr:street": "Schulterblatt",
+                "memorial:addr:suburb": "Sternschanze",
+                "memorial:text": "Hier wohnte Adele Löw Jg. 1922 deportiert 1942 Auschwitz ermordet",
+                "memorial:type": "stolperstein",
+                "name": "Adele Löw",
+                "network": "Stolpersteine Hamburg",
+                "person:date_of_birth": "1922",
+                "website": "http://www.stolpersteine-hamburg.de/index.php?MAIN_ID=7&BIO_ID=2849"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.96287730000,
+                    53.56080710000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "historic": "memorial",
+                "memorial:addr": "Försterweg 43",
+                "memorial:addr:city": "Hamburg",
+                "memorial:addr:housenumber": "43",
+                "memorial:addr:postcode": "22525",
+                "memorial:addr:street": "Försterweg",
+                "memorial:addr:suburb": "Stellingen",
+                "memorial:text": "Hier wohnte Gerda Lazarus geb. Jacobs Jg. 1900 deportiert 1943 Theresienstadt 1944 in Auschwitz ermordet",
+                "memorial:type": "stolperstein",
+                "name": "Gerda Lazarus geb. Jacobs",
+                "network": "Stolpersteine Hamburg",
+                "person:date_of_birth": "1900",
+                "person:date_of_death": "1944"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.93040030000,
+                    53.57859010000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "historic": "memorial",
+                "memorial:addr": "Gefionstraße 11, Hamburg",
+                "memorial:text": "HIER WOHNTE BETTY BARUCH GEB. KLEVE, JG. 1892, DEPORTIERT 1941, RIGA, ERMORDET",
+                "memorial:type": "stolperstein",
+                "name": "Betty Baruch geb. Kleve",
+                "network": "Stolpersteine Hamburg"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.94882610000,
+                    53.56445340000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "historic": "memorial",
+                "memorial:addr": "Königstraße 32, Hamburg",
+                "memorial:addr:city": "Hamburg",
+                "memorial:addr:street": "Königstraße",
+                "memorial:type": "stolperstein",
+                "name": "Julius Marcus",
+                "network": "Stolpersteine Hamburg"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.94278400000,
+                    53.54826480000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "description": "Stolperstein",
+                "historic": "memorial",
+                "memorial:addr": "Platz der Republik 6, Hamburg",
+                "memorial:addr:city": "Hamburg",
+                "memorial:addr:postcode": "22765",
+                "memorial:addr:street": "Platz der Republik 6",
+                "memorial:text": "Hier arbeitete Georg Heymann Jg. 1876 verfolgt, gedemütigt entrechtet tot 2.4.1936",
+                "memorial:type": "stolperstein",
+                "name": "Georg Heymann",
+                "network": "Stolpersteine Hamburg",
+                "wheelchair": "yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.93565350000,
+                    53.55042530000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "historic": "memorial",
+                "memorial:addr": "Lippmannstraße 69, Hamburg",
+                "memorial:addr:city": "Hamburg",
+                "memorial:addr:housenumber": "69",
+                "memorial:addr:street": "Lippmannstraße",
+                "memorial:type": "stolperstein",
+                "name": "Alfred Norden",
+                "network": "Stolpersteine Hamburg",
+                "person:date_of_birth": "1897",
+                "person:date_of_death": "1943"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.95920620000,
+                    53.56162030000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "historic": "memorial",
+                "memorial:addr": "Jessenstraße 1, Hamburg",
+                "memorial:addr:city": "Hamburg",
+                "memorial:addr:housenumber": "1",
+                "memorial:addr:street": "Jessenstraße",
+                "memorial:type": "stolperstein",
+                "name": "Rene Deau",
+                "network": "Stolpersteine Hamburg",
+                "person:date_of_birth": "1921",
+                "wheelchair": "yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.94650830000,
+                    53.55114140000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "description": "Stolperstein",
+                "historic": "memorial",
+                "memorial:addr": "Bei der Friedenseiche 6, Hamburg",
+                "memorial:addr:city": "Hamburg",
+                "memorial:addr:housenumber": "6",
+                "memorial:addr:street": "Bei der Friedenseiche",
+                "memorial:text": "Hier wohnte Else Jacobson geb. Storch Jg. 1891 deportiert 1942 Auschwitz ermordet",
+                "memorial:type": "stolperstein",
+                "name": "Else Jacobson geb. Storch",
+                "network": "Stolpersteine Hamburg",
+                "wheelchair": "yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.94111940000,
+                    53.55424670000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "historic": "memorial",
+                "memorial:addr": "Biernatzkistraße 14, Hamburg",
+                "memorial:addr:city": "Hamburg",
+                "memorial:addr:housenumber": "14",
+                "memorial:addr:street": "Biernatzkistraße",
+                "memorial:type": "stolperstein",
+                "name": "Eduard Duckesz",
+                "network": "Stolpersteine Hamburg",
+                "person:date_of_birth": "1868",
+                "person:date_of_death": "1944-03-06",
+                "wheelchair": "yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.93988240000,
+                    53.54841880000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "historic": "memorial",
+                "memorial:addr": "Oelkersallee 23, Hamburg",
+                "memorial:text": "Hier wohnte Hjalmar Vierarm, Jg. 1902, Verhaftet 1935, Neuengamme, Aussenlager Salzgitter-Watenstedt, Ermordet 7.4.1945",
+                "memorial:type": "stolperstein",
+                "name": "Hjalmar Vierarm",
+                "network": "Stolpersteine Hamburg"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.95504640000,
+                    53.56248480000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "historic": "memorial",
+                "memorial:addr": "Stresemannstraße 71, Hamburg",
+                "memorial:type": "stolperstein",
+                "name": "Wolf Zloczower",
+                "network": "Stolpersteine Hamburg"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.95945560000,
+                    53.56034460000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "historic": "memorial",
+                "memorial:addr": "Bartelsstraße 72, Hamburg",
+                "memorial:type": "stolperstein",
+                "name": "Eduard Beer",
+                "network": "Stolpersteine Hamburg"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.96278070000,
+                    53.56384900000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "historic": "memorial",
+                "memorial:addr": "Schanzenstraße 119, Hamburg",
+                "memorial:text": "Hier wohnte Jenny Eckstein, Jg. 1876, Deportiert 1941, Łodz, Ermordet 1.3.1942",
+                "memorial:type": "stolperstein",
+                "name": "Jenny Eckstein",
+                "network": "Stolpersteine Hamburg"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.96557020000,
+                    53.56485460000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "historic": "memorial",
+                "memorial:addr": "Wohlers Allee 28, Hamburg",
+                "memorial:addr:city": "Hamburg",
+                "memorial:addr:housenumber": "28",
+                "memorial:addr:postcode": "22767",
+                "memorial:addr:street": "Wohlers Allee",
+                "memorial:addr:suburb": "Altona-Altstadt",
+                "memorial:text": "Hier wohnte Evelin Allen, 1938 Geboren in der Emigration (Amsterdam), 1942 deportiert nach Auschwitz, ermordet",
+                "memorial:type": "stolperstein",
+                "name": "Evelyn Allen",
+                "network": "Stolpersteine Hamburg",
+                "person:date_of_birth": "1938"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.95508220000,
+                    53.55863510000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "description": "Stolperstein",
+                "historic": "memorial",
+                "memorial:addr": "Elbchaussee 271, Hamburg",
+                "memorial:addr:city": "Hamburg",
+                "memorial:addr:housenumber": "271",
+                "memorial:addr:street": "Elbchaussee",
+                "memorial:text": "Hier wohnte Olga Bruck geb. Jebsen Jg. 1881 Selbstmord 14.6.1944",
+                "memorial:type": "stolperstein",
+                "name": "Olga Bruck",
+                "network": "Stolpersteine Hamburg",
+                "wheelchair": "yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.87513580000,
+                    53.54688350000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "addr:city": "Hamburg",
+                "addr:housenumber": "8",
+                "addr:street": "Präsident-Krahn-Straße",
+                "description": "Stolperstein",
+                "historic": "memorial",
+                "memorial:addr": "Präsident-Krahn-Straße 8, Hamburg",
+                "memorial:text": "Hier wohnte Meta Stern Jg. 1910 deportiert 1941 Riga ermordet",
+                "memorial:type": "stolperstein",
+                "memorial:website": "http://www.stolpersteine-hamburg.de/index.php?&MAIN_ID=7&BIO_ID=5095",
+                "name": "Meta Stern",
+                "network": "Stolpersteine Hamburg"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.93616060000,
+                    53.55286410000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "historic": "memorial",
+                "memorial:addr": "Max-Brauer-Allee 89, Hamburg",
+                "memorial:addr:city": "Hamburg",
+                "memorial:addr:street": "Max-Brauer-Allee",
+                "memorial:type": "stolperstein",
+                "name": "Karl Wolff",
+                "network": "Stolpersteine Hamburg"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.94270340000,
+                    53.55570040000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "historic": "memorial",
+                "memorial:addr": "Steenwisch 70, Hamburg",
+                "memorial:addr:city": "Hamburg",
+                "memorial:addr:housenumber": "70",
+                "memorial:addr:postcode": "22527",
+                "memorial:addr:street": "Steenwisch",
+                "memorial:addr:suburb": "Stellingen",
+                "memorial:text": "Hier wohnte Max Abraham Lichtenstein Jg. 1874 deportiert 1942 Theresienstadt ermordet 5.12.1942",
+                "memorial:type": "stolperstein",
+                "name": "Max Abraham Lichtenstein",
+                "network": "Stolpersteine Hamburg",
+                "person:date_of_birth": "1874",
+                "person:date_of_death": "1942-12-05"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.94493480000,
+                    53.58286180000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "historic": "memorial",
+                "memorial:addr": "Kirchenstraße 21, Hamburg",
+                "memorial:addr:city": "Hamburg",
+                "memorial:addr:housenumber": "21",
+                "memorial:addr:street": "Kirchenstraße",
+                "memorial:type": "stolperstein",
+                "name": "Daniel Braun",
+                "network": "Stolpersteine Hamburg",
+                "person:date_of_birth": "1893",
+                "person:date_of_death": "1941"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.94915310000,
+                    53.54862630000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "historic": "memorial",
+                "memorial:addr": "Biernatzkistraße 16, Hamburg",
+                "memorial:addr:city": "Hamburg",
+                "memorial:addr:housenumber": "16",
+                "memorial:addr:street": "Biernatzkistraße",
+                "memorial:type": "stolperstein",
+                "name": "Frieda Treuhold geb. Strauss",
+                "network": "Stolpersteine Hamburg",
+                "person:date_of_birth": "1881"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.93972440000,
+                    53.54869500000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "historic": "memorial",
+                "memorial:addr": "Beim Grünen Jäger 25, Hamburg",
+                "memorial:type": "stolperstein",
+                "name": "Ivan Grüner",
+                "network": "Stolpersteine Hamburg",
+                "person:date_of_birth": "1861"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.96378560000,
+                    53.55909620000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "historic": "memorial",
+                "memorial:addr": "Bernadottestraße 3, Hamburg",
+                "memorial:text": "Hier wohnte Bernhard Koppel Jg. 1884, deportiert 1941, Minsk, ermordet.",
+                "memorial:type": "stolperstein",
+                "name": "Bernhard Koppel",
+                "network": "Stolpersteine Hamburg"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.92504400000,
+                    53.54770500000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "historic": "memorial",
+                "memorial:addr": "Bernstorffstraße 159, Hamburg",
+                "memorial:addr:city": "Hamburg",
+                "memorial:addr:housenumber": "159",
+                "memorial:addr:street": "Bernstorffstraße",
+                "memorial:type": "stolperstein",
+                "name": "Hersch Hermann Rotmensz",
+                "network": "Stolpersteine Hamburg",
+                "person:date_of_birth": "1888"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.95940480000,
+                    53.55975460000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "historic": "memorial",
+                "memorial:addr": "Palmaille 25, Hamburg",
+                "memorial:addr:city": "Hamburg",
+                "memorial:addr:street": "Palmaille",
+                "memorial:type": "stolperstein",
+                "name": "Walter Lichtheim",
+                "network": "Stolpersteine Hamburg"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.94247380000,
+                    53.54606270000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "historic": "memorial",
+                "memorial:addr": "Bartelsstraße 30, Hamburg",
+                "memorial:type": "stolperstein",
+                "name": "Benno Hauptmann",
+                "network": "Stolpersteine Hamburg",
+                "person:date_of_birth": "1917"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.96417070000,
+                    53.56260940000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "description": "Stolperstein",
+                "historic": "memorial",
+                "memorial:addr": "Bei der Friedenseiche 6, Hamburg",
+                "memorial:addr:city": "Hamburg",
+                "memorial:addr:housenumber": "6",
+                "memorial:addr:street": "Bei der Friedenseiche",
+                "memorial:text": "Hier wohnte Ruth Jacobson Jg. 1923 deportiert 1942 Auschwitz ermordet",
+                "memorial:type": "stolperstein",
+                "name": "Ruth Jacobson",
+                "network": "Stolpersteine Hamburg",
+                "wheelchair": "yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.94114840000,
+                    53.55422650000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "historic": "memorial",
+                "memorial:addr": "Juliusstraße 12, Hamburg",
+                "memorial:addr:city": "Hamburg",
+                "memorial:addr:housenumber": "12",
+                "memorial:addr:street": "Juliusstraße",
+                "memorial:type": "stolperstein",
+                "name": "Moritz Joseph Meiseles",
+                "network": "Stolpersteine Hamburg",
+                "person:date_of_birth": "1897"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.96017270000,
+                    53.56092010000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "historic": "memorial",
+                "inscription": "Hier wohnte Hermann Holländer, Jg. 1922, Deportiert 1941, Minsk, Ermordet",
+                "memorial:type": "stolperstein",
+                "name": "Hermann Holländer",
+                "network": "Stolpersteine Hamburg"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.95512290000,
+                    53.56254650000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "historic": "memorial",
+                "memorial:addr": "Jessenstraße 1, Hamburg",
+                "memorial:addr:city": "Hamburg",
+                "memorial:addr:housenumber": "1",
+                "memorial:addr:street": "Jessenstraße",
+                "memorial:text": "25. Juli 1943 Bomben auf Hamburg diese Zwangsarbeiter aus der Vendee/Frankreich sterben",
+                "memorial:type": "stolperstein",
+                "name": "Bomben auf Hamburg",
+                "network": "Stolpersteine Hamburg",
+                "wheelchair": "yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.94649720000,
+                    53.55108650000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "description": "Stolperstein",
+                "historic": "memorial",
+                "memorial:addr": "Hemmingstedter Weg 162, Hamburg",
+                "memorial:addr:city": "Hamburg",
+                "memorial:addr:housenumber": "162",
+                "memorial:addr:street": "Hemmingstedter Weg",
+                "memorial:text": "Hier wohnte Rolf Haubenreisser Jg. 1935 Eingewiesen 1940 Alsterdorfer Anstalten verlegt 1943 Heilanstalt Mainkofen verhungern lassen tot 16.5.1945",
+                "memorial:type": "stolperstein",
+                "name": "Rolf Haubenreisser",
+                "network": "Stolpersteine Hamburg",
+                "wheelchair": "yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.85245500000,
+                    53.56391700000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "description": "Stolperstein",
+                "historic": "memorial",
+                "memorial:addr": "Kirchenstraße 5, Hamburg",
+                "memorial:addr:city": "Hamburg",
+                "memorial:addr:housenumber": "5",
+                "memorial:addr:street": "Kirchenstraße",
+                "memorial:type": "stolperstein",
+                "name": "Betty Levi geb. Koppel",
+                "network": "Stolpersteine Hamburg",
+                "person:date_of_birth": "1875",
+                "person:date_of_death": "1941",
+                "wheelchair": "yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.95079100000,
+                    53.54719900000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "historic": "memorial",
+                "memorial:addr": "Jessenstraße 1, Hamburg",
+                "memorial:addr:city": "Hamburg",
+                "memorial:addr:housenumber": "1",
+                "memorial:addr:street": "Jessenstraße",
+                "memorial:type": "stolperstein",
+                "name": "Jean Rossignol",
+                "network": "Stolpersteine Hamburg",
+                "person:date_of_birth": "1921",
+                "person:date_of_death": "1944-04-10",
+                "wheelchair": "yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.94655830000,
+                    53.55112700000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "historic": "memorial",
+                "memorial:addr": "Neuer Pferdemarkt 17, Hamburg",
+                "memorial:type": "stolperstein",
+                "name": "Bernhard Bender",
+                "network": "Stolpersteine Hamburg"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.96422160000,
+                    53.55885390000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "historic": "memorial",
+                "memorial:addr": "Max-Brauer-Allee 89, Hamburg",
+                "memorial:addr:city": "Hamburg",
+                "memorial:addr:street": "Max-Brauer-Allee",
+                "memorial:type": "stolperstein",
+                "name": "Walter Möller",
+                "network": "Stolpersteine Hamburg"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.94274960000,
+                    53.55566910000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "historic": "memorial",
+                "memorial:addr": "Bartelsstraße 72, Hamburg",
+                "memorial:type": "stolperstein",
+                "name": "Lotte Beer",
+                "network": "Stolpersteine Hamburg"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.96284620000,
+                    53.56384060000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "description": "Stolperstein",
+                "historic": "memorial",
+                "memorial:addr": "Behnstraße 17, Hamburg",
+                "memorial:addr:city": "Hamburg",
+                "memorial:addr:housenumber": "17",
+                "memorial:addr:street": "Behnstraße",
+                "memorial:text": "Hier wohnte Samuel Rosentreter, Jg. 1892, verhaftet 1938 KZ Fuhlsbüttel, deportiert 1943 Auschwitz, ermordet 15.2.1943",
+                "memorial:type": "stolperstein",
+                "name": "Samuel Rosentreter",
+                "network": "Stolpersteine Hamburg",
+                "wheelchair": "yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.94200020000,
+                    53.54745770000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "historic": "memorial",
+                "memorial:addr": "Palmaille 25, Hamburg",
+                "memorial:addr:city": "Hamburg",
+                "memorial:addr:street": "Palmaille",
+                "memorial:type": "stolperstein",
+                "name": "Gertrud Monasch",
+                "network": "Stolpersteine Hamburg"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.94247260000,
+                    53.54603390000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "historic": "memorial",
+                "memorial:addr": "Biernatzkistraße 16, Hamburg",
+                "memorial:addr:city": "Hamburg",
+                "memorial:addr:housenumber": "16",
+                "memorial:addr:street": "Biernatzkistraße",
+                "memorial:type": "stolperstein",
+                "name": "Moritz Treuhold",
+                "network": "Stolpersteine Hamburg",
+                "person:date_of_birth": "1880"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.93972320000,
+                    53.54870230000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "historic": "memorial",
+                "memorial:addr": "Palmaille 25, Hamburg",
+                "memorial:addr:city": "Hamburg",
+                "memorial:addr:street": "Palmaille",
+                "memorial:type": "stolperstein",
+                "name": "Margarethe Lichtheim geb. Monasch",
+                "network": "Stolpersteine Hamburg"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.94247420000,
+                    53.54604800000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "description": "Stolperstein",
+                "historic": "memorial",
+                "memorial:addr": "Bleicherstraße 74, Hamburg",
+                "memorial:type": "stolperstein",
+                "name": "Wolfgang Cohn",
+                "network": "Stolpersteine Hamburg",
+                "person:date_of_birth": "1936",
+                "wheelchair": "yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.96161520000,
+                    53.55581720000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "description": "Stolperstein",
+                "historic": "memorial",
+                "memorial:addr": "Panzerstraße 14, Hamburg",
+                "memorial:addr:city": "Hamburg",
+                "memorial:addr:housenumber": "14",
+                "memorial:addr:postcode": "22587",
+                "memorial:addr:street": "Panzerstraße",
+                "memorial:addr:suburb": "Blankenese",
+                "memorial:text": "Hier wohnte Jacob Lurie Jg. 1864 Selbstmord 31.12.1938",
+                "memorial:type": "stolperstein",
+                "name": "Jacob Lurie",
+                "network": "Stolpersteine Hamburg",
+                "wheelchair": "no"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.81944200000,
+                    53.55593700000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "historic": "memorial",
+                "image": "File:Familie_Pulka.jpg",
+                "memorial:addr": "Bernstorffstraße 99, Hamburg",
+                "memorial:addr:city": "Hamburg",
+                "memorial:addr:housenumber": "99",
+                "memorial:addr:postcode": "22767",
+                "memorial:addr:street": "Bernstorffstraße",
+                "memorial:addr:suburb": "Altona-Altstadt",
+                "memorial:type": "stolperstein",
+                "name": "Szlame Pulka",
+                "network": "Stolpersteine Hamburg"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.95860310000,
+                    53.55777540000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "description": "Stolperstein",
+                "historic": "memorial",
+                "memorial:addr": "Oesterleystraße 27",
+                "memorial:addr:city": "Hamburg",
+                "memorial:addr:housenumber": "47",
+                "memorial:addr:street": "Oesterleystraße",
+                "memorial:note": "Stolperstein liegt vor dem Eingang zum Gymnasium Blankenese",
+                "memorial:text": "Hier lehrte Dr. Bruno Nehmert Jg. 1897 verhaftet 1944 \"staatsfeindliche Betätigung\" Zuchthaus Fuhlsbüttel 1945 KZ Neuengamme Todesmarsch Bergen-Belsen tot 14.4.1945",
+                "memorial:type": "stolperstein",
+                "name": "Dr. Bruno Nehmert",
+                "network": "Stolpersteine Hamburg",
+                "wheelchair": "yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.80768650000,
+                    53.56271130000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "historic": "memorial",
+                "memorial:addr": "Beim Grünen Jäger 25, Hamburg",
+                "memorial:type": "stolperstein",
+                "name": "Flora Grüner geb. Cohn",
+                "network": "Stolpersteine Hamburg",
+                "person:date_of_birth": "1861"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.96378360000,
+                    53.55909150000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "description": "Stolperstein",
+                "historic": "memorial",
+                "memorial:addr": "Bahrenfelder Straße 128, Hamburg",
+                "memorial:addr:city": "Hamburg",
+                "memorial:addr:housenumber": "128",
+                "memorial:addr:street": "Bahrenfelder Straße",
+                "memorial:text": "Hier wohnte Alfred Alward, Jg. 1885, verhaftet, KZ Neuengamme, ermordet 15.12.1942.",
+                "memorial:type": "stolperstein",
+                "name": "Alfred Alward",
+                "network": "Stolpersteine Hamburg",
+                "wheelchair": "yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.92990000000,
+                    53.55285900000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "historic": "memorial",
+                "memorial:addr": "Max-Brauer-Allee 247, Hamburg",
+                "memorial:text": "Hier wohnte Etla Finkelstein geb. Rosenscherr, Jg. 1888, Ausgewiesen 1938 nach Zbaszyn, Polen, ???",
+                "memorial:type": "stolperstein",
+                "name": "Etla Finkelstein geb. Rosenscherr",
+                "network": "Stolpersteine Hamburg"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.95680520000,
+                    53.56227820000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "historic": "memorial",
+                "memorial:addr": "Schulterblatt 84, Hamburg",
+                "memorial:addr:city": "Hamburg",
+                "memorial:addr:street": "Schulterblatt",
+                "memorial:type": "stolperstein",
+                "name": "Clara Philip geb. Heyn",
+                "network": "Stolpersteine Hamburg",
+                "person:date_of_birth": "1877"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.96159050000,
+                    53.56233000000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "historic": "memorial",
+                "memorial:addr": "Susannenstraße 6, Hamburg",
+                "memorial:type": "stolperstein",
+                "name": "Siegfried Salomon",
+                "network": "Stolpersteine Hamburg",
+                "person:date_of_birth": "1882"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.96282500000,
+                    53.56202190000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "description": "Stolperstein",
+                "historic": "memorial",
+                "memorial:addr": "Richard-Dehmel-Straße 1, Hamburg",
+                "memorial:addr:city": "Hamburg",
+                "memorial:addr:housenumber": "1",
+                "memorial:addr:street": "Richard-Dehmel-Straße",
+                "memorial:text": "Hier wohnte Lina Wolff Jg. 1892 deportiert 1941 Lodz ermordet",
+                "memorial:type": "stolperstein",
+                "name": "Lina Wolff",
+                "network": "Stolpersteine Hamburg",
+                "wheelchair": "yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.79817520000,
+                    53.56551820000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "historic": "memorial",
+                "memorial:addr": "Jessenstraße 1, Hamburg",
+                "memorial:addr:city": "Hamburg",
+                "memorial:addr:housenumber": "1",
+                "memorial:addr:street": "Jessenstraße",
+                "memorial:type": "stolperstein",
+                "name": "Andre Leger",
+                "network": "Stolpersteine Hamburg",
+                "person:date_of_birth": "1922",
+                "wheelchair": "yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.94650800000,
+                    53.55112630000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "historic": "memorial",
+                "memorial:addr": "Jessenstraße 1, Hamburg",
+                "memorial:addr:city": "Hamburg",
+                "memorial:addr:housenumber": "1",
+                "memorial:addr:street": "Jessenstraße",
+                "memorial:type": "stolperstein",
+                "name": "Roger Roulland",
+                "network": "Stolpersteine Hamburg",
+                "person:date_of_birth": "1921",
+                "wheelchair": "yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.94655840000,
+                    53.55112110000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "historic": "memorial",
+                "memorial:addr": "Wohlers Allee 50, Hamburg",
+                "memorial:addr:city": "Hamburg",
+                "memorial:addr:street": "Wohlers Allee",
+                "memorial:type": "stolperstein",
+                "name": "Hermann Wolff",
+                "network": "Stolpersteine Hamburg"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.95506690000,
+                    53.55978050000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "historic": "memorial",
+                "memorial:addr": "Lerchenstraße 115, Hamburg",
+                "memorial:type": "stolperstein",
+                "name": "Benjamin Benno Engländer",
+                "network": "Stolpersteine Hamburg",
+                "person:date_of_birth": "1901"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.96337260000,
+                    53.55984270000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "historic": "memorial",
+                "image": "File:Michael_Manuel_Fröschel.jpg",
+                "memorial:addr": "Schulterblatt 41, Hamburg",
+                "memorial:addr:city": "Hamburg",
+                "memorial:addr:housenumber": "41",
+                "memorial:addr:postcode": "20357",
+                "memorial:addr:street": "Schulterblatt",
+                "memorial:addr:suburb": "Sternschanze",
+                "memorial:text": "Hier wohnte Michael Manuel Fröschel Jg. 1891 deportiert 1942 Auschwitz ???",
+                "memorial:type": "stolperstein",
+                "name": "Michael Manuel Fröschel",
+                "network": "Stolpersteine Hamburg",
+                "person:date_of_birth": "1891",
+                "website": "http://www.stolpersteine-hamburg.de/?&BIO_ID=790",
+                "wikidata": "Q64512499"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.96278680000,
+                    53.56090860000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "description": "Stolperstein",
+                "historic": "memorial",
+                "memorial:addr": "Arnoldstraße 21, Hamburg",
+                "memorial:addr:city": "Hamburg",
+                "memorial:addr:housenumber": "21",
+                "memorial:addr:street": "Arnoldstraße",
+                "memorial:text": "Hier wohnte Johann Max Land, Jg. 1866, Freitod 1.3.1942.",
+                "memorial:type": "stolperstein",
+                "name": "Johann Max Land",
+                "network": "Stolpersteine Hamburg",
+                "wheelchair": "yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.92855360000,
+                    53.54933230000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "historic": "memorial",
+                "memorial:addr": "Sternstraße 29a, Hamburg",
+                "memorial:type": "stolperstein",
+                "name": "Paul Robert Reinke",
+                "network": "Stolpersteine Hamburg",
+                "person:date_of_birth": "1896",
+                "wheelchair": "yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.96695970000,
+                    53.55860760000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "historic": "memorial",
+                "memorial:addr": "Max-Brauer-Allee 247, Hamburg",
+                "memorial:text": "Hier wohnte Rosa Finkelstein, Jg. 1925, Ausgewiesen 1938 nach Zbaszyn, Polen, ???",
+                "memorial:type": "stolperstein",
+                "name": "Rosa Finkelstein",
+                "network": "Stolpersteine Hamburg"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.95679900000,
+                    53.56227390000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "historic": "memorial",
+                "memorial:addr": "Kirchenstraße 21, Hamburg",
+                "memorial:addr:city": "Hamburg",
+                "memorial:addr:housenumber": "21",
+                "memorial:addr:street": "Kirchenstraße",
+                "memorial:type": "stolperstein",
+                "name": "Therese Braun geb. Nissensohn",
+                "network": "Stolpersteine Hamburg",
+                "person:date_of_birth": "1897",
+                "person:date_of_death": "1941"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.94915490000,
+                    53.54861330000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "historic": "memorial",
+                "inscription": "Hier wohnte Eva Holländer, geb. Wellmann, Jg. 1882, Deportiert 1941, Minsk, Ermordet",
+                "memorial:type": "stolperstein",
+                "name": "Eva Holländer",
+                "network": "Stolpersteine Hamburg"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.95511340000,
+                    53.56253930000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "historic": "memorial",
+                "memorial:addr": "Bartelsstraße 30, Hamburg",
+                "memorial:type": "stolperstein",
+                "name": "Rieckchen Hauptmann geb. Blach",
+                "network": "Stolpersteine Hamburg",
+                "person:date_of_birth": "1883"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.96417020000,
+                    53.56261880000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "description": "Stolperstein",
+                "historic": "memorial",
+                "memorial:addr": "Klopstockterrasse 23, Hamburg",
+                "memorial:addr:city": "Hamburg",
+                "memorial:addr:housenumber": "23",
+                "memorial:addr:street": "Klopstockstraße",
+                "memorial:text": "Hier wohnte Betty Levi geb. Lindenberger Jg.1882 deportiert 1942 Auschwitz ???",
+                "memorial:type": "stolperstein",
+                "name": "Betty Levi",
+                "network": "Stolpersteine Hamburg",
+                "wheelchair": "yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.93261540000,
+                    53.54650860000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "historic": "memorial",
+                "memorial:addr": "Große Brunnenstraße 8, Hamburg",
+                "memorial:text": "Hier wohnte Emma Hülsz geb. Stock Jg. 1883, gedemütigt/entrechtet, Flucht in den Tod 30.12.1940",
+                "memorial:type": "stolperstein",
+                "name": "Emma Hülsz",
+                "network": "Stolpersteine Hamburg"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.92568530000,
+                    53.54745380000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "description": "Stolperstein",
+                "historic": "memorial",
+                "memorial:addr": "Susettestraße 5, Hamburg",
+                "memorial:addr:city": "Hamburg",
+                "memorial:addr:housenumber": "5",
+                "memorial:addr:street": "Susettestraße",
+                "memorial:text": "Hier wohnte Dr. Gottfried Mengers Jg. 1875 gedemütigt / entrechtet Flucht in den Tod 11.6.1933",
+                "memorial:type": "stolperstein",
+                "name": "Dr. Siegfried Mengers",
+                "network": "Stolpersteine Hamburg",
+                "wheelchair": "yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.92427500000,
+                    53.54723400000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "description": "Stolperstein",
+                "historic": "memorial",
+                "memorial:addr": "Bei der Friedenseiche 6, Hamburg",
+                "memorial:addr:city": "Hamburg",
+                "memorial:addr:housenumber": "6",
+                "memorial:addr:street": "Bei der Friedenseiche",
+                "memorial:text": "Hier wohnte Dr. Ernst Jacobson Jg. 1887 deportiert 1942 Auschwitz ???",
+                "memorial:type": "stolperstein",
+                "name": "Dr. Ernst Jacobson",
+                "network": "Stolpersteine Hamburg",
+                "wheelchair": "yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.94110160000,
+                    53.55426500000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "historic": "memorial",
+                "memorial:addr": "Stresemannstraße 71, Hamburg",
+                "memorial:type": "stolperstein",
+                "name": "Paulina Zloczower",
+                "network": "Stolpersteine Hamburg"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.95946030000,
+                    53.56033940000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "description": "Stolperstein",
+                "historic": "memorial",
+                "memorial:addr": "Dormienstraße 7, Hamburg",
+                "memorial:text": "Dr. Karl Stern Jg. 1883 Selbstmord 21.2.1935 im Amtsgericht",
+                "memorial:type": "stolperstein",
+                "name": "Dr. Karl Stern",
+                "network": "Stolpersteine Hamburg",
+                "wheelchair": "yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.81001510000,
+                    53.56188680000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "historic": "memorial",
+                "memorial:addr": "Bartelsstraße 72, Hamburg",
+                "memorial:type": "stolperstein",
+                "name": "Martin Beer",
+                "network": "Stolpersteine Hamburg"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.96278450000,
+                    53.56381740000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "historic": "memorial",
+                "memorial:addr": "Goethestraße 37, Hamburg",
+                "memorial:addr:city": "Hamburg",
+                "memorial:addr:housenumber": "37",
+                "memorial:addr:street": "Goethestraße",
+                "memorial:type": "stolperstein",
+                "name": "Jeanette Sommer geb. Pinkusson",
+                "network": "Stolpersteine Hamburg",
+                "person:date_of_birth": "1892"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.93961200000,
+                    53.55309720000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "historic": "memorial",
+                "memorial:addr": "Biernatzkistraße 14, Hamburg",
+                "memorial:addr:city": "Hamburg",
+                "memorial:addr:housenumber": "14",
+                "memorial:addr:street": "Biernatzkistraße",
+                "memorial:type": "stolperstein",
+                "name": "Hanna de Lange geb Duckesz",
+                "network": "Stolpersteine Hamburg",
+                "person:date_of_birth": "1895",
+                "wheelchair": "yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.93988230000,
+                    53.54841550000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "description": "Stolperstein",
+                "historic": "memorial",
+                "memorial:addr": "Bahrenfelder Straße 63, Hamburg",
+                "memorial:addr:city": "Hamburg",
+                "memorial:addr:housenumber": "63",
+                "memorial:addr:street": "Bahrenfelder Straße",
+                "memorial:text": "Hier wohnte Paul Goldstein Jg. 1907 deportiert Auschwitz ermordet 1944",
+                "memorial:type": "stolperstein",
+                "name": "Paul Goldstein",
+                "network": "Stolpersteine Hamburg",
+                "wheelchair": "yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.93005280000,
+                    53.55058060000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "historic": "memorial",
+                "memorial:addr": "Große Bergstraße 219, Hamburg",
+                "memorial:addr:city": "Hamburg",
+                "memorial:addr:street": "Große Bergstraße",
+                "memorial:note": "Stein liegt in der Pflastereinfassung des Baumes vor dem Haus",
+                "memorial:text": "Hier wohnte Maria A. Chrupalla Zeugin Jehovas Jg. 1887 verhaftet KZ Ravensbrück Bernburg ermordet 6.2.1942",
+                "memorial:type": "stolperstein",
+                "name": "Maria A. Chrupalla",
+                "network": "Stolpersteine Hamburg",
+                "wheelchair": "yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.94212980000,
+                    53.55189900000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "historic": "memorial",
+                "memorial:addr": "Schulterblatt 84, Hamburg",
+                "memorial:addr:city": "Hamburg",
+                "memorial:addr:street": "Schulterblatt",
+                "memorial:type": "stolperstein",
+                "name": "Gerda Alice Philip",
+                "network": "Stolpersteine Hamburg",
+                "person:date_of_birth": "1905"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.96156240000,
+                    53.56236870000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "description": "Stolperstein",
+                "historic": "memorial",
+                "memorial:addr": "Bleicherstraße 74, Hamburg",
+                "memorial:type": "stolperstein",
+                "name": "Fritz Cohn",
+                "network": "Stolpersteine Hamburg",
+                "person:date_of_birth": "1888",
+                "wheelchair": "yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.96161440000,
+                    53.55582070000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "description": "Stolperstein",
+                "historic": "memorial",
+                "memorial:addr": "Breite Straße 0, Hamburg",
+                "memorial:addr:city": "Hamburg",
+                "memorial:addr:housenumber": "0",
+                "memorial:addr:postcode": "22767",
+                "memorial:addr:street": "Breite Straße",
+                "memorial:addr:suburb": "Altona-Altstadt",
+                "memorial:note": "Stolperstein liegt Ecke Breite Straße/Pepermölenbek",
+                "memorial:text": "Hier wohnte Egon Samuel Kargauer Jg. 1914 deportiert 1941 Lodz ermordet 1942 in Chelmno",
+                "memorial:type": "stolperstein",
+                "name": "Egon Samuel Kargauer",
+                "network": "Stolpersteine Hamburg",
+                "person:date_of_birth": "1914",
+                "wheelchair": "yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.95303540000,
+                    53.54655500000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "historic": "memorial",
+                "memorial:addr": "Wohlers Allee 28, Hamburg",
+                "memorial:addr:city": "Hamburg",
+                "memorial:addr:housenumber": "28",
+                "memorial:addr:postcode": "22767",
+                "memorial:addr:street": "Wohlers Allee",
+                "memorial:addr:suburb": "Altona-Altstadt",
+                "memorial:text": "Hier wohnte Fritz Michael Allen, geb. 1907, 1937 Flucht Holland, 1942 deportiert nach Auschwitz, ermordet 03.12.1942",
+                "memorial:type": "stolperstein",
+                "name": "Fritz Michael Allen",
+                "network": "Stolpersteine Hamburg",
+                "person:date_of_birth": "1907"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.95508220000,
+                    53.55862870000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "historic": "memorial",
+                "memorial:addr": "Schulterblatt 84, Hamburg",
+                "memorial:addr:city": "Hamburg",
+                "memorial:addr:street": "Schulterblatt",
+                "memorial:type": "stolperstein",
+                "name": "Felix von Halle",
+                "network": "Stolpersteine Hamburg",
+                "person:date_of_birth": "1885"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.96160870000,
+                    53.56231290000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "historic": "memorial",
+                "image": "File:Familie_Pulka.jpg",
+                "memorial:addr": "Bernstorffstraße 99, Hamburg",
+                "memorial:addr:city": "Hamburg",
+                "memorial:addr:housenumber": "99",
+                "memorial:addr:postcode": "22767",
+                "memorial:addr:street": "Bernstorffstraße",
+                "memorial:addr:suburb": "Altona-Altstadt",
+                "memorial:type": "stolperstein",
+                "name": "Hella Pulka geb. Cuckinowski",
+                "network": "Stolpersteine Hamburg"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.95860110000,
+                    53.55776320000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "historic": "memorial",
+                "memorial:addr": "Große Freiheit 92, Hamburg",
+                "memorial:addr:city": "Hamburg",
+                "memorial:addr:street": "Große Freiheit",
+                "memorial:type": "stolperstein",
+                "name": "Erich Küter",
+                "network": "Stolpersteine Hamburg"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.95834320000,
+                    53.55287510000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "description": "Stolperstein",
+                "historic": "memorial",
+                "memorial:addr": "Klopstockterrasse 4, Hamburg",
+                "memorial:addr:city": "Hamburg",
+                "memorial:addr:housenumber": "4",
+                "memorial:addr:street": "Klopstockterrasse",
+                "memorial:text": "Hier wohnte Carl Arthur Jaffé Jg. 1915 deportiert 1941 Lodz ermordet 01.03.1942",
+                "memorial:type": "stolperstein",
+                "name": "Carl Arthur Jaffé",
+                "network": "Stolpersteine Hamburg",
+                "wheelchair": "yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.93196740000,
+                    53.54608540000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "historic": "memorial",
+                "memorial:addr": "Neuer Pferdemarkt 17, Hamburg",
+                "memorial:type": "stolperstein",
+                "name": "Flora Bender geb. Salomon",
+                "network": "Stolpersteine Hamburg"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.96422300000,
+                    53.55884310000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "historic": "memorial",
+                "memorial:addr": "Max-Brauer-Allee 247, Hamburg",
+                "memorial:text": "Hier wohnte Aron Finkelstein, Jg. 1883, Ausgewiesen 1938 nach Zbaszyn, Polen, ???",
+                "memorial:type": "stolperstein",
+                "name": "Aron Finkelstein",
+                "network": "Stolpersteine Hamburg"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.95679230000,
+                    53.56226990000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "historic": "memorial",
+                "memorial:addr": "Schnellstraße 22, Hamburg",
+                "memorial:addr:city": "Hamburg",
+                "memorial:addr:street": "Schnellstraße",
+                "memorial:type": "stolperstein",
+                "name": "Jenta Honig geb. Salik",
+                "network": "Stolpersteine Hamburg"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.94225560000,
+                    53.55748180000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "historic": "memorial",
+                "memorial:addr": "Kieler Straße 594, Hamburg",
+                "memorial:addr:city": "Hamburg",
+                "memorial:addr:housenumber": "594",
+                "memorial:addr:postcode": "22525",
+                "memorial:addr:street": "Kieler Straße",
+                "memorial:addr:suburb": "Eidelstedt",
+                "memorial:text": "Hier wohnte Max Sommerfeld Jg 1897 deportiert 1942 KZ Fuhlsbüttel ermordet 15.8.1942",
+                "memorial:type": "stolperstein",
+                "name": "Max Sommerfeld",
+                "network": "Stolpersteine Hamburg",
+                "person:date_of_birth": "1897",
+                "person:date_of_death": "1942-08-15"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.91474260000,
+                    53.60122160000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "historic": "memorial",
+                "memorial:addr": "Bartelsstraße 53, Hamburg",
+                "memorial:type": "stolperstein",
+                "name": "Kurt Erich Cäsar Schill",
+                "network": "Stolpersteine Hamburg"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.96384860000,
+                    53.56269280000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "historic": "memorial",
+                "memorial:addr": "Lange Straße 23, Hamburg",
+                "memorial:addr:city": "Hamburg",
+                "memorial:addr:housenumber": "23",
+                "memorial:addr:postcode": "20359",
+                "memorial:addr:street": "Lange Straße",
+                "memorial:addr:suburb": "Altona-Altstadt",
+                "memorial:type": "stolperstein",
+                "name": "Alfred Beckmann",
+                "network": "Stolpersteine Hamburg",
+                "website": "http://www.stolpersteine-hamburg.de/?&MAIN_ID=7&BIO_ID=1536"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.95449140000,
+                    53.54694850000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "description": "Stolperstein",
+                "historic": "memorial",
+                "memorial:addr": "Arnoldstraße 13, Hamburg",
+                "memorial:addr:city": "Hamburg",
+                "memorial:addr:housenumber": "13",
+                "memorial:addr:street": "Arnoldstraße",
+                "memorial:text": "Hier wohnte Maximilian Weber, Jg. 1893, verhaftet 1937/41, Neuengamme, ertrunken 3.5.1945 Cap Arcona.",
+                "memorial:type": "stolperstein",
+                "name": "Maximilian Weber",
+                "network": "Stolpersteine Hamburg",
+                "wheelchair": "yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.92936900000,
+                    53.54943430000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "historic": "memorial",
+                "memorial:addr": "Museumstraße 18, Hamburg",
+                "memorial:addr:city": "Hamburg",
+                "memorial:addr:street": "Museumstraße",
+                "memorial:text": "Hier wohnte Dr. Günther Brann Jg. 1892 Flucht 1939 Holland interniert Westerbork deportiert 1944 Theresienstadt Auschwitz ermordet 30.10.1944",
+                "memorial:type": "stolperstein",
+                "name": "Dr. Günther Brann",
+                "network": "Stolpersteine Hamburg",
+                "wheelchair": "yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.93534060000,
+                    53.55063140000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "historic": "memorial",
+                "memorial:addr": "Jessenstraße 1, Hamburg",
+                "memorial:addr:city": "Hamburg",
+                "memorial:addr:housenumber": "1",
+                "memorial:addr:street": "Jessenstraße",
+                "memorial:type": "stolperstein",
+                "name": "Alexandre Lambert",
+                "network": "Stolpersteine Hamburg",
+                "person:date_of_birth": "1921",
+                "wheelchair": "yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.94650810000,
+                    53.55113140000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "historic": "memorial",
+                "memorial:addr": "Jessenstraße 1, Hamburg",
+                "memorial:addr:city": "Hamburg",
+                "memorial:addr:housenumber": "1",
+                "memorial:addr:street": "Jessenstraße",
+                "memorial:type": "stolperstein",
+                "name": "Pierre Trillaud",
+                "network": "Stolpersteine Hamburg",
+                "person:date_of_birth": "1922",
+                "wheelchair": "yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.94655800000,
+                    53.55115080000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "historic": "memorial",
+                "memorial:addr": "Thadenstraße 130, Hamburg",
+                "memorial:addr:city": "Hamburg",
+                "memorial:addr:housenumber": "130",
+                "memorial:addr:postcode": "22767",
+                "memorial:addr:street": "Thadenstraße",
+                "memorial:addr:suburb": "Altona-Altstadt",
+                "memorial:type": "stolperstein",
+                "name": "Bertha Löwe",
+                "network": "Stolpersteine Hamburg"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.95583900000,
+                    53.55715130000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "historic": "memorial",
+                "memorial:addr": "Mörkenstraße 4, Hamburg",
+                "memorial:addr:city": "Hamburg",
+                "memorial:addr:street": "Mörkenstraße",
+                "memorial:type": "stolperstein",
+                "name": "Georg Loschinski",
+                "network": "Stolpersteine Hamburg"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.94805860000,
+                    53.54922310000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "description": "Stolperstein",
+                "historic": "memorial",
+                "memorial:addr": "Otzenstrasse 3",
+                "memorial:type": "stolperstein",
+                "name": "Egmont Cohn",
+                "network": "Stolpersteine Hamburg",
+                "person:date_of_birth": "1900",
+                "source": "http://www.stolpersteine-hamburg.de/index.php?MAIN_ID=7&BIO_ID=4485",
+                "wheelchair": "yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.96184990000,
+                    53.55499580000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "historic": "memorial",
+                "memorial:addr": "Sommerhuder Straße 33, Hamburg",
+                "memorial:text": "Hier wohnte Hermann Hertwer, Jg. 1886, Eingewiesen 6.12.1943, Heilanstalt Schleswig, verlegt 14.9.1944, Heilanstalt Meseritz-Obrawalde, Ermordet 2.10.1944",
+                "memorial:type": "stolperstein",
+                "name": "Hermann Hertwer",
+                "network": "Stolpersteine Hamburg"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.95490070000,
+                    53.56347870000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "historic": "memorial",
+                "memorial:addr": "Goethestraße 37, Hamburg",
+                "memorial:addr:city": "Hamburg",
+                "memorial:addr:housenumber": "37",
+                "memorial:addr:street": "Goethestraße",
+                "memorial:type": "stolperstein",
+                "name": "Carla Sommer",
+                "network": "Stolpersteine Hamburg",
+                "person:date_of_birth": "1892",
+                "wheelchair": "yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.93961250000,
+                    53.55311290000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "historic": "memorial",
+                "memorial:addr": "Otzenstrasse 3",
+                "memorial:type": "stolperstein",
+                "name": "Erna Cohn (geb. Müller)",
+                "network": "Stolpersteine Hamburg",
+                "person:date_of_birth": "1897",
+                "source": "www.stolpersteine-hamburg.de/index.php?MAIN_ID=7&BIO_ID=4484",
+                "wheelchair": "yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.96184720000,
+                    53.55497670000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "historic": "memorial",
+                "memorial:addr": "Grottenstraße 9, Hamburg",
+                "memorial:addr:city": "Hamburg",
+                "memorial:addr:housenumber": "9",
+                "memorial:addr:postcode": "22605",
+                "memorial:addr:street": "Grottenstraße",
+                "memorial:addr:suburb": "Othmarschen",
+                "memorial:text": "Hier wohnte Erna Goldschmidt Jg.1902 deportiert Theresienstadt überlebt",
+                "memorial:type": "stolperstein",
+                "name": "Erna Goldschmidt",
+                "network": "Stolpersteine Hamburg",
+                "person:date_of_birth": "1905",
+                "website": "http://www.stolpersteine-hamburg.de/?MAIN_ID=7&BIO_ID=262",
+                "wheelchair": "yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.87962460000,
+                    53.55685840000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "historic": "memorial",
+                "memorial:addr": "Max-Brauer-Allee 89, Hamburg",
+                "memorial:addr:city": "Hamburg",
+                "memorial:addr:street": "Max-Brauer-Allee",
+                "memorial:type": "stolperstein",
+                "name": "Bruno Tesch",
+                "network": "Stolpersteine Hamburg"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.94270510000,
+                    53.55567020000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "historic": "memorial",
+                "memorial:addr": "Bartelsstraße 72, Hamburg",
+                "memorial:type": "stolperstein",
+                "name": "Frieda Chana Beer geb. Sambor",
+                "network": "Stolpersteine Hamburg"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.96278180000,
+                    53.56383260000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "historic": "memorial",
+                "memorial:addr": "Bernstorffstraße 159, Hamburg",
+                "memorial:addr:city": "Hamburg",
+                "memorial:addr:housenumber": "159",
+                "memorial:addr:street": "Bernstorffstraße",
+                "memorial:type": "stolperstein",
+                "name": "Gitla Gisa Rotmensz",
+                "network": "Stolpersteine Hamburg",
+                "person:date_of_birth": "1920"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.95941420000,
+                    53.55975350000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "description": "Stolperstein",
+                "historic": "memorial",
+                "memorial:addr": "Behnstraße 28, Hamburg",
+                "memorial:addr:city": "Hamburg",
+                "memorial:addr:housenumber": "28",
+                "memorial:addr:street": "Behnstraße",
+                "memorial:text": "Hier wohnte Maria Rebecca Auerbach, geb. Rée, Jg. 1856, deportiert Theresienstadt, 1943 ermordet 15.8.1943",
+                "memorial:type": "stolperstein",
+                "name": "Maria Rebecca Auerbach geb. Rée",
+                "network": "Stolpersteine Hamburg",
+                "person:date_of_birth": "1856",
+                "person:date_of_death": "1943-08-15",
+                "wheelchair": "yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.94147510000,
+                    53.54903390000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "historic": "memorial",
+                "memorial:addr": "Sternstraße 29, Hamburg",
+                "memorial:type": "stolperstein",
+                "name": "Max Aschkenazy",
+                "network": "Stolpersteine Hamburg",
+                "person:date_of_birth": "1904",
+                "wheelchair": "yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.96695770000,
+                    53.55863040000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "historic": "memorial",
+                "memorial:addr": "Jessenstraße 1, Hamburg",
+                "memorial:addr:city": "Hamburg",
+                "memorial:addr:housenumber": "1",
+                "memorial:addr:street": "Jessenstraße",
+                "memorial:type": "stolperstein",
+                "name": "Daniel Boutin",
+                "network": "Stolpersteine Hamburg",
+                "person:date_of_birth": "1922",
+                "wheelchair": "yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.94650840000,
+                    53.55115150000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "historic": "memorial",
+                "memorial:addr": "Scheplerstraße 80, Hamburg",
+                "memorial:addr:city": "Hamburg",
+                "memorial:addr:housenumber": "80",
+                "memorial:addr:street": "Scheplerstraße",
+                "memorial:type": "stolperstein",
+                "name": "Emil Theodor Hans Wendt",
+                "network": "Stolpersteine Hamburg",
+                "person:date_of_birth": "1895",
+                "person:date_of_death": "1944-10-26"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.95470190000,
+                    53.55628910000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "historic": "memorial",
+                "memorial:addr": "Karl-Wolff-Straße 3, Hamburg",
+                "memorial:addr:city": "Hamburg",
+                "memorial:addr:street": "Karl-Wolff-Straße",
+                "memorial:type": "stolperstein",
+                "name": "August Postler",
+                "network": "Stolpersteine Hamburg"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.94951730000,
+                    53.55659350000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "historic": "memorial",
+                "memorial:addr": "Große Bergstraße 219, Hamburg",
+                "memorial:addr:city": "Hamburg",
+                "memorial:addr:street": "Große Bergstraße",
+                "memorial:note": "Stein liegt in der Pflastereinfassung des Baumes vor dem Haus",
+                "memorial:text": "Hier wohnte Paul J. Chrupalla Zeuge Jehovas Jg. 1899 10 Jahre KZ-Haft befreit 1945",
+                "memorial:type": "stolperstein",
+                "name": "Paul J. Chrupalla",
+                "network": "Stolpersteine Hamburg",
+                "wheelchair": "yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.94213040000,
+                    53.55188780000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "historic": "memorial",
+                "image": "File:Lina_Friedmann_geb._Blecher-Stolperstein.jpg",
+                "memorial:addr": "Schulterblatt 24, Hamburg",
+                "memorial:addr:city": "Hamburg",
+                "memorial:addr:housenumber": "24",
+                "memorial:addr:postcode": "20357",
+                "memorial:addr:street": "Schulterblatt",
+                "memorial:addr:suburb": "Sternschanze",
+                "memorial:text": "Hier wohnte Lina Friedmann geb. Blecher Jg. 1894 KZ Fuhlsbüttel ermordet 5.1.1941",
+                "memorial:type": "stolperstein",
+                "name": "Lina Friedmann geb. Blecher",
+                "network": "Stolpersteine Hamburg",
+                "person:date_of_birth": "1894",
+                "person:date_of_death": "1941-01-05",
+                "website": "http://www.stolpersteine-hamburg.de/?&MAIN_ID=7&BIO_ID=1487",
+                "wikidata": "Q64512466"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.96337330000,
+                    53.56049280000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "historic": "memorial",
+                "memorial:addr": "Sternstraße 29, Hamburg",
+                "memorial:type": "stolperstein",
+                "name": "Rita Aschkenazy",
+                "network": "Stolpersteine Hamburg",
+                "person:date_of_birth": "1937"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.96695710000,
+                    53.55863720000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "description": "Stolperstein",
+                "historic": "memorial",
+                "memorial:addr": "Otzenstrasse 3",
+                "memorial:type": "stolperstein",
+                "name": "Emma Anna Müller (geb. Singer)",
+                "network": "Stolpersteine Hamburg",
+                "person:date_of_birth": "1878",
+                "source": "http://www.stolpersteine-hamburg.de/index.php?MAIN_ID=7&BIO_ID=4483",
+                "wheelchair": "yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.96185550000,
+                    53.55501020000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "historic": "memorial",
+                "memorial:addr": "Breite Straße 120",
+                "memorial:addr:city": "Hamburg",
+                "memorial:addr:housenumber": "120",
+                "memorial:addr:street": "Breite Straße",
+                "memorial:type": "stolperstein",
+                "name": "Henry Möbius",
+                "network": "Stolpersteine Hamburg"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.94704720000,
+                    53.54629690000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "description": "Stolperstein",
+                "historic": "memorial",
+                "memorial:addr": "Max-Brauer-Allee 71, Hamburg",
+                "memorial:addr:city": "Hamburg",
+                "memorial:addr:housenumber": "71",
+                "memorial:addr:street": "Max-Brauer-Allee",
+                "memorial:text": "Hier wohnte Ernst Hagemann Jg. 1896 verhaftet 1939 KZ Fuhlsbüttel Sachsenhausen ermordet 15.2.1942",
+                "memorial:type": "stolperstein",
+                "name": "Ernst Hagemann",
+                "network": "Stolpersteine Hamburg",
+                "wheelchair": "yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.93989600000,
+                    53.55419300000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "historic": "memorial",
+                "memorial:addr": "Bartelsstraße 30, Hamburg",
+                "memorial:type": "stolperstein",
+                "name": "Ruth Hauptmann",
+                "network": "Stolpersteine Hamburg",
+                "person:date_of_birth": "1915"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.96417050000,
+                    53.56261410000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "historic": "memorial",
+                "memorial:addr": "Stresemannstraße 71, Hamburg",
+                "memorial:type": "stolperstein",
+                "name": "Emanuel Zloczower",
+                "network": "Stolpersteine Hamburg"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.95946430000,
+                    53.56033860000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "historic": "memorial",
+                "memorial:addr": "Blücherstraße 8/10",
+                "memorial:addr:city": "Hamburg",
+                "memorial:addr:housenumber": "8/10",
+                "memorial:addr:street": "Blücherstraße",
+                "memorial:type": "stolperstein",
+                "name": "Hugo Ludwig",
+                "network": "Stolpersteine Hamburg",
+                "person:date_of_birth": "1907",
+                "person:date_of_death": "1942-12-06"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.94884800000,
+                    53.54962750000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "historic": "memorial",
+                "memorial:addr": "Schanzenstraße 67, Hamburg",
+                "memorial:type": "stolperstein",
+                "name": "Lejzor Lejser Rajsfus",
+                "network": "Stolpersteine Hamburg",
+                "person:date_of_birth": "1898"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.96568530000,
+                    53.56172860000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "historic": "memorial",
+                "memorial:addr": "Schanzenstraße 14, Hamburg",
+                "memorial:type": "stolperstein",
+                "name": "Benno 'Bentzion' Ehrlich",
+                "network": "Stolpersteine Hamburg",
+                "person:date_of_birth": "1931"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.96469430000,
+                    53.55982150000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "description": "Stolperstein",
+                "historic": "memorial",
+                "memorial:addr": "Richard-Dehmel-Straße 1, Hamburg",
+                "memorial:addr:city": "Hamburg",
+                "memorial:addr:housenumber": "1",
+                "memorial:addr:street": "Richard-Dehmel-Straße",
+                "memorial:text": "Hier wohnte Irene Hess geb. Steinthal deportiert 1942 ermordet 15.4.1943 Theresienstadt",
+                "memorial:type": "stolperstein",
+                "name": "Irene Hess geb. Steinthal",
+                "network": "Stolpersteine Hamburg",
+                "wheelchair": "yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.79817120000,
+                    53.56552350000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "historic": "memorial",
+                "memorial:addr": "Jessenstraße 1, Hamburg",
+                "memorial:addr:city": "Hamburg",
+                "memorial:addr:housenumber": "1",
+                "memorial:addr:street": "Jessenstraße",
+                "memorial:type": "stolperstein",
+                "name": "Marcel Jaulin",
+                "network": "Stolpersteine Hamburg",
+                "person:date_of_birth": "1921",
+                "wheelchair": "yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.94650820000,
+                    53.55113640000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "description": "Stolperstein",
+                "historic": "memorial",
+                "memorial:addr": "Behnstraße 34, Hamburg",
+                "memorial:addr:city": "Hamburg",
+                "memorial:addr:housenumber": "34",
+                "memorial:addr:street": "Behnstraße",
+                "memorial:text": "Hier wohnte Anna Daus, Jg. 1879, deportiert 1943 Theresienstadt, 1944 Auschwitz, ermordet",
+                "memorial:type": "stolperstein",
+                "name": "Anna Daus",
+                "network": "Stolpersteine Hamburg",
+                "wheelchair": "yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.94134770000,
+                    53.54937050000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "historic": "memorial",
+                "memorial:addr": "Mörkenstraße 4, Hamburg",
+                "memorial:addr:city": "Hamburg",
+                "memorial:addr:street": "Mörkenstraße",
+                "memorial:type": "stolperstein",
+                "name": "Kurt Berlin",
+                "network": "Stolpersteine Hamburg"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.94806070000,
+                    53.54920760000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "historic": "memorial",
+                "memorial:addr": "Sternstraße 29, Hamburg",
+                "memorial:type": "stolperstein",
+                "name": "Regina Aschkenazy geb. Goldblatt",
+                "network": "Stolpersteine Hamburg",
+                "person:date_of_birth": "1909",
+                "wheelchair": "yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.96695880000,
+                    53.55861690000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "historic": "memorial",
+                "inscription": "Hier wohnte Bertha Holländer, Jg. 1925, Deportiert 1941, Minsk, Ermordet",
+                "memorial:type": "stolperstein",
+                "name": "Bertha Holländer",
+                "network": "Stolpersteine Hamburg"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.95510360000,
+                    53.56253100000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "description": "Stolperstein",
+                "historic": "memorial",
+                "memorial:addr": "Klopstockplatz 9, Hamburg",
+                "memorial:addr:city": "Hamburg",
+                "memorial:addr:housenumber": "9",
+                "memorial:addr:street": "Klopstockplatz",
+                "memorial:text": "Hier wohnte Alwin Peters Jg. 1892 verhaftet 1941 Flucht in den Tod 23.6.1941",
+                "memorial:type": "stolperstein",
+                "name": "Alwin Peters",
+                "network": "Stolpersteine Hamburg",
+                "wheelchair": "yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.93184000000,
+                    53.54745900000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "historic": "memorial",
+                "image": "File:Familie_Pulka.jpg",
+                "memorial:addr": "Bernstorffstraße 99, Hamburg",
+                "memorial:addr:city": "Hamburg",
+                "memorial:addr:housenumber": "99",
+                "memorial:addr:postcode": "22767",
+                "memorial:addr:street": "Bernstorffstraße",
+                "memorial:addr:suburb": "Altona-Altstadt",
+                "memorial:type": "stolperstein",
+                "name": "Gerda Pulka geb. Naphtalie",
+                "network": "Stolpersteine Hamburg"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.95859910000,
+                    53.55775090000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "description": "Stolperstein",
+                "historic": "memorial",
+                "memorial:addr": "Elbchaussee 271, Hamburg",
+                "memorial:addr:city": "Hamburg",
+                "memorial:addr:housenumber": "271",
+                "memorial:addr:street": "Elbchaussee",
+                "memorial:text": "Hier wohnte Dr. Carl Bruck Jg. 1879 Selbstmord 12.6.1944",
+                "memorial:type": "stolperstein",
+                "name": "Dr. Carl Bruck",
+                "network": "Stolpersteine Hamburg",
+                "wheelchair": "yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.87511930000,
+                    53.54688930000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "historic": "memorial",
+                "image": "File:Familie_Pulka.jpg",
+                "memorial:addr": "Bernstorffstraße 99, Hamburg",
+                "memorial:addr:city": "Hamburg",
+                "memorial:addr:housenumber": "99",
+                "memorial:addr:postcode": "22767",
+                "memorial:addr:street": "Bernstorffstraße",
+                "memorial:addr:suburb": "Altona-Altstadt",
+                "memorial:type": "stolperstein",
+                "name": "Isaak Pulka",
+                "network": "Stolpersteine Hamburg"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.95859710000,
+                    53.55773870000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "description": "Stolperstein",
+                "historic": "memorial",
+                "memorial:addr": "Behnstraße 17, Hamburg",
+                "memorial:addr:city": "Hamburg",
+                "memorial:addr:housenumber": "17",
+                "memorial:addr:street": "Behnstraße",
+                "memorial:text": "Hier wohnte Alfred Rosentreter, Jg. 1934, deportiert 1941 Lodz, 1942 Chelmno, ermordet",
+                "memorial:type": "stolperstein",
+                "name": "Alfred Rosentreter",
+                "network": "Stolpersteine Hamburg",
+                "wheelchair": "yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.94200770000,
+                    53.54747100000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "description": "Stolperstein",
+                "historic": "memorial",
+                "memorial:addr": "Klopstockterrasse 4, Hamburg",
+                "memorial:addr:city": "Hamburg",
+                "memorial:addr:housenumber": "4",
+                "memorial:addr:street": "Klopstockterrasse",
+                "memorial:text": "Hier wohnte Paula Jaffé Jg. 1884 deportiert 1941 Lodz ermordet",
+                "memorial:type": "stolperstein",
+                "name": "Paula Jaffé",
+                "network": "Stolpersteine Hamburg",
+                "wheelchair": "yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.93195770000,
+                    53.54609500000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "historic": "memorial",
+                "memorial:addr": "Lobuschstraße 32, Hamburg",
+                "memorial:addr:city": "Hamburg",
+                "memorial:text": "Hier wohnte Herta Peters Jg. 1901 eingewiesen 1928 Alsterdorfer Anstalten \"verlegt\" 16.8.1943 Heilanstalt Am Steinhof Wien ermordet 2.11.1943",
+                "memorial:type": "stolperstein",
+                "name": "Herta Peters",
+                "network": "Stolpersteine Hamburg",
+                "person:date_of_birth": "1901",
+                "person:date_of_death": "1943-08-16",
+                "wheelchair": "yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.93398540000,
+                    53.55018860000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "historic": "memorial",
+                "memorial:addr": "Schanzenstraße 14, Hamburg",
+                "memorial:type": "stolperstein",
+                "name": "Rita Ehrlich",
+                "network": "Stolpersteine Hamburg",
+                "person:date_of_birth": "1938"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.96469450000,
+                    53.55982510000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "historic": "memorial",
+                "memorial:addr": "Museumstraße 18, Hamburg",
+                "memorial:addr:city": "Hamburg",
+                "memorial:addr:street": "Museumstraße",
+                "memorial:text": "Hier wohnte Lilli Brann geb. Appel Jg. 1898 Flucht 1939 Holland interniert Westerbork deportiert 1944 Theresienstadt Auschwitz ermordet",
+                "memorial:type": "stolperstein",
+                "name": "Lilli Brann geb. Appel",
+                "network": "Stolpersteine Hamburg",
+                "wheelchair": "yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.93534270000,
+                    53.55062250000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "historic": "memorial",
+                "memorial:addr": "Försterweg 43",
+                "memorial:addr:city": "Hamburg",
+                "memorial:addr:housenumber": "43",
+                "memorial:addr:postcode": "22525",
+                "memorial:addr:street": "Försterweg",
+                "memorial:addr:suburb": "Stellingen",
+                "memorial:text": "Hier wohnte Hilde Falck Jg. 1924 deportiert 1942 Auschwitz ermordet",
+                "memorial:type": "stolperstein",
+                "name": "Hilde Falck",
+                "network": "Stolpersteine Hamburg",
+                "person:date_of_birth": "1924"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.93035730000,
+                    53.57859690000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "historic": "memorial",
+                "memorial:addr": "Eckernförder Straße 4, Hamburg",
+                "memorial:text": "Hier wohnte Dr. Charlotte Friedmann, Jg. 1903, Flucht in den Tod 24.2.1939",
+                "memorial:type": "stolperstein",
+                "name": "Dr. Charlotte Friedmann",
+                "network": "Stolpersteine Hamburg"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.95027640000,
+                    53.56640880000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "historic": "memorial",
+                "memorial:addr": "Schnellstraße 22, Hamburg",
+                "memorial:addr:city": "Hamburg",
+                "memorial:addr:street": "Schnellstraße",
+                "memorial:type": "stolperstein",
+                "name": "Osias Leib Honig",
+                "network": "Stolpersteine Hamburg"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.94226020000,
+                    53.55750460000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "historic": "memorial",
+                "memorial:addr": "Goethestraße 37, Hamburg",
+                "memorial:addr:city": "Hamburg",
+                "memorial:addr:housenumber": "37",
+                "memorial:addr:street": "Goethestraße",
+                "memorial:type": "stolperstein",
+                "name": "Hermann Sommer",
+                "network": "Stolpersteine Hamburg",
+                "person:date_of_birth": "1892",
+                "wheelchair": "yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.93961280000,
+                    53.55312070000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "description": "Stolperstein",
+                "historic": "memorial",
+                "memorial:addr": "Bleicherstraße 46, Hamburg",
+                "memorial:type": "stolperstein",
+                "name": "Julius Schultz",
+                "network": "Stolpersteine Hamburg",
+                "person:date_of_birth": "1912",
+                "wheelchair": "yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.96082740000,
+                    53.55465660000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "description": "Stolperstein",
+                "historic": "memorial",
+                "memorial:addr": "Bahrenfelder Straße 170, Hamburg",
+                "memorial:addr:city": "Hamburg",
+                "memorial:addr:housenumber": "170",
+                "memorial:addr:postcode": "22765",
+                "memorial:addr:street": "Bahrenfelder Straße",
+                "memorial:text": "Hier wohnte Otto Schneider Jg. 1903 verhaftet 1938 KZ Fuhlsbüttel 1944 KZ Neuengamme ermordet 13.2.1945",
+                "memorial:type": "stolperstein",
+                "name": "Otto Schneider",
+                "network": "Stolpersteine Hamburg",
+                "wheelchair": "yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.92878160000,
+                    53.55420880000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "historic": "memorial",
+                "memorial:addr": "Lippmannstraße 69, Hamburg",
+                "memorial:addr:city": "Hamburg",
+                "memorial:addr:housenumber": "69",
+                "memorial:addr:street": "Lippmannstraße",
+                "memorial:type": "stolperstein",
+                "name": "Amandus Karges",
+                "network": "Stolpersteine Hamburg",
+                "person:date_of_birth": "1888",
+                "person:date_of_death": "1944-03-16"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.95919090000,
+                    53.56163240000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "historic": "memorial",
+                "memorial:addr": "Schanzenstraße 14, Hamburg",
+                "memorial:type": "stolperstein",
+                "name": "Siegmund 'Zygmund' Ehrlich",
+                "network": "Stolpersteine Hamburg",
+                "person:date_of_birth": "1908"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.96469480000,
+                    53.55983240000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "historic": "memorial",
+                "memorial:addr": "Jessenstraße 1, Hamburg",
+                "memorial:addr:city": "Hamburg",
+                "memorial:addr:housenumber": "1",
+                "memorial:addr:street": "Jessenstraße",
+                "memorial:type": "stolperstein",
+                "name": "Rene Paris",
+                "network": "Stolpersteine Hamburg",
+                "person:date_of_birth": "1921",
+                "wheelchair": "yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.94655820000,
+                    53.55113890000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "description": "Stolperstein",
+                "historic": "memorial",
+                "memorial:addr": "Bleicherstraße 19, Hamburg",
+                "memorial:type": "stolperstein",
+                "name": "Wilhelm Oefele",
+                "network": "Stolpersteine Hamburg",
+                "person:date_of_birth": "1910",
+                "wheelchair": "yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.96001250000,
+                    53.55365840000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "historic": "memorial",
+                "memorial:addr": "Max-Brauer-Allee 89, Hamburg",
+                "memorial:addr:city": "Hamburg",
+                "memorial:addr:street": "Max-Brauer-Allee",
+                "memorial:type": "stolperstein",
+                "name": "August Lütgens",
+                "network": "Stolpersteine Hamburg"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.94274900000,
+                    53.55570040000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "description": "Stolperstein",
+                "historic": "memorial",
+                "memorial:addr": "Hohenzollernring 34, Hamburg",
+                "memorial:addr:city": "Hamburg",
+                "memorial:addr:postcode": "22763",
+                "memorial:addr:street": "Hohenzollernring 34",
+                "memorial:text": "Hier wohnte Dr. Curt Ledien Jg. 1893 Weisse Rose gehenkt am 23.4.1945 im KZ Neuengamme",
+                "memorial:type": "stolperstein",
+                "name": "Dr. Curt Ledien",
+                "network": "Stolpersteine Hamburg",
+                "wheelchair": "yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.91787210000,
+                    53.54970160000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "historic": "memorial",
+                "memorial:addr": "Oelkersallee 65, Hamburg",
+                "memorial:text": "Hier wohnte Oskar Müller, Jg. 1895, Gedemütigt/Entrechtet, Flucht in den Tod 29.11.1937",
+                "memorial:type": "stolperstein",
+                "name": "Oskar Müller",
+                "network": "Stolpersteine Hamburg"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.95758880000,
+                    53.56462960000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "historic": "memorial",
+                "memorial:addr": "Gademannstraße 16, Hamburg",
+                "memorial:addr:city": "Hamburg",
+                "memorial:addr:housenumber": "16",
+                "memorial:addr:street": "Gademannstraße",
+                "memorial:type": "stolperstein",
+                "name": "Selma Henschel geb. Fröhlich",
+                "network": "Stolpersteine Hamburg",
+                "person:date_of_birth": "1870",
+                "person:date_of_death": "1941"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.94934810000,
+                    53.54803730000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "historic": "memorial",
+                "memorial:addr": "Susannenstraße 6, Hamburg",
+                "memorial:type": "stolperstein",
+                "name": "Ella Salomon geb. Karfiol",
+                "network": "Stolpersteine Hamburg",
+                "person:date_of_birth": "1883"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.96277730000,
+                    53.56200200000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "description": "Stolperstein",
+                "historic": "memorial",
+                "memorial:addr": "Erik-Blumenfeld-Platz 15, Hamburg",
+                "memorial:addr:city": "Hamburg",
+                "memorial:addr:housenumber": "15",
+                "memorial:addr:street": "Erik-Blumenfeld-Platz",
+                "memorial:text": "Hier wohnte Hedwig Alexander geb. Grundmann Jg. 1877 ermordet am 15.2.1943 in Theresienstadt",
+                "memorial:type": "stolperstein",
+                "name": "Hedwig Alexander geb. Grundmann",
+                "network": "Stolpersteine Hamburg",
+                "wheelchair": "yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.81399100000,
+                    53.56318900000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "historic": "memorial",
+                "memorial:addr": "Behnstraße 83, Hamburg",
+                "memorial:addr:city": "Hamburg",
+                "memorial:addr:street": "Behnstraße",
+                "memorial:text": "Hier wohnte Franz Lorenzen, Jg. 1885, eingewiesen Alsterdorfer Anstalten, ermordet 13.11.1942",
+                "memorial:type": "stolperstein",
+                "name": "Franz Lorenzen",
+                "network": "Stolpersteine Hamburg"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.94109730000,
+                    53.54965440000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "historic": "memorial",
+                "memorial:addr": "Bernadottestraße 3, Hamburg",
+                "memorial:text": "Hier wohnte Julie Koppel geb. Neuwahl Jg. 1883, deportiert 1941, Minsk, ermordet.",
+                "memorial:type": "stolperstein",
+                "name": "Julie Koppel geb. Neuwahl",
+                "network": "Stolpersteine Hamburg",
+                "note": "Position stimmt im wesentlichen"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.92502360000,
+                    53.54770750000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "historic": "memorial",
+                "memorial:addr": "Königstraße 32, Hamburg",
+                "memorial:addr:city": "Hamburg",
+                "memorial:addr:street": "Königstraße",
+                "memorial:type": "stolperstein",
+                "name": "Ewald Marcus",
+                "network": "Stolpersteine Hamburg"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.94278380000,
+                    53.54824470000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "historic": "memorial",
+                "memorial:addr": "Stresemannstraße 71, Hamburg",
+                "memorial:type": "stolperstein",
+                "name": "Ettel Zloczower geb. Poppel",
+                "network": "Stolpersteine Hamburg"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.95946500000,
+                    53.56034180000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "description": "Stolperstein",
+                "historic": "memorial",
+                "memorial:addr": "Susettestraße 5, Hamburg",
+                "memorial:addr:city": "Hamburg",
+                "memorial:addr:housenumber": "5",
+                "memorial:addr:street": "Susettestraße",
+                "memorial:text": "Hier wohnte Elsa Lina Mengers geb. Mink Jg. 1881 gedemütigt / entrechtet Flucht in den Tod 11.6.1933",
+                "memorial:type": "stolperstein",
+                "name": "Elsa Lina Mengers geb. Mink",
+                "network": "Stolpersteine Hamburg",
+                "wheelchair": "yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.92428930000,
+                    53.54723050000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "historic": "memorial",
+                "memorial:addr": "Jessenstraße 1, Hamburg",
+                "memorial:addr:city": "Hamburg",
+                "memorial:addr:housenumber": "1",
+                "memorial:addr:street": "Jessenstraße",
+                "memorial:type": "stolperstein",
+                "name": "Guy Mercier",
+                "network": "Stolpersteine Hamburg",
+                "person:date_of_birth": "1921",
+                "wheelchair": "yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.94655810000,
+                    53.55114490000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "description": "Stolperstein",
+                "historic": "memorial",
+                "memorial:addr": "Behnstraße 17, Hamburg",
+                "memorial:addr:city": "Hamburg",
+                "memorial:addr:housenumber": "17",
+                "memorial:addr:street": "Behnstraße",
+                "memorial:text": "Hier wohnte Betty Rosentreter, Jg. 1926, deportiert 1941 Lodz, 1942 Chelmno, ermordet",
+                "memorial:type": "stolperstein",
+                "name": "Betty Rosentreter",
+                "network": "Stolpersteine Hamburg",
+                "wheelchair": "yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.94200980000,
+                    53.54746540000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "historic": "memorial",
+                "image": "http://commons.wikimedia.org/wiki/File:Johann_%22Rukeli%22_Trollmann-Stolperstein.jpg",
+                "memorial:addr": "Schulterblatt 71, Hamburg",
+                "memorial:addr:city": "Hamburg",
+                "memorial:addr:street": "Schulterblatt",
+                "memorial:type": "stolperstein",
+                "name": "Johann 'Rukeli' Trollmann",
+                "network": "Stolpersteine Hamburg",
+                "wheelchair": "yes",
+                "wikidata": "Q64512572"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.96154710000,
+                    53.56215960000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "historic": "memorial",
+                "memorial:addr": "Kampstraße 7, Hamburg",
+                "memorial:type": "stolperstein",
+                "name": "Wilhelm Springer",
+                "network": "Stolpersteine Hamburg"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.96527130000,
+                    53.56141080000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "historic": "memorial",
+                "memorial:addr": "Bartelsstraße 72, Hamburg",
+                "memorial:type": "stolperstein",
+                "name": "Frieda Beer",
+                "network": "Stolpersteine Hamburg"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.96278730000,
+                    53.56380240000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "historic": "memorial",
+                "memorial:addr": "Bernstorffstraße 159, Hamburg",
+                "memorial:addr:city": "Hamburg",
+                "memorial:addr:housenumber": "159",
+                "memorial:addr:street": "Bernstorffstraße",
+                "memorial:type": "stolperstein",
+                "name": "Rosa Rotmensz",
+                "network": "Stolpersteine Hamburg",
+                "person:date_of_birth": "1922"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.95941700000,
+                    53.55975960000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "description": "Stolperstein",
+                "historic": "memorial",
+                "memorial:addr": "Breite Straße 0, Hamburg",
+                "memorial:addr:city": "Hamburg",
+                "memorial:addr:housenumber": "0",
+                "memorial:addr:postcode": "22767",
+                "memorial:addr:street": "Breite Straße",
+                "memorial:addr:suburb": "Altona-Altstadt",
+                "memorial:note": "Stolperstein liegt Ecke Breite Straße/Pepermölenbek",
+                "memorial:text": "Hier wohnte Denny Kargauer Jg. 1940 deportiert 1941 Lodz ermordet 19.2.1942",
+                "memorial:type": "stolperstein",
+                "name": "Denny Kargauer",
+                "network": "Stolpersteine Hamburg",
+                "person:date_of_birth": "1940",
+                "person:date_of_death": "1942-02-19",
+                "wheelchair": "yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.95304240000,
+                    53.54654960000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "historic": "memorial",
+                "memorial:addr": "Steenwisch 70, Hamburg",
+                "memorial:addr:city": "Hamburg",
+                "memorial:addr:housenumber": "70",
+                "memorial:addr:postcode": "22527",
+                "memorial:addr:street": "Steenwisch",
+                "memorial:addr:suburb": "Stellingen",
+                "memorial:text": "Hier wohnte Max Abraham Lichtenstein Jg. 1879 deportiert 1942 Theresienstadt 1943 Auschwitz ermordet",
+                "memorial:type": "stolperstein",
+                "name": "Rebecka Lichtenstein geb. Salomon",
+                "network": "Stolpersteine Hamburg",
+                "person:date_of_birth": "1879"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.94498830000,
+                    53.58286690000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "historic": "memorial",
+                "image": "File:Hulda_Müller_geb_Ehrlich.jpg",
+                "memorial:addr": "Schanzenstraße 79, Hamburg",
+                "memorial:addr:city": "Hamburg",
+                "memorial:addr:housenumber": "79",
+                "memorial:addr:postcode": "20357",
+                "memorial:addr:street": "Schanzenstraße",
+                "memorial:addr:suburb": "St. Pauli",
+                "memorial:text": "Hier wohnte Hulda Müller geb. Ehrlich Jg. 1882 deportiert Riga ermordet",
+                "memorial:type": "stolperstein",
+                "name": "Hulda Müller geb. Ehrlich",
+                "network": "Stolpersteine Hamburg",
+                "person:date_of_birth": "1882",
+                "website": "http://www.stolpersteine-hamburg.de/index.php?&MAIN_ID=7&BIO_ID=1689",
+                "wikidata": "Q64512437"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.96570030000,
+                    53.56238750000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "description": "Stolperstein",
+                "historic": "memorial",
+                "memorial:addr": "Behnstraße 17, Hamburg",
+                "memorial:addr:city": "Hamburg",
+                "memorial:addr:housenumber": "17",
+                "memorial:addr:street": "Behnstraße",
+                "memorial:text": "Hier wohnte Siegfried Rosentreter, Jg. 1923, deportiert 1941 Lodz, ermordet",
+                "memorial:type": "stolperstein",
+                "name": "Siegfried Rosentreter",
+                "network": "Stolpersteine Hamburg",
+                "wheelchair": "yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.94199500000,
+                    53.54746980000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "historic": "memorial",
+                "image": "File:Familie_Pulka.jpg",
+                "memorial:addr": "Bernstorffstraße 99, Hamburg",
+                "memorial:addr:city": "Hamburg",
+                "memorial:addr:housenumber": "99",
+                "memorial:addr:postcode": "22767",
+                "memorial:addr:street": "Bernstorffstraße",
+                "memorial:addr:suburb": "Altona-Altstadt",
+                "memorial:type": "stolperstein",
+                "name": "Hermann Pulka",
+                "network": "Stolpersteine Hamburg"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.95859510000,
+                    53.55772650000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "historic": "memorial",
+                "inscription": "Ruth Drucker",
+                "memorial": "yes",
+                "memorial:addr": "Övelgönner Straße 25, Hamburg",
+                "memorial:text": "Hier wohnte Ruth Drucker, Jg. 1919, Deportiert 1941, Minsk, ermordet",
+                "memorial:type": "stolperstein",
+                "name": "Ruth Drucker",
+                "network": "Stolpersteine Hamburg"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.94613710000,
+                    53.56912030000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "description": "Stolperstein",
+                "historic": "memorial",
+                "memorial:addr": "Bleicherstraße 74, Hamburg",
+                "memorial:type": "stolperstein",
+                "name": "Emma Erna Cohn geb. Jakob",
+                "network": "Stolpersteine Hamburg",
+                "person:date_of_birth": "1916",
+                "wheelchair": "yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.96161600000,
+                    53.55581380000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "description": "Stolperstein",
+                "historic": "memorial",
+                "memorial:addr": "Breite Straße 0, Hamburg",
+                "memorial:addr:city": "Hamburg",
+                "memorial:addr:housenumber": "0",
+                "memorial:addr:postcode": "22767",
+                "memorial:addr:street": "Breite Straße",
+                "memorial:addr:suburb": "Altona-Altstadt",
+                "memorial:note": "Stolperstein liegt Ecke Breite Straße/Pepermölenbek",
+                "memorial:text": "Hier wohnte Judis Kargauer Jg. 1939 deportiert 1941 Lodz ermordet 1942 in Chelmno",
+                "memorial:type": "stolperstein",
+                "name": "Judis Kargauer",
+                "network": "Stolpersteine Hamburg",
+                "person:date_of_birth": "1939",
+                "wheelchair": "yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.95300150000,
+                    53.54654930000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "historic": "memorial",
+                "image": "File:HH_Stolperstein_Meilicke.jpg",
+                "memorial:addr": "Pepermölenbek 2, Hamburg",
+                "memorial:addr:city": "Hamburg",
+                "memorial:addr:housenumber": "2",
+                "memorial:addr:postcode": "22767",
+                "memorial:addr:street": "Pepermölenbek",
+                "memorial:addr:suburb": "Altona-Altstadt",
+                "memorial:text": "Hier wohnte Paul Meilicke Jg. 1893 verhaftet 1940/41 KZ Fuhlsbüttel KZ Neuengamme ermordet 6.1.1943",
+                "memorial:type": "stolperstein",
+                "name": "Paul Meilicke",
+                "network": "Stolpersteine Hamburg",
+                "person:date_of_birth": "1893",
+                "person:date_of_death": "1943-01-06",
+                "website": "http://www.stolpersteine-hamburg.de/?&MAIN_ID=7&BIO_ID=2423"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.95349100000,
+                    53.54666200000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "description": "Stolperstein",
+                "historic": "memorial",
+                "memorial:addr": "Kirchenstraße 5, Hamburg",
+                "memorial:addr:city": "Hamburg",
+                "memorial:addr:housenumber": "5",
+                "memorial:addr:street": "Kirchenstraße",
+                "memorial:type": "stolperstein",
+                "name": "Julius Levy",
+                "network": "Stolpersteine Hamburg",
+                "person:date_of_birth": "1875",
+                "person:date_of_death": "1941",
+                "wheelchair": "yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.95079900000,
+                    53.54721700000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "historic": "memorial",
+                "memorial:addr": "Bei der Johanniskirche 5, Hamburg",
+                "memorial:addr:city": "Hamburg",
+                "memorial:addr:street": "Bei der Johanniskirche",
+                "memorial:type": "stolperstein",
+                "name": "Rosa Hillelsohn geb. Ascher",
+                "network": "Stolpersteine Hamburg"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.95278240000,
+                    53.55960950000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "description": "Stolperstein",
+                "historic": "memorial",
+                "memorial:addr": "Lobuschstraße 33, Hamburg",
+                "memorial:addr:city": "Hamburg",
+                "memorial:addr:postcode": "22765",
+                "memorial:addr:street": "Lobuschstraße",
+                "memorial:text": "Hier wohnte Ernst Dehle Jg. 1878 verhaftet 1939 KZ Fuhlsbüttel Flucht in den Tod 12.3.1939",
+                "memorial:type": "stolperstein",
+                "name": "Ernst Dehle",
+                "network": "Stolpersteine Hamburg",
+                "wheelchair": "yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.93403000000,
+                    53.55033200000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "historic": "memorial",
+                "memorial:addr": "Wohlers Allee 28, Hamburg",
+                "memorial:addr:city": "Hamburg",
+                "memorial:addr:housenumber": "28",
+                "memorial:addr:postcode": "22767",
+                "memorial:addr:street": "Wohlers Allee",
+                "memorial:addr:suburb": "Altona-Altstadt",
+                "memorial:text": "Hier wohnte Ruth Allen Jg. 1934, 1937 Flucht Holland, 1942 deportiert nach Auschwitz, ermordet",
+                "memorial:type": "stolperstein",
+                "name": "Ruth Allen",
+                "network": "Stolpersteine Hamburg",
+                "person:date_of_birth": "1934"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.95506880000,
+                    53.55862870000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "historic": "memorial",
+                "memorial:addr": "Königstraße 15, Hamburg",
+                "memorial:addr:city": "Hamburg",
+                "memorial:addr:housenumber": "15",
+                "memorial:addr:street": "Königstraße",
+                "memorial:type": "stolperstein",
+                "name": "Albert Jahnke",
+                "network": "Stolpersteine Hamburg",
+                "person:date_of_birth": "1886",
+                "person:date_of_death": "1943-11-21"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.94660640000,
+                    53.54861070000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "historic": "memorial",
+                "memorial:addr": "Jessenstraße 1, Hamburg",
+                "memorial:addr:city": "Hamburg",
+                "memorial:addr:housenumber": "1",
+                "memorial:addr:street": "Jessenstraße",
+                "memorial:type": "stolperstein",
+                "name": "Pierre Rambaud",
+                "network": "Stolpersteine Hamburg",
+                "person:date_of_birth": "1922",
+                "wheelchair": "yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.94655830000,
+                    53.55113300000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "description": "Stolperstein",
+                "historic": "memorial",
+                "memorial:addr": "Richard-Dehmel-Straße 1, Hamburg",
+                "memorial:addr:city": "Hamburg",
+                "memorial:addr:housenumber": "1",
+                "memorial:addr:street": "Richard-Dehmel-Straße",
+                "memorial:text": "Hier wohnte Peter Hess Jg. 1908 deportiert 1942 Theresienstadt Auschwitz ???",
+                "memorial:type": "stolperstein",
+                "name": "Peter Hess",
+                "network": "Stolpersteine Hamburg",
+                "wheelchair": "yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.79817350000,
+                    53.56552080000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "historic": "memorial",
+                "memorial:addr": "Mörkenstraße 4, Hamburg",
+                "memorial:addr:city": "Hamburg",
+                "memorial:addr:street": "Mörkenstraße",
+                "memorial:type": "stolperstein",
+                "name": "Dora Loschinski geb. Sacharewitz verw. Berlin",
+                "network": "Stolpersteine Hamburg"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.94805900000,
+                    53.54921610000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "description": "Stolperstein",
+                "historic": "memorial",
+                "memorial:addr": "Behnstraße 17, Hamburg",
+                "memorial:addr:city": "Hamburg",
+                "memorial:addr:housenumber": "17",
+                "memorial:addr:street": "Behnstraße",
+                "memorial:text": "Hier wohnte Ingbert Rosentreter, Jg. 1924, deportiert 1941 Lodz, 1942 Chelmno, ermordet",
+                "memorial:type": "stolperstein",
+                "name": "Ingbert Rosentreter",
+                "network": "Stolpersteine Hamburg",
+                "wheelchair": "yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.94201180000,
+                    53.54745920000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "description": "Stolperstein",
+                "historic": "memorial",
+                "memorial:addr": "Bahrenfelder Straße 63, Hamburg",
+                "memorial:addr:city": "Hamburg",
+                "memorial:addr:housenumber": "63",
+                "memorial:addr:street": "Bahrenfelder Straße",
+                "memorial:text": "Hier wohnte Hermann Goldstein Jg. 1907 KZ Fuhlsbüttel ermordet 14.3.1934",
+                "memorial:type": "stolperstein",
+                "name": "Hermann Goldstein",
+                "network": "Stolpersteine Hamburg",
+                "wheelchair": "yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.93006890000,
+                    53.55057100000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "description": "Stolperstein",
+                "historic": "memorial",
+                "memorial:addr": "Schmarjestraße 6, Hamburg",
+                "memorial:addr:city": "Hamburg",
+                "memorial:addr:housenumber": "6",
+                "memorial:addr:street": "Schmarjestraße",
+                "memorial:text": "Hier wohnte Lina Leider Jg. 1930 deportiert 1941 ermordet in Riga",
+                "memorial:type": "stolperstein",
+                "name": "Lina Leider",
+                "network": "Stolpersteine Hamburg",
+                "wheelchair": "yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.94081000000,
+                    53.54907100000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "historic": "memorial",
+                "memorial:addr": "Försterweg 43",
+                "memorial:addr:city": "Hamburg",
+                "memorial:addr:housenumber": "43",
+                "memorial:addr:postcode": "22525",
+                "memorial:addr:street": "Försterweg",
+                "memorial:addr:suburb": "Stellingen",
+                "memorial:text": "Hier wohnte Hilde Falck Jg. 1897 deportiert 1941 Lodz ermordet 29.3.1945",
+                "memorial:type": "stolperstein",
+                "name": "Salomon Falck",
+                "network": "Stolpersteine Hamburg",
+                "person:date_of_birth": "1897",
+                "person:date_of_death": "1945-03-29"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.93037310000,
+                    53.57858010000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "historic": "memorial",
+                "memorial:addr": "Wohlers Allee 28, Hamburg",
+                "memorial:addr:city": "Hamburg",
+                "memorial:addr:housenumber": "28",
+                "memorial:addr:postcode": "22767",
+                "memorial:addr:street": "Wohlers Allee",
+                "memorial:addr:suburb": "Altona-Altstadt",
+                "memorial:text": "Hier wohnte Julia Allen geb. Silberberg jg. 1907, 1937 Flucht Holland, 1942 deportiert nach Auschwitz,1944 deportiert nach Ravensbrück, ermordet",
+                "memorial:type": "stolperstein",
+                "name": "Julia Allen geb. Silberberg",
+                "network": "Stolpersteine Hamburg",
+                "person:date_of_birth": "1907"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.95506880000,
+                    53.55863510000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "historic": "memorial",
+                "image": "File:Jetti_and_Adele_Löw.jpg",
+                "memorial:addr": "Schulterblatt 39, Hamburg",
+                "memorial:addr:city": "Hamburg",
+                "memorial:addr:housenumber": "39",
+                "memorial:addr:postcode": "20357",
+                "memorial:addr:street": "Schulterblatt",
+                "memorial:addr:suburb": "Sternschanze",
+                "memorial:text": "Hier wohnte Jetti Löw geb. Fried Jg. 1884 deportiert 1942 Auschwitz ermordet",
+                "memorial:type": "stolperstein",
+                "name": "Jetti Löw geb. Fried",
+                "network": "Stolpersteine Hamburg",
+                "person:date_of_birth": "1884",
+                "website": "http://www.stolpersteine-hamburg.de/index.php?MAIN_ID=7&BIO_ID=2848"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.96289290000,
+                    53.56078210000
+                ]
+            }
+        }
+    ]
+}

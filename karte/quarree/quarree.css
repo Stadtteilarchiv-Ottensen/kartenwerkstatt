@@ -1,0 +1,11 @@
+.ppicon {
+	border:1px solid black;
+	border-radius:2px;
+}
+img.ontop {
+	z-index:999999!important;
+}
+.labelorteereignisse {
+	margin-left: -14px!important;
+	margin-top: -8px!important;
+}

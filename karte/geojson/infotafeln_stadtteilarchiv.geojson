@@ -1,0 +1,392 @@
+
+{
+    "type": "FeatureCollection",
+    "generator": "JOSM",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "description": "Am Beispiel des Stammbaumes der Familie Levi wird repräsentativ der Geschichte der Altonaer Juden gedacht.",
+                "historic": "memorial",
+                "name": "Familie Levi",
+                "network": "Informationstafeln des Stadtteilarchivs Ottensen",
+                "network:website": "https://stadtteilarchiv-ottensen.de/angebote-fuehrungen/informationstafeln/",
+                "start_date": "1999",
+                "website": "https://stadtteilarchiv-ottensen.de/angebote-fuehrungen/informationstafeln/betty-levi-passage-ecke-ottenser-marktplatz/",
+                "memorial": "plaque"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.93287179557,
+                    53.54785229969
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "addr:city": "Hamburg",
+                "addr:country": "DE",
+                "addr:housenumber": "28",
+                "addr:postcode": "22765",
+                "addr:street": "Zeißstraße",
+                "building": "yes",
+                "historic": "museum",
+                "website": "https://stadtteilarchiv-ottensen.de/angebote-fuehrungen/ottensener-drahtstifte-fabrik/",
+                "phone": "+49 40 3903666",
+                "old_name": "Drahtstifte-Fabrik J.D. Feldtmann",
+                "opening_hours": "Mo-Tu 13:00-18:00,We 09:00-13:00,Th 13:00-18:00",
+                "fax": "+49 40 396174",
+                "addr:suburb": "Ottensen",
+                "addr:district": "Altona",
+                "name": "Ehemalige Ottensener Drahtstifte-Fabrik",
+                "description": "Ständige Ausstellung in der ehemaligen Ottensener Drahtstifte-Fabrik"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            9.92970210000,
+                            53.55510200000
+                        ],
+                        [
+                            9.92969800000,
+                            53.55509250000
+                        ],
+                        [
+                            9.92959225890,
+                            53.55508352156
+                        ],
+                        [
+                            9.92953480000,
+                            53.55506510000
+                        ],
+                        [
+                            9.92952090000,
+                            53.55513500000
+                        ],
+                        [
+                            9.92958770000,
+                            53.55523730000
+                        ],
+                        [
+                            9.92963560000,
+                            53.55522500000
+                        ],
+                        [
+                            9.92976140000,
+                            53.55519600000
+                        ],
+                        [
+                            9.92994210000,
+                            53.55516210000
+                        ],
+                        [
+                            9.92991250000,
+                            53.55510980000
+                        ],
+                        [
+                            9.92988390000,
+                            53.55506900000
+                        ],
+                        [
+                            9.92970210000,
+                            53.55510200000
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "addr:city": "Hamburg",
+                "addr:country": "DE",
+                "addr:district": "Altona",
+                "addr:housenumber": "28",
+                "addr:postcode": "22765",
+                "addr:street": "Zeißstraße",
+                "addr:suburb": "Ottensen",
+                "email": "info@stadtteilarchiv-ottensen.de",
+                "fax": "+49 40 396174",
+                "name": "Stadtteilarchiv Ottensen e.V.",
+                "opening_hours": "Mo-Tu 13:00-18:00,We 09:00-13:00,Th 13:00-18:00",
+                "phone": "+49 40 3903666",
+                "website": "https://stadtteilarchiv-ottensen.de"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.92977317656,
+                    53.55518681629
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "description": "„Langer Jammer“ in den Zeiten der Cholera",
+                "historic": "memorial",
+                "name": "Langer Jammer",
+                "network": "Informationstafeln des Stadtteilarchivs Ottensen",
+                "network:website": "https://stadtteilarchiv-ottensen.de/angebote-fuehrungen/informationstafeln/",
+                "start_date": "1993",
+                "website": "https://stadtteilarchiv-ottensen.de/angebote-fuehrungen/informationstafeln/rothestrasseecke-kleine-brunnenstrasse/",
+                "memorial": "plaque"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.92721769557,
+                    53.55094389969
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "description": "Informationstafel des Stadtteilarchivs Ottensen zur Erinnerung an die bedeutende jüdische Gemeinde in Altona",
+                "historic": "memorial",
+                "name": "Jüdische Gemeinde Altona",
+                "network": "Informationstafeln des Stadtteilarchivs Ottensen",
+                "network:website": "https://stadtteilarchiv-ottensen.de/angebote-fuehrungen/informationstafeln/",
+                "website": "https://stadtteilarchiv-ottensen.de/angebote-fuehrungen/informationstafeln/platz-der-republik/",
+                "memorial": "plaque"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.93560759557,
+                    53.54802919969
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "description": "Informationstafel zur Firma Menck & Hambrock - Rüstungsproduktion im Zweiten Weltkrieg",
+                "historic": "memorial",
+                "name": "Menck & Hambrock",
+                "network": "Informationstafeln des Stadtteilarchivs Ottensen",
+                "network:website": "https://stadtteilarchiv-ottensen.de/angebote-fuehrungen/informationstafeln/",
+                "website": "https://stadtteilarchiv-ottensen.de/angebote-fuehrungen/menschen-hintergruende-qr-codes/noeltingstrasse-am-born/",
+                "memorial": "plaque"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.92720159557,
+                    53.55268079969
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "description": "Die Tafel erinnert an die Opfer, die kurz vor Kriegsende 1945 im Bunker an der Arnoldstraße, im Luftschutzraum des Hauses Arnoldstraße 19 und im Schutzraum der Schule Rothestraße starben",
+                "historic": "memorial",
+                "name": "Tiefbunker am Mansteinplatz",
+                "network": "Informationstafeln des Stadtteilarchivs Ottensen",
+                "network:website": "https://stadtteilarchiv-ottensen.de/angebote-fuehrungen/informationstafeln/",
+                "website": "https://stadtteilarchiv-ottensen.de/angebote-fuehrungen/informationstafeln/tiefbunker/",
+                "memorial": "plaque"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.92715599557,
+                    53.54906989969
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "description": "Verkehrsberuhigung Verkehrsinsel Friedenseichenplatz",
+                "historic": "memorial",
+                "name": "Friedenseichenplatz",
+                "network": "Informationstafeln des Stadtteilarchivs Ottensen",
+                "network:website": "https://stadtteilarchiv-ottensen.de/angebote-fuehrungen/informationstafeln/",
+                "website": "https://stadtteilarchiv-ottensen.de/angebote-fuehrungen/menschen-hintergruende-qr-codes/alma-wartenberg-platz-verkehrsberuhigung/",
+                "memorial": "plaque"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.92859899557,
+                    53.55424229969
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Kesselhaus",
+                "old_name": "Sägerei Haaren"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        9.92960251227,
+                        53.55505201161
+                    ],
+                    [
+                        9.92965225337,
+                        53.55505721824
+                    ],
+                    [
+                        9.92967481718,
+                        53.55499668902
+                    ],
+                    [
+                        9.92972351544,
+                        53.55500438559
+                    ],
+                    [
+                        9.92994279448,
+                        53.55496271823
+                    ],
+                    [
+                        9.92997790000,
+                        53.55502420000
+                    ],
+                    [
+                        9.92986760000,
+                        53.55504530000
+                    ],
+                    [
+                        9.92972217433,
+                        53.55507329872
+                    ],
+                    [
+                        9.92967255346,
+                        53.55506413686
+                    ],
+                    [
+                        9.92959225890,
+                        53.55508352156
+                    ],
+                    [
+                        9.92960251227,
+                        53.55505201161
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "description": "Informationstafel zum alten Altonaer Rathaus",
+                "historic": "memorial",
+                "name": "Altes Altonaer Rathaus",
+                "network": "Informationstafeln des Stadtteilarchivs Ottensen",
+                "network:website": "https://stadtteilarchiv-ottensen.de/angebote-fuehrungen/informationstafeln/",
+                "website": "https://stadtteilarchiv-ottensen.de/angebote-fuehrungen/informationstafeln/koenigstrasse-hoehe-dosestrasse/",
+                "memorial": "plaque"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.95321489557,
+                    53.54969929969
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "description": "Informationstafel zum Kemal-Altun-Platz",
+                "historic": "memorial",
+                "name": "Kemal-Altun-Platz",
+                "network": "Informationstafeln des Stadtteilarchivs Ottensen",
+                "network:website": "https://stadtteilarchiv-ottensen.de/angebote-fuehrungen/informationstafeln/",
+                "website": "https://stadtteilarchiv-ottensen.de/angebote-fuehrungen/menschen-hintergruende-qr-codes/noeltingstrasse-am-born-2/",
+                "memorial": "plaque"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.92710769557,
+                    53.55258839969
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "description": "Umnutzung der Drahtstiftefabrik Feldtmann und Erhalt der Vorderhäuser",
+                "historic": "memorial",
+                "name": "Drahtstifte-Fabrik J.D. Feldtmann",
+                "network": "Informationstafeln des Stadtteilarchivs Ottensen",
+                "network:website": "https://stadtteilarchiv-ottensen.de/angebote-fuehrungen/informationstafeln/",
+                "website": "https://qr.stadtteilarchiv-ottensen.de/feldtmann-umnutzung/",
+                "memorial": "plaque"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.92974699557,
+                    53.55523099969
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "description": "Das Stadtteilarchiv Ottensen möchte mit diesen Bild-Text-Tafeln über die Geschichte des Platzes informieren und an die Bedeutung Alma Wartenbergs für die Rechte und die Aufklärung, besonders der Arbeiterfrauen in Altona erinnern.",
+                "historic": "memorial",
+                "name": "Alma-Wartenberg",
+                "network": "https://stadtteilarchiv-ottensen.de/angebote-fuehrungen/informationstafeln/",
+                "website": "https://stadtteilarchiv-ottensen.de/angebote-fuehrungen/menschen-hintergruende-qr-codes/alma-wartenberg-platz-louise-schroeder/",
+                "memorial": "plaque"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.92849439557,
+                    53.55420729969
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "description": "Anläßlich der Restaurierung und Neuaufstellung des Stuhlmannbrunnens entstand eine Informationstafel in der Parkanlage neben dem Brunnen, die Texte und Bilder dafür lieferte das Stadtteilarchiv Ottensen",
+                "historic": "memorial",
+                "name": "Stuhlmannbrunnen",
+                "network": "Informationstafeln des Stadtteilarchivs Ottensen",
+                "network:website": "https://stadtteilarchiv-ottensen.de/angebote-fuehrungen/informationstafeln/",
+                "website": "https://stadtteilarchiv-ottensen.de/angebote-fuehrungen/informationstafeln/stuhlmannbrunnen/",
+                "memorial": "plaque"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.9353756,
+                    53.5498350
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "description": "Geschichte des Wohnens in den Häusern der ehemaligen Drahtstiftefabrik",
+                "historic": "memorial",
+                "name": "Wohnverhältnisse",
+                "network": "Informationstafeln des Stadtteilarchivs Ottensen",
+                "network:website": "https://stadtteilarchiv-ottensen.de/angebote-fuehrungen/informationstafeln/",
+                "memorial": "plaque"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.92985159557,
+                    53.55522229969
+                ]
+            }
+        }
+    ]
+}

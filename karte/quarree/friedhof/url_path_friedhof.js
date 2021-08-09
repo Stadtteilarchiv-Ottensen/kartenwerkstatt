@@ -1,0 +1,1 @@
+var url_path_friedhof = "https://pod-o-mart.github.io/bzag-kartenwerkstatt/quarree/friedhof/";

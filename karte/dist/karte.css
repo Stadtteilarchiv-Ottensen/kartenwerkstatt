@@ -1,0 +1,87 @@
+.info {
+	padding: 6px 8px;
+	font: 14px/16px Arial, Helvetica, sans-serif;
+	background: white;
+	background: rgba(255,255,255,0.8);
+	box-shadow: 0 0 15px rgba(0,0,0,0.2);
+	border-radius: 5px;
+}
+.info h4 {
+	margin: 0 0 5px;
+	color: #777;
+}
+.bzag-info {
+	background-color:white;
+	padding:6px 6px 0 0;
+	overflow: auto;
+}
+.bzag-info p span {
+	vertical-align:top;display:inline-block;line-height:30px;margin-top:4px;
+}
+
+.infocontent td,
+.infocontent a {
+	font-size:12px;
+}
+
+.infolinks {
+	display:flex;
+	justify-content: space-between;
+	margin-left:3px;
+}
+
+.smallnote {
+	font-size:smaller;
+	font-weight:bold;
+	color:grey!important;
+}
+.class_altonagrenze,
+.class_altonagrenze2 {
+	cursor:grab;
+	z-index:-999;
+}
+
+#von,
+#bis,
+#suchwort,
+#teil,
+#adressbuchsucheinput,
+#adressbuchsuche {
+	margin:0;
+	font-size:1em;
+	line-height:1em;
+}
+
+input#von,
+input#bis {
+	width:calc(50% - 40px);
+}
+
+input#suchwort {
+	width:100%;
+}
+
+.legend-block .symbol,
+.legend-block .symbol p,
+.legend-block .symbol a {
+	display:inline!important;
+	line-height:12px;
+	font-size:12px;
+}
+
+.legend-block .symbol a,
+.smallnote {
+	border-bottom:0!important;
+}
+
+.legend-row {
+	margin-bottom:4px;
+}
+
+.smallnote a:hover {
+	
+}
+/* Bootstrap mischt sich ein */
+*, ::before, ::after {
+	box-sizing: content-box!important;
+}
