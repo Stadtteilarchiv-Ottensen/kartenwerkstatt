@@ -1,6 +1,6 @@
 
 # bzag-kartenwerkstatt
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5176340.svg)](https://doi.org/10.5281/zenodo.5176340)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5176565.svg)](https://doi.org/10.5281/zenodo.5176565)
 
 Interaktives Kartenmaterial der "Beiträge zur Altonaer Geschichte" (BzAG).
 
