@@ -31,16 +31,11 @@
 		margin-bottom: 0;
 		}
 	#forkme_banner {
-		display: block;
-		position: absolute;
-		top: 0;
-		right: 10px;
 		z-index: 10;
 		padding: 10px 50px 10px 10px;
 		color: #fff;
 		background: url("https://pages-themes.github.io/slate/assets/images/blacktocat.png") #0090ff no-repeat 95% 50%;
 		font-weight: 700;
-		box-shadow: 0 0 10px rgba(0,0,0,0.5);
 		border-bottom-left-radius: 2px;
 		border-bottom-right-radius: 2px;
 	}
@@ -48,9 +43,12 @@
 </head>
 <body>
 
+<div style="width:100%;text-align:right;">
+	<a href="https://doi.org/10.5281/zenodo.5176340"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.5176340.svg" alt="DOI"></a>
+	<a id="forkme_banner" href="https://github.com/pod-o-mart/bzag-kartenwerkstatt">View on GitHub</a>
+</div>
 <h1 class="card-title">Kartenwerkstatt Altona</h1>
 <p class="card-subtitle mb-2"><a target="_blank" href="https://altona.ws">Beiträge zur Altonaer Geschichte (BzAG)</a></p>
-<a id="forkme_banner" href="https://github.com/pod-o-mart/bzag-kartenwerkstatt">View on GitHub</a>
 <p>Willkommen auf der Github-Vorstellungsseite der <a href="https://altona.ws/karten" target="_blank">BzAG-Kartenwerkstatt</a>. Sämtliche Karten sind sowohl hier als auch auf der BzAG-Homepage zugänglich. Der Code kann auf  <a href="https://github.com/pod-o-mart/bzag-kartenwerkstatt">GitHub</a> eingesehen und bearbeitet werden.</p>
 <p>Sie können auf verschiede Weise zum Projekt beitragen, <a href="#mitmachen">siehe unten</a>. Zunächst aber die einzelnen interaktiven Karten:</p>
 <div class="card">
@@ -177,9 +175,6 @@
 <p>Die Karten basieren auf der JavaScript-Bibliothek <a target="_blank" href="https://leafletjs.com/">Leaflet</a>. Die Kartendaten werden einerseits dynamisch von verschiedenen Anbietern mithilfe des <a href="https://de.wikipedia.org/wiki/Web_Map_Service" target="_blank">WMS-Protokolls</a> geholt (bspw. Landesbetrieb Geoinformation und Vermessung Hamburg, Map Warper, Openstreetmap, siehe <a href="https://www.zotero.org/groups/2373309/beitrge_zur_altonaer_geschichte_bzag/collections/F5UY536V" target="_blank">Quellen</a>). Andererseits werden verschiedene Daten auch direkt auf <a href="hhttps://github.com/pod-o-mart/bzag-kartenwerkstatt/tree/main/karte/geojson">Github</a> als GEOJSON-Dateien gehostet (insbesondere die Popup-Infolayer). Das Datenmaterial musste vor der Einbindung zunächst von verschiedenen Quellen geholt und aufbereitet werden (vor Allem mit <a href="https://qgis.org/de/" target="_blank">QGIS</a>, <a href="https://josm.openstreetmap.de/" target="_blank">JOSM</a> und per <a href="https://de.wikipedia.org/wiki/Regul%C3%A4rer_Ausdruck" target="_blank">REGEX</a>).</p>
 <h3>Ausblick</h3>
 <p>Die Karte wird weiterhin mit verschiedenen historisch relevanten Karten befüllt. Ebenso wird derzeit an zwei Spezialkarten zum den Themen "Hertie-Quarree" und "jüdischer Friedhof Ottensen" gearbeitet, die bereits veröffentlicht sind.</p>
-
-
-
 
 </body>
 </html>
