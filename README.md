@@ -24,4 +24,4 @@ in der jew. Variable
 anpassen.
 
 ## PopUp-Bilder
-In einigen Popups der Karten `karte/quarree` und `karte/quarree/friedhof` sollten Fotos der jeweiligen Objekte erscheinen. Sollte dies nicht der Fall sein, so müssen die Fotos heruntergeladen und ebenfalls auf den Server/Webspace hochgeladen werden. Der jeweilige Pfad zu den Bildern muss in `karte/quarree/url_path_quarree.js` und in `karte/quarree/friedhof/url_path_friedhof.js` in der jew. Variable `url_path_friedhof_images` bzw. `url_path_friedhof_images` angegeben werden.
+In einigen Popups der Karten `karte/quarree` und `karte/quarree/friedhof` erscheinen Fotos der jeweiligen Objekte. Sollte dies nicht der Fall sein, so müssen die Fotos heruntergeladen und ebenfalls auf den Server/Webspace hochgeladen werden. Der jeweilige Pfad zu den Bildern muss in `karte/quarree/url_path_quarree.js` und in `karte/quarree/friedhof/url_path_friedhof.js` in der jew. Variable `url_path_friedhof_images` bzw. `url_path_friedhof_images` angegeben werden.
