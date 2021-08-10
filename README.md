@@ -2,7 +2,7 @@
 # bzag-kartenwerkstatt
 Interaktives Kartenmaterial der "Beiträge zur Altonaer Geschichte" (BzAG).
 
-Das Kartenmaterial kann auf den Seiten von [Github](https://pod-o-mart.github.io/bzag-kartenwerkstatt/) oder der [BzAG](https://altona.ws/karten) betrachtet werden. Dem einfachen Nutzer des Kartenmaterials werden diese Seiten ausreichen. 
+Das Kartenmaterial kann auf den Seiten von [Github](https://pod-o-mart.github.io/bzag-kartenwerkstatt/) oder der [BzAG](https://altona.ws/karten) betrachtet werden. Dem einfachen Nutzer werden diese Seiten ausreichen. Alle Anderen lesen weiter:
 
 ## Installation
 Das Verzeichnis `karte` mit allen Dateien in ein beliebiges Verzeichnis auf dem eigenen Server/Webspace kopieren. Anschließend den jeweiligen Pfad zur Karte in
