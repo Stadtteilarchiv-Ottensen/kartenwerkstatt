@@ -1,5 +1,7 @@
 
 # bzag-kartenwerkstatt
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5176340.svg)](https://doi.org/10.5281/zenodo.5176340)
+
 Interaktives Kartenmaterial der "Beiträge zur Altonaer Geschichte" (BzAG).
 
 Das Kartenmaterial kann auf den Seiten von [Github](https://pod-o-mart.github.io/bzag-kartenwerkstatt/) oder der [BzAG](https://altona.ws/karten) betrachtet werden. Dem einfachen Nutzer werden diese Seiten ausreichen. Alle Anderen lesen weiter:
