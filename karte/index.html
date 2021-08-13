@@ -10,8 +10,8 @@
 	<meta name="DC.type" content="map" />
 	<meta name="DC.author" content="Podolak, Martin" />
 	<meta name="DC.rights" content="Other (open)" />
-	<meta name="DC.date" content="09.08.2021" />
-	<meta name="DC.version" content="1.4.4" />
+	<meta name="DC.date" content="13.08.2021" />
+	<meta name="DC.version" content="1.4.5" />
 	<meta name="DC.description" content="Interaktive historische Karten auf 'Beiträge zur Altonaer Geschichte' (BzAG)" />
 	<meta name="DC.publisher" content="Beiträge zur Altonaer Geschichte (BzAG)" />
 	<link rel="shortcut icon" type="image/x-icon" href="https://altona.ws/templates/altona/favicon.ico" />
@@ -655,15 +655,15 @@ function process_osm_hist_obj(feature, layer) {
 // get local geojson files
 new L.GeoJSON.AJAX(["geojson/osm_historic_altona_punkte.geojson"], {
 	onEachFeature: process_osm_hist_obj,
-	attribution: osmattrib
+	attribution: osm + osm_odbl
 }).addTo(altonalayer1);
 new L.GeoJSON.AJAX(["geojson/osm_historic_altona_linien.geojson"], {
 	onEachFeature: process_osm_hist_obj,
-	attribution: osmattrib
+	attribution: osm + osm_odbl
 }).addTo(altonalayer1);
 new L.GeoJSON.AJAX(["geojson/osm_historic_altona_flaechen.geojson"], {
 	onEachFeature: process_osm_hist_obj,
-	attribution: osmattrib
+	attribution: osm + osm_odbl
 }).addTo(altonalayer1);
 
 // same again
@@ -1179,11 +1179,11 @@ new L.GeoJSON.AJAX(["geojson/Denkmalkartierung_HH_gebaeude.geojson"], {
 }).addTo(geoportalhh_info_layer);
 new L.GeoJSON.AJAX(["geojson/infotafeln_stadtteilarchiv.geojson"], {
 	onEachFeature: process_osm_hist_obj,
-	attribution: osmattrib
+	attribution: '&copy; ' + stadtteilarchiv
 }).addTo(infotafeln_layer);
 new L.GeoJSON.AJAX(["geojson/stolpersteine.geojson"], {
 	onEachFeature: process_osm_hist_obj,
-	attribution: osmattrib
+	attribution: osm + osm_odbl
 }).addTo(stolpersteine_layer);
 new L.GeoJSON.AJAX(["geojson/wiki.geojson"], {
 	onEachFeature: process_osm_hist_obj,
@@ -2158,8 +2158,8 @@ var osm_hist_obj = L.control.htmllegend({
 		name: 'Legende: OSM historische Objekte',
 		layer:altonalayer1,
 		elements: [{
-			label: 'Dieser Overlay zeigt alle Objekte mit geschichtlichen Bezug aus OpenStreetMaps an. Für mehr Informationen jeweils die Objekte anklicken.',
-			html:''
+			label: '',
+			html: 'Dieser Overlay zeigt alle Objekte mit geschichtlichen Bezug aus OpenStreetMaps an. Für mehr Informationen jeweils die Objekte anklicken.<br />Quellennachweis: ' + osm + osm_odbl
 		}]
 	}],
 	collapseSimple: false,
@@ -2181,7 +2181,7 @@ var geoportalhh_points_legend = L.control.htmllegend({
 		{
 			label: '',
 			html:'<img src="https://geodienste.hamburg.de/HH_WMS_Denkmalschutz?request=GetLegendGraphic&version=1.3.0&service=WMS&layer=kd_denkmalobjekte_symbolhaft&style=kd_denkmalobjekte_symbolhaft&format=image/png">'
-		},,
+		},
 		{
 			label: '',
 			html:'<img src="https://geodienste.hamburg.de/HH_WMS_Denkmalschutz?request=GetLegendGraphic&version=1.3.0&service=WMS&layer=kd_grenzsteine&style=kd_grenzsteine&format=image/png">'
@@ -2330,6 +2330,25 @@ var denkmal_fl_info_legend = L.control.htmllegend({
 	toggleIcon: false
 })
 map.addControl(denkmal_fl_info_legend)
+var stolpersteine_legend = L.control.htmllegend({
+	position: 'bottomright',
+	legends: [{
+		name: 'Stolpersteine',
+		layer:stolpersteine_layer,
+		elements: [{
+			html: 'In diesem Overlay werden nicht sämtliche <a href="https://www.stolpersteine-hamburg.de/" title="zur offiziellen Homepage des Projekts" target="_blank" data-bs-placement="left" data-bs-toggle="popover">Stolpersteine</a> angezeigt, da die Daten hierfür aus OpenStreetmap stammen und unvollständig sind. Für mehr Informationen zu den einzelnen Steinen das jew. Objekt anklicken.<br />Quellennachweis: ' + osm + osm_odbl
+		}]
+	}],
+	collapseSimple: false,
+	detectStretched: true,
+	collapsedOnInit: true,
+	defaultOpacity: 1.0,
+	visibleIcon: 'icon icon-eye',
+	hiddenIcon: 'icon icon-eye-slash',
+	toggleIcon: false,
+	disableVisibilityControls: true
+})
+map.addControl(stolpersteine_legend)
 var infotafeln_legend = L.control.htmllegend({
 	position: 'bottomright',
 	legends: [{
