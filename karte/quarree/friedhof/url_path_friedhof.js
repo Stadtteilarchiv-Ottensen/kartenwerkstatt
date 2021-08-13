@@ -1,2 +1,0 @@
-var url_path_friedhof = "https://pod-o-mart.github.io/bzag-kartenwerkstatt/karte/quarree/friedhof/"; // Neuen Pfad zum Verzeichnis der Karte zwischen den " angeben, mit / am Ende
-var url_path_friedhof_images = "https://altona.ws/images/phocagallery/friedhof/thumbs/"; // neuen Pfad zu den Bildern zwischen den " angeben, mit / am Ende
