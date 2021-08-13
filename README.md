@@ -9,11 +9,11 @@ Das Kartenmaterial kann auf den Seiten von [Github](https://pod-o-mart.github.io
 ## Installation
 Das Verzeichnis `karte` mit allen Dateien in ein beliebiges Verzeichnis auf dem eigenen Server/Webspace kopieren. Anschließend den jeweiligen Pfad zur Karte in
 
-`karte/url_path_hauptkarte.js`
+`karte/config_hauptkarte.js`
 
-`karte/quarree/url_path_quarree.js`
+`karte/quarree/config_quarree.js`
 
-`karte/quarree/friedhof/url_path_friedhof.js`
+`karte/quarree/friedhof/config_friedhof.js`
 
 in der jew. Variable 
 
