@@ -1,7 +1,7 @@
 // attribution
 var osm =  '<a href="https://www.openstreetmap.org/copyright" target="_blank">OpenStreetMap</a>-Mitwirkende';
 var osmattrib = '&copy; ' + osm + ' (Karte)';
-var osm_odbl = ' &copy; <a href="https://opendatacommons.org/licenses/odbl/1-0/" title="Open Database Licence (ODbL) 1.0"" target="_blank" data-bs-placement="left" data-bs-toggle="popover">ODbL</a> (Daten)';
+var osm_odbl = ' &copy; <a href="https://opendatacommons.org/licenses/odbl/1-0/" title="Open Database Licence (ODbL) 1.0" target="_blank" data-bs-placement="left" data-bs-toggle="popover">ODbL 1.0</a> (Daten)';
 var wikiattrib = '<a href="https://de.wikipedia.org/wiki/Wikipedia:Lizenzbestimmungen" target="_blank">Wikipedia</a> &copy; <a href="https://creativecommons.org/licenses/by-sa/3.0/deed.de" target="_blank" data-bs-placement="left" data-bs-toggle="popover" title="Namensnennung – Weitergabe unter gleichen Bedingungen – 3.0 Unported">CC BY-SA 3.0</a> ';
 var dldeby20 = '<a href="https://www.govdata.de/dl-de/by-2-0" data-bs-placement="left" data-bs-toggle="popover" title="Datenlizenz Deutschland – Namensnennung – Version 2.0" target="_blank">dl-de-by/2.0</a>';
 var ccby30de = '<a target="_blank"  data-bs-placement="left" data-bs-toggle="popover" title="Namensnennung 3.0 Deutschland" href="https://creativecommons.org/licenses/by/3.0/de/deed.de">CC BY 3.0 DE</a>';
