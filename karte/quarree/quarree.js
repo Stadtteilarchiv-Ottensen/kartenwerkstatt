@@ -1,4 +1,4 @@
-// Version 1.2.5
+// Version 1.3.0
 // layer groups, defining layers
 var j1990 = L.layerGroup().addTo(map_quarree);
 var j1990planung = L.layerGroup();
@@ -15,8 +15,8 @@ var HamburgDE = "https://geodienste.hamburg.de/HH_WMS_HamburgDE?";
 var DOP_belaubt = "https://geodienste.hamburg.de/HH_WMS_DOP_belaubt?";
 var terrestris_wms = "https://ows.terrestris.de/osm-gray/service?";
 
-var geojson_address = url_path_quarree + "../geojson/hertiequarree_mercado_friedhof.geojson";
-var geojson_address_ereignisse = url_path_quarree + "../geojson/hertiequarree_orte_ereignisse.geojson";
+var geojson_address = "../geojson/hertiequarree_mercado_friedhof.geojson";
+var geojson_address_ereignisse = "../geojson/hertiequarree_orte_ereignisse.geojson";
 
 L.tileLayer.wms(Historische_Karte_1_5000, {
 	layers: '38',
@@ -277,7 +277,7 @@ new L.GeoJSON.AJAX([geojson_address], {
 	},
 	style: styleHertiezufahrt
 }).addTo(j1990);
-var imageVerkaufUrl = url_path_quarree + 'images/verkauf_modifiziert.png';
+var imageVerkaufUrl = 'images/verkauf_modifiziert.png';
 var imageVerkaufBounds = [[53.5521814497417594, 9.9312440779717956], [53.5527258750721415, 9.9327163687803033]];
 L.imageOverlay(imageVerkaufUrl, imageVerkaufBounds, {attribution: stadtteilarchiv}).addTo(j1990);
 new L.GeoJSON.AJAX([geojson_address], {
@@ -287,7 +287,7 @@ new L.GeoJSON.AJAX([geojson_address], {
 	},
 	style: styleHertie
 }).addTo(j1990);
-var imageLagerUrl = url_path_quarree + 'images/lager_modifiziert.png';
+var imageLagerUrl = 'images/lager_modifiziert.png';
 var imageLagerBounds = [[53.5529102550679070, 9.9313021124379492], [53.5535855613405118, 9.9325658712853908]];
 L.imageOverlay(imageLagerUrl, imageLagerBounds, {attribution: stadtteilarchiv}).addTo(j1990);
 new L.GeoJSON.AJAX([geojson_address], {
@@ -362,7 +362,7 @@ new L.GeoJSON.AJAX([geojson_address], {
 	},
 	style: styleNothing
 }).addTo(j1990planung);
-var imagePlanung1 = url_path_quarree + 'images/planungflach.png';
+var imagePlanung1 = 'images/planungflach.png';
 var imagePlanung1Bounds = [[53.5517547852595683, 9.9303147197106121], [53.5538241599389266, 9.9340224896372433]];
 L.imageOverlay(imagePlanung1, imagePlanung1Bounds, {attribution: stadtteilarchiv}).addTo(j1990planung);
 new L.GeoJSON.AJAX([geojson_address], {
@@ -444,14 +444,14 @@ new L.GeoJSON.AJAX([geojson_address], {
 }).addTo(j1990planung);
 
 // Ereignisse & Orte
-var imageAktionen = url_path_quarree + 'images/planunghoch.png';
+var imageAktionen = 'images/planunghoch.png';
 var imageAktionenBounds = [[53.5518532848018012, 9.9304532438624626], [53.5538973659055841, 9.9340147223373449]];
 L.imageOverlay(imageAktionen, imageAktionenBounds, {attribution: stadtteilarchiv}).addTo(j1990aktionen);
 new L.GeoJSON.AJAX([geojson_address_ereignisse], {
 	onEachFeature: process_popups,
 }).addTo(j1990aktionen);
 
-var imageAktionen = url_path_quarree + 'images/alternativvorschlag1.png';
+var imageAktionen = 'images/alternativvorschlag1.png';
 var imageAktionenBounds = [[53.5521318417179870, 9.9305160901885845], [53.5537838604333487, 9.9336813073576575]];
 L.imageOverlay(imageAktionen, imageAktionenBounds, {attribution: stadtteilarchiv}).addTo(j1991vorschlag1);
 
@@ -464,7 +464,7 @@ new L.GeoJSON.AJAX(["../geojson/hertiequarree_mercado_friedhof.geojson"], {
 	style: styleFriedhofIntaktNoTransparency,
 	zIndex: "-999",
 }).addTo(j1992vorschlag2);
-var imageAktionen = url_path_quarree + 'images/alternativvorschlag2.png';
+var imageAktionen = 'images/alternativvorschlag2.png';
 var imageAktionenBounds = [[53.5518319097043758, 9.9306208379831471], [53.5539387672609593, 9.9336456369884942]];
 L.imageOverlay(imageAktionen, imageAktionenBounds, {attribution: stadtteilarchiv, zIndex: 9999, className:"ontop"}).addTo(j1992vorschlag2);
 
@@ -538,28 +538,28 @@ new L.GeoJSON.AJAX([geojson_address], {
 
 // Parkplätze
 var pp496 = L.icon({
-    iconUrl: url_path_quarree + 'images/496.png',
+    iconUrl: 'images/496.png',
     iconSize:     [48, 67],
     iconAnchor:   [24, 67],
     popupAnchor:  [0, 0],
     className: 'ppicon'
 });
 var pp400 = L.icon({
-    iconUrl: url_path_quarree + 'images/400.png',
+    iconUrl: 'images/400.png',
     iconSize:     [48, 67],
     iconAnchor:   [24, 67],
     popupAnchor:  [0, 0],
     className: 'ppicon'
 });
 var pp77 = L.icon({
-    iconUrl: url_path_quarree + 'images/77.png',
+    iconUrl: 'images/77.png',
     iconSize:     [48, 67],
     iconAnchor:   [24, 67],
     popupAnchor:  [0, 0],
     className: 'ppicon'
 });
 var pp54 = L.icon({
-    iconUrl: url_path_quarree + 'images/54.png',
+    iconUrl: 'images/54.png',
     iconSize:     [48, 67],
     iconAnchor:   [24, 67],
     popupAnchor:  [0, 0],
