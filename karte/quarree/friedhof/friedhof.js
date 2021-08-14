@@ -1,4 +1,4 @@
-// V 1.4.2
+// V 1.5.0
 // layer groups, defining layers
 var j1890_1899 = L.layerGroup().addTo(map_friedhof);
 var j1916_1925 = L.layerGroup();
