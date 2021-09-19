@@ -3,7 +3,7 @@
 
 Interaktives Kartenmaterial des [Stadtteilarchivs Ottensen](https://stadtteilarchiv-ottensen.de/).
 
-Das Kartenmaterial kann auf den Seiten von [Github](https://pod-o-mart.github.io/bzag-kartenwerkstatt/) oder der [BzAG](https://altona.ws/karten) betrachtet werden. Dem einfachen Nutzer werden diese Seiten ausreichen. Alle Anderen lesen weiter:
+Das Kartenmaterial kann auf den Seiten von [Github](https://pod-o-mart.github.io/bzag-kartenwerkstatt/) betrachtet werden. Dem einfachen Nutzer werden diese Seiten ausreichen. Alle Anderen lesen weiter:
 
 ## Installation
 Das Verzeichnis `karte` mit allen Dateien in ein beliebiges Verzeichnis auf dem eigenen Server/Webspace kopieren.
