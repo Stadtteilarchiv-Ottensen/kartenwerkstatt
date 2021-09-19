@@ -3,24 +3,24 @@
 <head>
 	<script><!-- Konfigurationen -->
 		var url_path_quarree_images = "https://altona.ws/images/phocagallery/quarree/thumbs/"; // neuen Pfad zu den Bildern zwischen den " angeben, mit / am Ende
-		var url_path_datenschutz = "https://altona.ws/datenschutz";
-		var url_path_impressum = "https://altona.ws/impressum";
+		var url_path_datenschutz = "http://stadtteilarchiv-ottensen.de/kontakt/datenschutz";
+		var url_path_impressum = "http://stadtteilarchiv-ottensen.de/kontakt/impressum";
 		var url_path_quarree = window.location.href;
 	</script><!-- Konfigurationen ENDE-->
-	<title>BzAG – Spezialkarte Hertie-Quarree / Mercado</title>
+	<title>Stadtteilarchiv Ottensen e.V. – AG Kartenwerkstatt – Spezialkarte Hertie-Quarree / Mercado</title>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, -scale=1.0, maximum-scale=1.0, user-scalable=no" />
-	<meta name="description" content="Interaktive historische Karte zur Vorgeschichte des Mercados auf „Beiträge zur Altonaer Geschichte“ (BzAG)" />
-	<meta name="title" content="Interaktive historische Karte zur Geschichte des jüdischen Friedhofs in Ottensen" />
+	<meta name="description" content="Interaktive historische Karte zur Vorgeschichte des Mercados der AG Kartenwerkstatt im Stadtteilarchiv Ottensen e.V." />
+	<meta name="title" content="Interaktive historische Karte zur Vorgeschichte des Mercados in Ottensen" />
 	<meta name="author" content="Martin Podolak" />
 	<meta name="DC.title" content="Interaktive historische Karte zur Vorgeschichte des Mercados" />
-	<meta name="DC.description" content="Interaktive historische Karte zur Vorgeschichte des Mercados auf „Beiträge zur Altonaer Geschichte“ (BzAG)" />
+	<meta name="DC.description" content="Interaktive historische Karte zur Vorgeschichte des Mercados der AG Kartenwerkstatt im Stadtteilarchiv Ottensen e.V." />
 	<meta name="DC.type" content="map" />
 	<meta name="DC.author" content="Podolak, Martin" />
 	<meta name="DC.rights" content="Other (open)" />
 	<meta name="DC.date" content="14.08.2021" />
 	<meta name="DC.version" content="1.3.0" />
-	<meta name="DC.publisher" content="Beiträge zur Altonaer Geschichte (BzAG)" />
+	<meta name="DC.publisher" content="AG Kartenwerkstatt, Stadtteilarchiv Ottensen e.V." />
 	<link rel="shortcut icon" type="image/x-icon" href="../favicon.ico" />
 	<link rel="stylesheet" href="../dist/leaflet.css" />
 	<link rel="stylesheet" href="../dist/L.Control.HtmlLegend.css"/>
@@ -53,21 +53,29 @@ var map_quarree = L.map('karte_quarree', {
 	maxZoom: 22,
 });
 
-map_quarree.attributionControl.addAttribution("<a title='Copyrights der Software' href='../copyrights.html' data-bs-placement='top' data-bs-toggle='popover'>Copyrights</a> | <a href='" + url_path_datenschutz + "' target='_blank'>Datenschutz</a> | <a href='" + url_path_impressum + "' target='_blank'>Impressum</a>");
+map_quarree.attributionControl.addAttribution("<a data-bs-placement='top' data-bs-toggle='popover' title='Forum der AG Kartenwerkstatt' target='_blank' href='https://agkartenwerks-m3d7685.slack.com'>Slack</a> | <a title='Copyrights der Software' href='../copyrights.html' data-bs-placement='top' data-bs-toggle='popover'>Copyrights</a> | <a href='" + url_path_datenschutz + "' target='_blank'>Datenschutz</a> | <a href='" + url_path_impressum + "' target='_blank'>Impressum</a>");
 
 var hash = new L.Hash(map_quarree);
+
+// get meta for logo title
+var infotitle = "Hertie-Quarree<br />Mercado";
+var metadate = document.querySelector('meta[name="DC.date"]').content;
+var metaversion = document.querySelector('meta[name="DC.version"]').content;
+var metadescription = document.querySelector('meta[name="DC.description"]').content;
+var metasitename = document.querySelector('meta[name="DC.publisher"]').content;
+var metatitle = document.querySelector('meta[name="DC.title"]').content;
+var metaauthor = document.querySelector('meta[name="DC.author"]').content;
 
 // BzAG logo
 var logo = L.control({position: 'topleft'});
 logo.onAdd = function (map_quarree) {
 	var div = L.DomUtil.create('div', 'logo');
-	div.innerHTML = "<div class='leaflet-control-layers leaflet-control-layers-expanded leaflet-control bzag-info'><p style='cursor:pointer;text-decoration:none;font-size:30px;color:#333;font-weight:bold;font-family:sans-serif;margin-bottom:0;' data-bs-toggle='modal' data-bs-target='#karteninfo' title='Metadaten zur Karte'><img src='../favicon.ico'><span>BzAG<br />Karte</p></span><div class='infolinks'><span style='text-decoration:underline;cursor:pointer;' data-bs-toggle='modal' data-bs-target='#karteninfo'>Metadaten zur Karte</span></div></div>";
+	div.innerHTML = "<div class='leaflet-control-layers leaflet-control-layers-expanded leaflet-control bzag-info' data-bs-placement='right' data-bs-toggle='popover' title='Anklicken für Metadaten zur Karte'><div style='cursor:pointer;text-decoration:none;text-align:center;font-size:30px;color:#333;font-weight:bold;font-family:sans-serif;margin-bottom:0;' data-bs-toggle='modal' data-bs-target='#karteninfo'><img src='../logo-stadtteilarchiv-ottensen.png'><p style='font-family:monospace;font-weight:bold;font-size:1rem;margin:0;'>AG Kartenwerkstatt</p><p style='margin:0;'>" + infotitle + "</p><p style='width:100%;text-align:center;text-decoration:underline;cursor:pointer;text-align:center;font-size:0.8rem;font-weight:normal;margin:0;'>Metadaten zur Karte</p></div></div></div>";
 return div;
 };
 logo.addTo(map_quarree);
 
 </script>
-<script src="../dist/standalone.js"></script>
 <script src="quarree.js"></script>
 
 <div id="modalsgohere"></div>
@@ -79,7 +87,7 @@ var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggl
 var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
 	return new bootstrap.Tooltip(tooltipTriggerEl)
 })
-$("#modalsgohere").append("<div class='modal fade' id='karteninfo' tabindex='-1' aria-labelledby='Info' aria-hidden='true'><div class='modal-dialog'><div class='modal-content'><div class='modal-header'><h5 class='modal-title'>" + infotitle + "</h5><button type='button' class='btn-close' data-bs-dismiss='modal' aria-label='Schließen'></button></div><div class='modal-body'><div class='infocontent'><div><a href='../../'>Zum Kartenverzeichnis</a></div><table><tbody><tr><td valign='top'><strong>Titel:</strong></td><td>" + metatitle + "</td></tr><tr><td valign='top'><strong>Publikation:</strong></td><td>" + metasitename + "</td></tr><tr><td valign='top'><strong>Version:</strong></td><td>" + metaversion + " (" + metadate + ")</td></tr><tr><td valign='top'><strong>Autor:</strong><td>Martin Podolak</td></tr><tr><td valign='top'><strong>URL:</strong></td><td><a href='" + url_path_quarree + "'>" + url_path_quarree + "</a></td></tr><tr><td valign='top'><strong>Rechte:</strong></td><td>Wo nicht anders gekennzeichnet, verbleiben die Urheberrechte beim Autor.<br />Daten anderer Quellen werden rechts unten in der Karte und der jeweiligen Kartenlegende mit Lizenz bzw. Urheberrechtshinweis genannt.</td></tr><tr><td valign='top'><strong>Zitiervorschlag:</strong> </td><td><span style='font-family:monospace;'>Podolak, Martin: „" + metatitle + "“ in: <em>" + metasitename + "</em>, Hamburg " + metadate + " (Version " + metaversion + "). URL: " + url_path_quarree + "</span></td></tr></tbody></table></div></div></div></div></div>");
+$("#modalsgohere").append("<div class='modal fade' id='karteninfo' tabindex='-1' aria-labelledby='Info' aria-hidden='true'><div class='modal-dialog'><div class='modal-content'><div class='modal-header'><h5 class='modal-title'>" + infotitle + "</h5><button type='button' class='btn-close' data-bs-dismiss='modal' aria-label='Schließen'></button></div><div class='modal-body'><div class='infocontent'><div><a href='../'>Zum Kartenverzeichnis</a></div><table><tbody><tr><td valign='top'><strong>Titel:</strong></td><td>" + metatitle + "</td></tr><tr><td valign='top'><strong>Publikation:</strong></td><td>" + metasitename + "</td></tr><tr><td valign='top'><strong>Version:</strong></td><td>" + metaversion + " (" + metadate + ")</td></tr><tr><td valign='top'><strong>Autor:</strong><td>Martin Podolak</td></tr><tr><td valign='top'><strong>URL:</strong></td><td><a href='" + url_path_quarree + "'>" + url_path_quarree + "</a></td></tr><tr><td valign='top'><strong>Rechte:</strong></td><td>Wo nicht anders gekennzeichnet, verbleiben die Urheberrechte beim Autor.<br />Daten anderer Quellen werden rechts unten in der Karte und der jeweiligen Kartenlegende mit Lizenz bzw. Urheberrechtshinweis genannt.</td></tr><tr><td valign='top'><strong>Zitiervorschlag:</strong> </td><td><span style='font-family:monospace;'>" + metaauthor + ": „" + infotitle + "“ in: <em>" + metasitename + "</em>, Hamburg " + metadate + " (Version " + metaversion + "). URL: " + url_path_quarree + "</span></td></tr></tbody></table></div></div></div></div></div>");
 </script>
 
 </body>
