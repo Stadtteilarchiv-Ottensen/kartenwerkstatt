@@ -1,5 +1,5 @@
 
-# Stadtteilarchiv-Ottensen / kartenwerkstatt 
+# Stadtteilarchiv Ottensen / AG Kartenwerkstatt 
 
 Interaktives Kartenmaterial des [Stadtteilarchivs Ottensen](https://stadtteilarchiv-ottensen.de/).
 
