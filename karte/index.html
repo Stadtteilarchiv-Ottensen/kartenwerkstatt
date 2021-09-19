@@ -565,7 +565,7 @@ function process_osm_hist_obj(feature, layer) {
 				popupContent.splice(3, 0, "<tr><td></td><td><a target='_blank' href='https://wikipedia.org/wiki/" + feature.properties[key] + "'>Wikipedia</a></td></tr>");
 			}
 			else if(key == "wikidata") {
-				popupContent.splice(3, 0, "<tr><td>Wikidata</td><td><a target='_blank' href='https://www.wikidata.org/wiki/" + feature.properties[key] + "'>" + feature.properties[key] + "</a></td></tr>");<div class='leaflet-control-layers leaflet-control-layers-expanded leaflet-control bzag-info' data-bs-placement='right' data-bs-toggle='popover' title='Anklicken für Metadaten zur Karte'><div style='cursor:pointer;text-decoration:none;text-align:center;font-size:30px;color:#333;font-weight:bold;font-family:sans-serif;margin-bottom:0;' data-bs-toggle='modal' data-bs-target='#karteninfo'><img src='logo-stadtteilarchiv-ottensen.png'><p style='font-family:monospace;font-weight:bold;font-size:1rem;margin:0;'>AG Kartenwerkstatt</p><p style='margin:0;'>" + infotitle + "</p><p style='width:100%;text-align:center;text-decoration:underline;cursor:pointer;text-align:center;font-size:0.8rem;font-weight:normal;margin:0;'>Metadaten zur Karte</p></div></div></div>
+				popupContent.splice(3, 0, "<tr><td>Wikidata</td><td><a target='_blank' href='https://www.wikidata.org/wiki/" + feature.properties[key] + "'>" + feature.properties[key] + "</a></td></tr>");
 			}
 			else if(key == "wikimedia_") {
 				popupContent.splice(3, 0, "<tr><td></td><td><a target='_blank' href='https://commons.wikimedia.org/wiki/" + feature.properties[key] + "'>Wikimedia</a></td></tr>");
