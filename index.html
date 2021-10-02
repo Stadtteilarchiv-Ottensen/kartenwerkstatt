@@ -123,6 +123,18 @@ a {
 	position: relative;
 	top: 15px;
 }
+#forkme_banner {
+	z-index: 10;
+	padding: 10px 50px 10px 10px;
+	color: #fff;
+	background: url("https://pages-themes.github.io/slate/assets/images/blacktocat.png") #0090ff no-repeat 95% 50%;
+	font-weight: 700;
+	border-bottom-left-radius: 2px;
+	border-bottom-right-radius: 2px;
+}
+.contents {
+	padding:20px;
+}
 	</style>
 </head>
 
@@ -136,13 +148,14 @@ a {
 		</div>
 	</div>
 </header>
+<div class="contents">
 <div style="width:100%;text-align:right;">
 	<a id="forkme_banner" href="https://github.com/Stadtteilarchiv-Ottensen/kartenwerkstatt">View on GitHub</a>
 </div>
 <h1 class="card-title">AG Kartenwerkstatt</h1>
-<p class="card-subtitle mb-2"><a href="https://stadtteilarchiv-ottensen.de/" target="_blank">Stadtteilarchiv Ottensen</a></p>
+<p class="card-subtitle mb-2"><a title="Schreiben Sie uns eine E-Mail oder eine Nachricht per Kontaktformular" href="https://altona.ws/ag-kartenwerkstatt" target="_blank">Kontakt</a></p>
 
-<p>Willkommen auf der Github-Vorstellungsseite der <a href="https://altona.ws/karten" target="_blank">AG Kartenwerkstatt</a> des <a href="https://stadtteilarchiv-ottensen.de/" target="_blank">Stadtteilarchivs Ottensen</a>. Sämtliche Karten sind sowohl hier als auch demnächst auf der Homepage des Stadtteilarchivs zugänglich. Der Code kann auf  <a href="https://github.com/Stadtteilarchiv-Ottensen/kartenwerkstatt">GitHub</a> eingesehen und bearbeitet werden.</p>
+<p>Willkommen auf der Github-Vorstellungsseite der <a href="https://stadtteilarchiv-ottensen.github.io/kartenwerkstatt">AG Kartenwerkstatt</a> des <a href="https://stadtteilarchiv-ottensen.de/" target="_blank">Stadtteilarchivs Ottensen</a>. Sämtliche Karten sind sowohl hier als auch demnächst auf der Homepage des Stadtteilarchivs zugänglich. Der Code kann auf <a href="https://github.com/Stadtteilarchiv-Ottensen/kartenwerkstatt">GitHub</a> eingesehen und bearbeitet werden.</p>
 <p>Sie können auf verschiede Weise zum Projekt beitragen, <a href="#mitmachen">siehe unten</a>. Zunächst aber die einzelnen interaktiven Karten:</p>
 <div class="card">
 <div class="card-header">
@@ -259,7 +272,7 @@ a {
 <h3 id="mitmachen">Mitmachen</h3>
 <p>Mehrere Karten sind noch nicht optimal georeferenziert und können noch verbessert werden. Diese Karten enthalten in der Legende einen Link zum <a href="https://mapwarper.net/" target="_blank">Georeferenzierungstool Map Warper</a> bzw.  <a href="https://warper.wmflabs.org/" target="_blank">Wikimaps Warper</a>. Dort kann sich jeder anmelden und die Karten anpassen.</p>
 <p>Bei diesen Diensten kann jeder eine neue Karte erstellen. Gerne übernehme ich hochauflösende, thematisch passende Karten. Posten Sie gerne eine <a title="Issues auf Github" href="https://github.com/Stadtteilarchiv-Ottensen/kartenwerkstatt/issues">Nachricht bei Github</a> mit dem entsprechenden Link aus <em>Map Warper</em>. Das Einbauen einer neuen Karte nimmt lediglich 4 Minuten in Anspruch.</p>
-<p>Wer sich mit dem Programmieren auskennt, kann das <em><a title="bzag-kartenwerkstatt" href="https://github.com/Stadtteilarchiv-Ottensen/kartenwerkstatt/">Github-Repository</a></em> auch gerne <em>forken</em>, den Code verbessern oder neues Kartenmaterial hinzufügen und danach die Änderungen per <em>Push</em> der Kartenwerkstatt vorschlagen, damit sie übernommen werden können.</p>
+<p>Wer sich mit dem Programmieren auskennt, kann das <em><a href="https://github.com/Stadtteilarchiv-Ottensen/kartenwerkstatt/">Github-Repository</a></em> auch gerne <em>forken</em>, den Code verbessern oder neues Kartenmaterial hinzufügen und danach die Änderungen per <em>Push</em> der Kartenwerkstatt vorschlagen, damit sie übernommen werden können.</p>
 
 <h3>Quellenangaben</h3>
 <p>Korrektheit von Quellenangaben wird bei den <em>BzAG</em> großgeschrieben. Zudem wird darauf Wert gelegt, dass nur Daten veröffentlicht werden, die vom jeweiligen Urheber dafür freigegeben wurden. Bitte <a title="Issues auf Github" target="_blank" href="https://github.com/Stadtteilarchiv-Ottensen/kartenwerkstatt/issues">teilen Sie etwaige Fehler der Redaktion über Github mit</a>. Quellenangaben und Urheberrechte können in der Legende der jeweiligen Karte abgerufen werden. Ausführliche Quellinformationen sind zudem in der <a href="https://www.zotero.org/groups/4428990/stadtteilarchiv_ottensen__kartenwerkstatt/collections/DLD3U8U8" target="_blank">Zotero-Bibliographie</a> verzeichnet.</p>
@@ -267,6 +280,7 @@ a {
 <h3>Technisches</h3>
 <p>Die Karten basieren auf der JavaScript-Bibliothek <a target="_blank" href="https://leafletjs.com/">Leaflet</a>. Die Kartendaten werden einerseits dynamisch von verschiedenen Anbietern mithilfe des <a href="https://de.wikipedia.org/wiki/Web_Map_Service" target="_blank">WMS-Protokolls</a> geholt (bspw. Landesbetrieb Geoinformation und Vermessung Hamburg, Map Warper, Openstreetmap, siehe <a href="https://www.zotero.org/groups/4428990/stadtteilarchiv_ottensen__kartenwerkstatt/collections/DLD3U8U8" target="_blank">Quellen</a>). Andererseits werden verschiedene Daten auch direkt auf <a href="https://github.com/Stadtteilarchiv-Ottensen/kartenwerkstatt/tree/main/karte/geojson">Github</a> als GEOJSON-Dateien gehostet (insbesondere die Popup-Infolayer). Das Datenmaterial musste vor der Einbindung zunächst von verschiedenen Quellen geholt und aufbereitet werden (vor Allem mit <a href="https://qgis.org/de/" target="_blank">QGIS</a>, <a href="https://josm.openstreetmap.de/" target="_blank">JOSM</a> und per <a href="https://de.wikipedia.org/wiki/Regul%C3%A4rer_Ausdruck" target="_blank">REGEX</a>).</p>
 <h3>Ausblick</h3>
-<p>Die Karte wird weiterhin mit verschiedenen historisch relevanten Karten befüllt. Ebenso wird derzeit an zwei Spezialkarten zum den Themen "Hertie-Quarree" und "jüdischer Friedhof Ottensen" gearbeitet, die bereits veröffentlicht sind.</p>
+<p>Die Karte wird weiterhin mit verschiedenen historisch relevanten Karten befüllt. Weitere Spezialkarten sind in Arbeit.</p>
+
 </body>
 </html>
