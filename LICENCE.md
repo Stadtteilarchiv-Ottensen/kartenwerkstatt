@@ -8,5 +8,5 @@ Some files have individual copyrights or licences. They are listed under followi
 
 Die verwendeten GeoJSON-Dateien, externen Softwarebibliotheken und -repos stehen unter verschiedenen Lizensen bzw. unterscheiden sich in ihren Copyrights. Diese werden gesondert aufgelistet, siehe:
 
-- [Softwarebibliotheken und -repos](https://pod-o-mart.github.io/bzag-kartenwerkstatt/karte/copyrights.html)
-- [GeoJSON-Dateien](https://pod-o-mart.github.io/bzag-kartenwerkstatt/karte/geojson/copyrights.html)
+- [Softwarebibliotheken und -repos](https://stadtteilarchiv-ottensen.github.io/kartenwerkstatt/karte/copyrights.html)
+- [GeoJSON-Dateien](https://stadtteilarchiv-ottensen.github.io/kartenwerkstatt/karte/geojson/copyrights.html)
