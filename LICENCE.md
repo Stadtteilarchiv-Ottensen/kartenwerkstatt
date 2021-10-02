@@ -1,8 +1,12 @@
 # Copyrights / Urheberrechte
 
-The copyrights/licences differ from file to file. They are listed under following URLs:
+© 2021 [Stadtteilarchiv Ottensen](https://stadtteilarchiv-ottensen.de/kontakt/impressum/) ― All rights reserved / Alle Rechte vorbehalten
 
-Die verwendeten GeoJSON-Dateien, Softwarebibliotheken und -repos stehen unter verschiedenen Lizensen bzw. unterscheiden sich in ihren Copyrights. Diese werden gesondert aufgelistet, siehe:
+## Deviating copyrights & licences / Abweichende Urheberrechte & Lizenzen
+
+Some files have individual copyrights or licences. They are listed under following URLs:
+
+Die verwendeten GeoJSON-Dateien, externen Softwarebibliotheken und -repos stehen unter verschiedenen Lizensen bzw. unterscheiden sich in ihren Copyrights. Diese werden gesondert aufgelistet, siehe:
 
 - [Softwarebibliotheken und -repos](https://pod-o-mart.github.io/bzag-kartenwerkstatt/karte/copyrights.html)
 - [GeoJSON-Dateien](https://pod-o-mart.github.io/bzag-kartenwerkstatt/karte/geojson/copyrights.html)
