@@ -18,8 +18,8 @@
 	<meta name="DC.type" content="map" />
 	<meta name="DC.author" content="Podolak, Martin" />
 	<meta name="DC.rights" content="Alle Rechte vorbehalten" />
-	<meta name="DC.date" content="14.08.2021" />
-	<meta name="DC.version" content="1.5.0" />
+	<meta name="DC.date" content="09.11.2021" />
+	<meta name="DC.version" content="1.5.1" />
 	<meta name="DC.publisher" content="AG Kartenwerkstatt, Stadtteilarchiv Ottensen e.V." />
 	<link rel="shortcut icon" type="image/x-icon" href="../../favicon.ico" />
 	<link rel="stylesheet" href="../../dist/leaflet.css" />
@@ -89,7 +89,7 @@ var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggl
 var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
 	return new bootstrap.Tooltip(tooltipTriggerEl)
 })
-$("#modalsgohere").append("<div class='modal fade' id='karteninfo' tabindex='-1' aria-labelledby='Info' aria-hidden='true'><div class='modal-dialog'><div class='modal-content'><div class='modal-header'><h5 class='modal-title'>" + infotitle + "</h5><button type='button' class='btn-close' data-bs-dismiss='modal' aria-label='Schließen'></button></div><div class='modal-body'><div class='infocontent'><div><a href='../../../'>Zum Kartenverzeichnis</a></div><table><tbody><tr><td valign='top'><strong>Titel:</strong></td><td>" + metatitle + "</td></tr><tr><td valign='top'><strong>Publikation:</strong></td><td>" + metasitename + "</td></tr><tr><td valign='top'><strong>Version:</strong></td><td>" + metaversion + " (" + metadate + ")</td></tr><tr><td valign='top'><strong>Autor:</strong><td>Martin Podolak</td></tr><tr><td valign='top'><strong>URL:</strong></td><td><a href='" + url_path_friedhof + "'>" + url_path_friedhof + "</a></td></tr><tr><td valign='top'><strong>Rechte:</strong></td><td>Wo nicht anders gekennzeichnet, verbleiben die Urheberrechte beim Autor.<br />Daten anderer Quellen werden rechts unten in der Karte und der jeweiligen Kartenlegende mit Lizenz bzw. Urheberrechtshinweis genannt.</td></tr><tr><td valign='top'><strong>Zitiervorschlag:</strong> </td><td><span style='font-family:monospace;'>" + metaauthor + ": „" + infotitle + "“ in: <em>" + metasitename + "</em>, Hamburg " + metadate + " (Version " + metaversion + "). URL: " + url_path_friedhof + "</span></td></tr></tbody></table></div></div></div></div></div>");
+$("#modalsgohere").append("<div class='modal fade' id='karteninfo' tabindex='-1' aria-labelledby='Info' aria-hidden='true'><div class='modal-dialog'><div class='modal-content'><div class='modal-header'><h5 class='modal-title'>" + infotitle + "</h5><button type='button' class='btn-close' data-bs-dismiss='modal' aria-label='Schließen'></button></div><div class='modal-body'><div class='infocontent'><table><tbody><tr><td valign='top'><strong>Titel:</strong></td><td>" + metatitle + "</td></tr><tr><td valign='top'><strong>Publikation:</strong></td><td>" + metasitename + "</td></tr><tr><td valign='top'><strong>Version:</strong></td><td>" + metaversion + " (" + metadate + ")</td></tr><tr><td valign='top'><strong>Autor:</strong><td>Martin Podolak</td></tr><tr><td valign='top'><strong>URL:</strong></td><td><a href='" + url_path_friedhof + "'>" + url_path_friedhof + "</a></td></tr><tr><td valign='top'><strong>Rechte:</strong></td><td>Wo nicht anders gekennzeichnet, verbleiben die Urheberrechte beim Autor.<br />Daten anderer Quellen werden rechts unten in der Karte und der jeweiligen Kartenlegende mit Lizenz bzw. Urheberrechtshinweis genannt.</td></tr><tr><td valign='top'><strong>Zitiervorschlag:</strong> </td><td><span style='font-family:monospace;'>" + metaauthor + ": „" + infotitle + "“ in: <em>" + metasitename + "</em>, Hamburg " + metadate + " (Version " + metaversion + "). URL: " + url_path_friedhof + "</span></td></tr></tbody></table></div></div></div></div></div>");
 </script>
 </body>
 </html>
