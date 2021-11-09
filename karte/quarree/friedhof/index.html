@@ -59,7 +59,7 @@ map_friedhof.attributionControl.addAttribution("<a data-bs-placement='top' data-
 var hash = new L.Hash(map_friedhof);
 
 // get meta for logo title
-var infotitle = "Jüdischer<br />Friedhof";
+var infotitle = "Jüdischer Friedhof Ottensen";
 var metadate = document.querySelector('meta[name="DC.date"]').content;
 var metaversion = document.querySelector('meta[name="DC.version"]').content;
 var metadescription = document.querySelector('meta[name="DC.description"]').content;
@@ -67,11 +67,11 @@ var metasitename = document.querySelector('meta[name="DC.publisher"]').content;
 var metatitle = document.querySelector('meta[name="DC.title"]').content;
 var metaauthor = document.querySelector('meta[name="DC.author"]').content;
 
-// add BzAG logo
+// add logo
 var logo = L.control({position: 'topleft'});
 logo.onAdd = function (map_friedhof) {
 	var div = L.DomUtil.create('div', 'logo');
-	div.innerHTML = "<div class='leaflet-control-layers leaflet-control-layers-expanded leaflet-control bzag-info' data-bs-placement='right' data-bs-toggle='popover' title='Anklicken für Metadaten zur Karte'><div style='cursor:pointer;text-decoration:none;text-align:center;font-size:30px;color:#333;font-weight:bold;font-family:sans-serif;margin-bottom:0;' data-bs-toggle='modal' data-bs-target='#karteninfo'><img src='../../logo-stadtteilarchiv-ottensen.png'><p style='font-family:monospace;font-weight:bold;font-size:1rem;margin:0;'>AG Kartenwerkstatt</p><p style='margin:0;'>" + infotitle + "</p><p style='width:100%;text-align:center;text-decoration:underline;cursor:pointer;text-align:center;font-size:0.8rem;font-weight:normal;margin:0;'>Metadaten zur Karte</p></div></div></div>";
+	div.innerHTML = "<div class='leaflet-control-layers leaflet-control-layers-expanded leaflet-control bzag-info' data-bs-placement='right' data-bs-toggle='popover' title='Anklicken für Metadaten zur Karte'><div style='cursor:pointer;text-decoration:none;text-align:center;font-size:30px;color:#333;font-weight:bold;font-family:sans-serif;margin-bottom:0;' data-bs-toggle='modal' data-bs-target='#karteninfo'><img src='../../logo-stadtteilarchiv-ottensen.png'><p style='font-family:monospace;font-weight:bold;font-size:1rem;margin:0;'>AG Kartenwerkstatt</p><p style='margin:0;line-height:1.1;'>" + infotitle + "</p><p style='width:100%;text-align:center;text-decoration:underline;cursor:pointer;text-align:center;font-size:0.8rem;font-weight:normal;margin:0;'>Metadaten zur Karte</p></div></div></div>";
 return div;
 };
 logo.addTo(map_friedhof);
