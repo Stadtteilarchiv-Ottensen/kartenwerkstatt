@@ -85,3 +85,7 @@ input#suchwort {
 *, ::before, ::after {
 	box-sizing: content-box!important;
 }
+
+.bzag-info {
+	max-width: 220px;
+}
