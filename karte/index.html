@@ -26,6 +26,7 @@
 	<link rel="stylesheet" href="dist/L.Control.Layers.Tree.css"/>
 	<link rel="stylesheet" href="dist/bootstrap.css"/>
 	<link rel="stylesheet" href="dist/karte-standalone.css"/>
+	<link rel="stylesheet" href="dist/karte.css"/>
 	<script src="dist/jquery-3.6.0.min.js"></script>
 	<script src="dist/leaflet.js"></script>
 	<script src="dist/leaflet.ajax.min.js"></script>
@@ -67,7 +68,7 @@ var metasitename = document.querySelector('meta[name="DC.publisher"]').content;
 var metatitle = document.querySelector('meta[name="DC.title"]').content;
 var metaauthor = document.querySelector('meta[name="DC.author"]').content;
 
-// add BzAG logo
+// add logo
 var infocontent = "<div class='infocontent'><table><tbody><tr><td valign='top'><strong>Titel:</strong></td><td>" + metatitle + "</td></tr><tr><td valign='top'><strong>Publikation:</strong></td><td>" + metasitename + "</td></tr><tr><td valign='top'><strong>Version:</strong></td><td>" + metaversion + " (" + metadate + ")</td></tr><tr><td valign='top'><strong>Autor:</strong><td>Martin Podolak</td></tr><tr><td valign='top'><strong>URL:</strong></td><td><a href='" + url_path_hauptkarte + "'>" + url_path_hauptkarte + "</a></td></tr><tr><td valign='top'><strong>Rechte:</strong></td><td>Wo nicht anders gekennzeichnet, verbleiben die Urheberrechte beim Autor.<br />Daten anderer Quellen werden rechts unten in der Karte und der jeweiligen Kartenlegende mit Lizenz bzw. Urheberrechtshinweis genannt.</td></tr><tr><td valign='top'><strong>Zitiervorschlag:</strong> </td><td><span style='font-family:monospace;'>" + metaauthor + ": „" + infotitle + "“ in: <em>" + metasitename + "</em>, Hamburg " + metadate + " (Version " + metaversion + "). URL: " + url_path_hauptkarte + "</span></td></tr></tbody></table></div>";
 
 var logo = L.control({position: 'topleft'});
