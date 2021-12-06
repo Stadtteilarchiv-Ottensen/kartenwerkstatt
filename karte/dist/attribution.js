@@ -8,6 +8,7 @@ var ccby30de = '<a target="_blank"  data-bs-placement="left" data-bs-toggle="pop
 var ccbysa40 = '<a target="_blank"  data-bs-placement="left" data-bs-toggle="popover" title="Namensnennung — Weitergabe unter gleichen Bedingungen — 4.0 International" href="https://creativecommons.org/licenses/by-sa/4.0/deed.de">CC BY-SA 4.0</a>';
 var public_domain = '<a target="_blank" data-bs-placement="left" data-bs-toggle="popover" title="CC0 1.0 Universell (CC0 1.0) – Public Domain Dedication" href="https://creativecommons.org/publicdomain/zero/1.0/deed.de">CC0 1.0</a>';
 var public_domain_mark = '<a target="_blank" data-bs-placement="left" data-bs-toggle="popover" title="Public Domain Mark 1.0" href="https://creativecommons.org/publicdomain/mark/1.0/deed.de">gemeinfrei</a>';
+var vorbehalten ='alle Rechte vorbehalten';
 var geohhhde_url ='https://metaver.de/trefferanzeige?cmd=doShowDocument&docuuid=BE0E4C23-ACFE-4D40-838F-503D8BC1BEF5&plugid=/ingrid-group:ige-iplug-hmdk.metaver';
 var geohhhde_title ='Freie und Hansestadt Hamburg, Landesbetrieb Geoinformation und Vermessung';
 var geohhhde_long = '<a href="' + geohhhde_url + '" target="_blank">' + geohhhde_title + '</a>';
