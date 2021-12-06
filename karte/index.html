@@ -15,8 +15,8 @@
 	<meta name="DC.type" content="map" />
 	<meta name="DC.author" content="Podolak, Martin" />
 	<meta name="DC.rights" content="Alle Rechte vorbehalten" />
-	<meta name="DC.date" content="09.11.2021" />
-	<meta name="DC.version" content="1.5.1" />
+	<meta name="DC.date" content="05.12.2021" />
+	<meta name="DC.version" content="1.5.2" />
 	<meta name="DC.description" content="Hauptkarte der AG Kartenwerkstatt im Stadtteilarchiv Ottensen e.V." />
 	<meta name="DC.publisher" content="AG Kartenwerkstatt, Stadtteilarchiv Ottensen e.V." />
 	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
@@ -83,8 +83,6 @@ logo.addTo(map);
 var corner1 = L.latLng(53.53971, 9.6671961);
 var corner2 = L.latLng(53.6304895, 9.9640428);
 var boundsaltona = L.latLngBounds(corner1, corner2);
-
-
 
 var j1880_1889_layer = L.layerGroup();
 var j1890_1899_layer = L.layerGroup();
@@ -154,6 +152,9 @@ var HH_Bodenrichtwertkarte_1964 = "https://geodienste.hamburg.de/HH_WMS_Bodenric
 var terrestris_wms = "https://ows.terrestris.de/osm-gray/service?";
 var osmfr = "https://{s}.tile.openstreetmap.fr/osmfr/{z}/{x}/{y}.png";
 //var osmfr = "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png";
+var mapwarper60870 = "https://mapwarper.net/maps/wms/60870?";
+var mapwarper60869 = "https://mapwarper.net/maps/wms/60869?";
+var mapwarper60871 = "https://mapwarper.net/maps/wms/60871?";
 
 //// Getting tile and WMS maps
 var blank_base = L.tileLayer('');
@@ -517,6 +518,27 @@ var hh_denkmalschutz_punkte_1 = L.tileLayer.wms(HH_Denkmalschutz, {
 	bounds: boundsaltona,
 	maxZoom: 20,
 }).addTo(geoportalhh_pointslayer);
+var warper_60870 = L.tileLayer.wms(mapwarper60870, {
+	layers: 'image',
+	format: 'image/png',
+	transparent: true,
+	attribution: stadtteilarchiv_title + ', ' + vorbehalten,
+	maxZoom: 20,
+});
+var warper_60871 = L.tileLayer.wms(mapwarper60871, {
+	layers: 'image',
+	format: 'image/png',
+	transparent: true,
+	attribution: stadtteilarchiv_title + ', ' + vorbehalten,
+	maxZoom: 20,
+});
+var warper_60869 = L.tileLayer.wms(mapwarper60869, {
+	layers: 'image',
+	format: 'image/png',
+	transparent: true,
+	attribution: stadtteilarchiv_title + ', ' + vorbehalten,
+	maxZoom: 20,
+});
 
 var alkis_layer = L.tileLayer.wms(ALKIS_Basiskarte, {
 	layers: '14,3,15',
@@ -1265,10 +1287,30 @@ var overlaysTree = {
 					]
 				},
 				{
+					label: "<span>Industrialisierung</span>",
+					selectAllCheckbox: false,
+					collapsed: true,
+					children: [
+						{label: "1908 – Plan der Stadt Altona", layer: warper_55863},
+						{label: "<span data-bs-placement='right' data-bs-toggle='popover' title='Übersichtsplan über die Ottensener Industriebahn (ca. 1960)'>Ottensener Industriebahn</span>", layer: warper_55961},
+					]
+				},
+				{
+					label: "<span>Zweiter Weltkrieg</span>",
+					selectAllCheckbox: false,
+					collapsed: true,
+					children: [
+						{label: "<span data-bs-placement='right' data-bs-toggle='popover' title='Bombenschäden in Ottensen und Altona (Angriff 24./25. Juli 1943)'>Angriff 24./25. Juli 1943</span>", layer: warper_60869},
+						{label: "<span data-bs-placement='right' data-bs-toggle='popover' title='Schadenstellen in Hbg.-Altona (ab Juli 1943 und nach 17. Dezember 1943)'>ab Juli 1943 und nach 17. Dezember 1943</span>", layer: warper_60870},
+						{label: "<span data-bs-placement='right' data-bs-toggle='popover' title='Schadenstellen in Hbg.-Altona (ab 29.7.1944)'>ab 29.7.1944</span>", layer: warper_60871},
+					]
+				},
+				{
 					label: "<span>Weitere Altkarten</span>",
 					selectAllCheckbox: false,
 					collapsed: true,
 					children: [
+						{label: "<span data-bs-placement='right' data-bs-toggle='popover' title='Über die Jahre 1536-1540 (Erscheinungsjahr 1893)'>1540 – Schauenburgische Herrschaft</span>", layer: warper_55599},
 						{label: "<span data-bs-placement='right' data-bs-toggle='popover' title='Geometrischer Grundriss der Stadt Altona'>1736 – Geometrischer Grundriss</span>", layer: warper_55962},
 						{label: "<span data-bs-placement='right' data-bs-toggle='popover' title='„Altonaischer Gräntz Vergleich de Dato 17. Nov. 1740“'>1744 – Altonaischer Gräntz Vergleich</span>", layer: warper_55731},
 						{label: "1789 – Verkoppelungskarte Ottensen", layer: warper_55841},
@@ -1280,21 +1322,11 @@ var overlaysTree = {
 						{label: "<span data-bs-placement='right' data-bs-toggle='popover' title='Plan von Hamburg, Altona und Umgegend'>1867 – Altona und Umgegend</span>", layer: warper_15734},
 						{label: "1879 – Plan der Stadt Ottensen", layer: warper_55963},
 						{label: "<span data-bs-placement='right' data-bs-toggle='popover' title='Großer Plan von Hamburg, Altona-Ottensen und Wandsbek'>1900 – Großer Plan</span>", layer: warper_55631},
-						{label: "1908 – Plan der Stadt Altona", layer: warper_55863},
 						{label: "1926 – Pamphlet gegen Altona", layer: warper_55805},
 						{label: "1927 – Verkehrs-Übersichtsplan", layer: warper_55834},
 						{label: "1928 – Bauzonenplan", layer: warper_55745},
 						{label: "<span data-bs-placement='right' data-bs-toggle='popover' title='Adressbuch-Stadtplan von Hamburg, Altona, Wandsbek und Umgebung'>1929 – Adressbuch-Stadtplan</span>", layer: j1929},
 						{label: "<span data-bs-placement='right' data-bs-toggle='popover' title='Bodenrichtwerte zum 1.1.1964'>1964 – Bodenrichtwerte</span> <span class='smallnote' data-bs-placement='top' data-bs-toggle='popover' title='Sichtbar ab Zoomstufe 16'>Zoom >15</span>", layer: j1964},
-					]
-				},
-				{
-					label: "<span>Wissenschaftliche Karten</span>",
-					selectAllCheckbox: false,
-					collapsed: true,
-					children: [
-						{label: "<span data-bs-placement='right' data-bs-toggle='popover' title='Über die Jahre 1536-1540 (Erscheinungsjahr 1893)'>Schauenburgische Herrschaft</span>", layer: warper_55599},
-						{label: "<span data-bs-placement='right' data-bs-toggle='popover' title='Übersichtsplan über die Ottensener Industriebahn (ca. 1960)'>Ottensener Industriebahn</span>", layer: warper_55961},
 					]
 				},
 				{
@@ -2179,6 +2211,65 @@ var osm_hist_obj = L.control.htmllegend({
 	disableVisibilityControls: true
 })
 map.addControl(osm_hist_obj)
+
+var warper_60869_legend = L.control.htmllegend({
+	position: 'bottomright',
+	legends: [{
+		name: 'Legende: Bombenschäden in Ottensen und Altona - Angriff 24./25. Juli 1943.',
+		layer:warper_60869,
+		elements: [{
+			html: 'Quellennachweis: ' + stadtteilarchiv_title + ', ' + vorbehalten,
+			label: 'DigiCULT Inventarnummer: 20201229-007-018',
+		}]
+	}],
+	collapseSimple: false,
+	detectStretched: true,
+	collapsedOnInit: true,
+	defaultOpacity: 0,
+	visibleIcon: 'icon icon-eye',
+	hiddenIcon: 'icon icon-eye-slash',
+	toggleIcon: false
+})
+map.addControl(warper_60869_legend)
+var warper_60870_legend = L.control.htmllegend({
+	position: 'bottomright',
+	legends: [{
+		name: 'Legende: Schadenstellen in Hbg.-Altona ab Juli 1943 und nach 17. Dezember 1943',
+		layer:warper_60870,
+		elements: [{
+			html: 'Quellennachweis: ' + stadtteilarchiv_title + ', ' + vorbehalten,
+			label: 'DigiCULT Inventarnummer: 20201229-007-016',
+		}]
+	}],
+	collapseSimple: false,
+	detectStretched: true,
+	collapsedOnInit: true,
+	defaultOpacity: 0,
+	visibleIcon: 'icon icon-eye',
+	hiddenIcon: 'icon icon-eye-slash',
+	toggleIcon: false
+})
+map.addControl(warper_60870_legend)
+var warper_60871_legend = L.control.htmllegend({
+	position: 'bottomright',
+	legends: [{
+		name: 'Legende: Schadenstellen in Hbg.-Altona ab 29.7.1944',
+		layer:warper_60871,
+		elements: [{
+			html: 'Quellennachweis: ' + stadtteilarchiv_title + ', ' + vorbehalten,
+			label: 'DigiCULT Inventarnummer: 20201229-007-015',
+		}]
+	}],
+	collapseSimple: false,
+	detectStretched: true,
+	collapsedOnInit: true,
+	defaultOpacity: 0,
+	visibleIcon: 'icon icon-eye',
+	hiddenIcon: 'icon icon-eye-slash',
+	toggleIcon: false
+})
+map.addControl(warper_60871_legend)
+
 var geoportalhh_points_legend = L.control.htmllegend({
 	position: 'bottomright',
 	legends: [{
