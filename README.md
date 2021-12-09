@@ -1,4 +1,5 @@
 # Stadtteilarchiv Ottensen / AG Kartenwerkstatt 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5769093.svg)](https://doi.org/10.5281/zenodo.5769093)
 
 Interaktives Kartenmaterial des [Stadtteilarchivs Ottensen](https://stadtteilarchiv-ottensen.de/).
 
