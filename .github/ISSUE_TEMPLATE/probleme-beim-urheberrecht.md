@@ -2,7 +2,7 @@
 name: Probleme beim Urheberrecht
 about: Melde hier etwaige Unstimmigkeiten beim Copyright
 title: "[COPYRIGHTS]"
-labels: copyrights
+labels: ''
 assignees: ''
 
 ---
