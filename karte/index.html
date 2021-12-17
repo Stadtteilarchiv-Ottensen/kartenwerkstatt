@@ -170,7 +170,7 @@ var terrestris = L.tileLayer.wms(terrestris_wms, {
 	maxZoom: 20,
 });
 var j1938 = L.tileLayer.wms(Historische_Karte_1_5000, {
-	layers: '8',
+	layers: 'Jahrgang_1940-1950',   //Layer richtig? Alter Layer:'8'
 	format: 'image/png',
 	transparent: true,
 	attribution: geohhhist,
@@ -395,35 +395,35 @@ var wikiwarper_55805 = L.tileLayer.wms(wikiwarper55805, {
 	maxZoom: 20,
 });
 var j1880_1889 = L.tileLayer.wms(Vermessungskarten_1880_1925, {
-	layers: '4',
+	layers: 'vermessungskarten_1879_89',
 	format: 'image/png',
 	transparent: true,
 	attribution: geohhhist2 + '  &copy; ' + dldeby20,
 	maxZoom: 20,
 });
 var j1890_1899 = L.tileLayer.wms(Vermessungskarten_1880_1925, {
-	layers: '3',
+	layers: 'vermessungskarten_1890_99',
 	format: 'image/png',
 	transparent: true,
 	attribution: geohhhist2 + '  &copy; ' + dldeby20,
 	maxZoom: 20,
 });
 var j1900_1910 = L.tileLayer.wms(Vermessungskarten_1880_1925, {
-	layers: '2',
+	layers: 'vermessungskarten_1900_10',
 	format: 'image/png',
 	transparent: true,
 	attribution: geohhhist2 + '  &copy; ' + dldeby20,
 	maxZoom: 20,
 });
 var j1910_1915 = L.tileLayer.wms(Vermessungskarten_1880_1925, {
-	layers: '1',
+	layers: 'vermessungskarten_1911_15',
 	format: 'image/png',
 	transparent: true,
 	attribution: geohhhist2 + '  &copy; ' + dldeby20,
 	maxZoom: 20,
 });
 var j1916_1925 = L.tileLayer.wms(Vermessungskarten_1880_1925, {
-	layers: '0',
+	layers: 'vermessungskarten_1916_25',
 	format: 'image/png',
 	transparent: true,
 	attribution: geohhhist2 + '  &copy; ' + dldeby20,
@@ -437,7 +437,7 @@ var alkis = L.tileLayer.wms(ALKIS_Basiskarte, {
 	maxZoom: 20,
 });
 var hhdk5 = L.tileLayer.wms(HH_DK5, {
-	layers: '1',
+	layers: 'DK5',
 	format: 'image/png',
 	transparent: false,
 	attribution: geohhhdk5 + ' &copy; ' + dldeby20,
