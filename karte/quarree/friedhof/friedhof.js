@@ -19,7 +19,7 @@ var DOP = "https://geodienste.hamburg.de/HH_WMS_DOP?";
 //var DOP_unbelaubt = "https://geodienste.hamburg.de/HH_WMS_DOP?";
 
 L.tileLayer.wms(Vermessungskarten_1880_1925, {
-	layers: '3',
+	layers: 'vermessungskarten_1890_99',  // '3'
 	format: 'image/png',
 	transparent: true,
 	attribution: geohhhist2 + '  &copy; ' + dldeby20,
@@ -28,7 +28,7 @@ L.tileLayer.wms(Vermessungskarten_1880_1925, {
 	className: 'offset1898',
 }).addTo(j1890_1899);
 L.tileLayer.wms(Vermessungskarten_1880_1925, {
-	layers: '0',
+	layers: 'vermessungskarten_1916_25', // '0'
 	format: 'image/png',
 	transparent: true,
 	attribution: geohhhist2 + '  &copy; ' + dldeby20,
