@@ -19,35 +19,35 @@ var geojson_address = "../geojson/hertiequarree_mercado_friedhof.geojson";
 var geojson_address_ereignisse = "../geojson/hertiequarree_orte_ereignisse.geojson";
 
 L.tileLayer.wms(Historische_Karte_1_5000, {
-	layers: '38',
+	layers: 'Jahrgang_1980-1990',
 	format: 'image/png',
 	transparent: true,
 	attribution: geohhhist,
 	maxZoom: 20,
 }).addTo(j1990);
 L.tileLayer.wms(Historische_Karte_1_5000, {
-	layers: '44',
+	layers: 'Jahrgang_1980-1990',
 	format: 'image/png',
 	transparent: true,
 	attribution: geohhhist,
 	maxZoom: 20,
 }).addTo(j1990planung);
 L.tileLayer.wms(Historische_Karte_1_5000, {
-	layers: '44',
+	layers: 'Jahrgang_1980-1990',
 	format: 'image/png',
 	transparent: true,
 	attribution: geohhhist,
 	maxZoom: 20,
 }).addTo(j1990aktionen);
 L.tileLayer.wms(Historische_Karte_1_5000, {
-	layers: '44',
+	layers: 'Jahrgang_1980-1990',
 	format: 'image/png',
 	transparent: true,
 	attribution: geohhhist,
 	maxZoom: 20,
 }).addTo(j1991vorschlag1);
 L.tileLayer.wms(Historische_Karte_1_5000, {
-	layers: '44',
+	layers: 'Jahrgang_1980-1990',
 	format: 'image/png',
 	transparent: true,
 	attribution: geohhhist,
