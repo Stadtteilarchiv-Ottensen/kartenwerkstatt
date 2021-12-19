@@ -97,7 +97,7 @@ var j1964_layer = L.layerGroup();
 var j1970_layer = L.layerGroup();
 var j1980_layer = L.layerGroup();
 var j1990_layer = L.layerGroup();
-var j2000_layer = L.layerGroup();
+//var j2000_layer = L.layerGroup();
 var j2005_layer = L.layerGroup();
 var j2010_layer = L.layerGroup();
 var j2015_layer = L.layerGroup();
@@ -177,70 +177,72 @@ var j1938 = L.tileLayer.wms(Historische_Karte_1_5000, {
 	maxZoom: 20,
 });
 var j1952 = L.tileLayer.wms(Historische_Karte_1_5000, {
-	layers: '14',
+	layers: 'Jahrgang_1940-1950',
 	format: 'image/png',
 	transparent: true,
 	attribution: geohhhist,
 	maxZoom: 20,
 });
 var j1960 = L.tileLayer.wms(Historische_Karte_1_5000, {
-	layers: '20',
+	layers: 'Jahrgang_1950-1960',
 	format: 'image/png',
 	transparent: true,
 	attribution: geohhhist,
 	maxZoom: 20,
 });
 var j1964 = L.tileLayer.wms(HH_Bodenrichtwertkarte_1964, {
-	layers: '1',
+	layers: 'Jahrgang_1960-1970',
 	format: 'image/png',
 	transparent: true,
 	attribution: geohhhbodenrichtwerte + ' &copy; ' + dldeby20,
 	maxZoom: 20,
 });
 var j1970 = L.tileLayer.wms(Historische_Karte_1_5000, {
-	layers: '26',
+	layers: 'Jahrgang_1970-1980',
 	format: 'image/png',
 	transparent: true,
 	attribution: geohhhist,
 	maxZoom: 20,
 });
 var j1980 = L.tileLayer.wms(Historische_Karte_1_5000, {
-	layers: '32',
+	layers: 'Jahrgang_1980-1990',
 	format: 'image/png',
 	transparent: true,
 	attribution: geohhhist,
 	maxZoom: 20,
 });
 var j1990 = L.tileLayer.wms(Historische_Karte_1_5000, {
-	layers: '38',
+	layers: 'Jahrgang_1990-2000',
 	format: 'image/png',
 	transparent: true,
 	attribution: geohhhist,
 	maxZoom: 20,
 });
+/*
 var j2000 = L.tileLayer.wms(Historische_Karte_1_5000, {
-	layers: '44',
+	layers: 'Jahrgang_2000',
 	format: 'image/png',
 	transparent: true,
 	attribution: geohhhist,
 	maxZoom: 20,
 });
+*/
 var j2005 = L.tileLayer.wms(Historische_Karte_1_5000, {
-	layers: '50',
+	layers: 'Jahrgang_2005',
 	format: 'image/png',
 	transparent: true,
 	attribution: geohhhist,
 	maxZoom: 20,
 });
 var j2010 = L.tileLayer.wms(Historische_Karte_1_5000, {
-	layers: '56',
+	layers: 'Jahrgang_2010',
 	format: 'image/png',
 	transparent: true,
 	attribution: geohhhist,
 	maxZoom: 20,
 });
 var j2015 = L.tileLayer.wms(Historische_Karte_1_5000, {
-	layers: '62',
+	layers: 'Jahrgang_2015',
 	format: 'image/png',
 	transparent: true,
 	attribution: geohhhist,
@@ -1280,7 +1282,7 @@ var overlaysTree = {
 						{label: "<span data-bs-placement='right' data-bs-toggle='popover' title=''>1970</span>", layer: j1970},
 						{label: "<span data-bs-placement='right' data-bs-toggle='popover' title=''>1980</span>", layer: j1980},
 						{label: "<span data-bs-placement='right' data-bs-toggle='popover' title=''>1990</span>", layer: j1990},
-						{label: "<span data-bs-placement='right' data-bs-toggle='popover' title=''>2000</span>", layer: j2000},
+						/*{label: "<span data-bs-placement='right' data-bs-toggle='popover' title=''>2000</span>", layer: j2000},*/
 						{label: "<span data-bs-placement='right' data-bs-toggle='popover' title=''>2005</span>", layer: j2005},
 						{label: "<span data-bs-placement='right' data-bs-toggle='popover' title=''>2010</span>", layer: j2010},
 						{label: "<span data-bs-placement='right' data-bs-toggle='popover' title=''>2015</span>", layer: j2015},
@@ -2101,6 +2103,7 @@ var j1990_legend = L.control.htmllegend({
 	toggleIcon: false
 })
 map.addControl(j1990_legend)
+/*
 var j2000_legend = L.control.htmllegend({
 	position: 'bottomright',
 	legends: [{
@@ -2119,6 +2122,7 @@ var j2000_legend = L.control.htmllegend({
 	toggleIcon: false
 })
 map.addControl(j2000_legend)
+*/
 var j2005_legend = L.control.htmllegend({
 	position: 'bottomright',
 	legends: [{
