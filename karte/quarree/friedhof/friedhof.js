@@ -35,14 +35,14 @@ L.tileLayer.wms(Vermessungskarten_1880_1925, {
 	maxZoom: 20,
 }).addTo(j1916_1925);
 L.tileLayer.wms(Historische_Karte_1_5000, {
-	layers: '38',
+	layers: 'Jahrgang_1980-1990',
 	format: 'image/png',
 	transparent: true,
 	attribution: geohhhist,
 	maxZoom: 20,
 }).addTo(j1990);
 L.tileLayer.wms(Historische_Karte_1_5000, {
-	layers: '8',
+	layers: 'Jahrgang_1930-1940',
 	format: 'image/png',
 	transparent: true,
 	attribution: geohhhist,
