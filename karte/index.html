@@ -16,7 +16,7 @@
 	<meta name="DC.author" content="Podolak, Martin" />
 	<meta name="DC.rights" content="Alle Rechte vorbehalten" />
 	<meta name="DC.date" content="30.01.2022" />
-	<meta name="DC.version" content="1.5.3" />
+	<meta name="DC.version" content="1.5.4" />
 	<meta name="DC.description" content="Hauptkarte der AG Kartenwerkstatt im Stadtteilarchiv Ottensen e.V." />
 	<meta name="DC.publisher" content="AG Kartenwerkstatt, Stadtteilarchiv Ottensen e.V." />
 	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
@@ -34,6 +34,10 @@
 	<script src="dist/L.Control.HtmlLegend.js"></script>
 	<script src="dist/L.Control.Zoominfo.js"></script>
 	<script src="dist/L.Control.Layers.Tree.js"></script>
+	<script src="dist/Permalink.js"></script>
+	<script src="dist/Permalink.Marker.js"></script>
+	<script src="dist/Permalink.Layer.js"></script>
+	<script src="dist/Permalink.Overlay.js"></script>
 	<script src="dist/fallback.js"></script>
 	<script src="dist/attribution.js"></script>
 	<script src="config_hauptkarte.js"></script>
@@ -56,7 +60,7 @@ var map = L.map('map', {
 map.attributionControl.addAttribution("<a data-bs-placement='top' data-bs-toggle='popover' title='Forum der AG Kartenwerkstatt' target='_blank' href='https://agkartenwerks-m3d7685.slack.com'>Slack</a> | <a title='Copyrights der Software' href='copyrights.html' data-bs-placement='top' data-bs-toggle='popover'>Copyrights</a> | <a href='" + url_path_datenschutz + "' target='_blank'>Datenschutz</a> | <a href='" + url_path_impressum + "' target='_blank'>Impressum</a>");
 
 // https://github.com/mlevans/leaflet-hash
-var hash = new L.Hash(map);
+//var hash = new L.Hash(map);
 
 
 // get meta for logo title
@@ -91,6 +95,7 @@ var j1910_1915_layer = L.layerGroup();
 var j1916_1925_layer = L.layerGroup();
 var j1929_layer = L.layerGroup();
 var j1938_layer = L.layerGroup();
+var j1925_layer = L.layerGroup();
 var j1952_layer = L.layerGroup();
 var j1960_layer = L.layerGroup();
 var j1964_layer = L.layerGroup();
@@ -167,6 +172,13 @@ var terrestris = L.tileLayer.wms(terrestris_wms, {
 	format: 'image/png',
 	transparent: true,
 	attribution: osmattrib,
+	maxZoom: 20,
+});
+var j1925 = L.tileLayer.wms(Historische_Karte_1_5000, {
+	layers: 'Jahrgang_1925-1930', 
+	format: 'image/png',
+	transparent: true,
+	attribution: geohhhist,
 	maxZoom: 20,
 });
 var j1938 = L.tileLayer.wms(Historische_Karte_1_5000, {
@@ -1272,17 +1284,18 @@ var overlaysTree = {
 					]
 				},
 				{
-					label: "<span data-bs-placement='right' data-bs-toggle='popover' title='Amtliche Grundkarten'>Grundkarten 1938-2015</span>",
+					label: "<span data-bs-placement='right' data-bs-toggle='popover' title='Amtliche Grundkarten'>Grundkarten 1930-2015</span>",
 					selectAllCheckbox: false,
 					collapsed: true,
 					children: [
-						{label: "<span data-bs-placement='right' data-bs-toggle='popover' title=''>1938</span>", layer: j1938},
-						{label: "<span data-bs-placement='right' data-bs-toggle='popover' title='unvollständig'>1952</span>", layer: j1952},
-						{label: "<span data-bs-placement='right' data-bs-toggle='popover' title=''>1960</span>", layer: j1960},
-						{label: "<span data-bs-placement='right' data-bs-toggle='popover' title=''>1970</span>", layer: j1970},
-						{label: "<span data-bs-placement='right' data-bs-toggle='popover' title=''>1980</span>", layer: j1980},
-						{label: "<span data-bs-placement='right' data-bs-toggle='popover' title=''>1990</span>", layer: j1990},
-						{label: "<span data-bs-placement='right' data-bs-toggle='popover' title=''>2000</span>", layer: j2000},
+						{label: "<span data-bs-placement='right' data-bs-toggle='popover' title='unvollständig'>1925-1930</span>", layer: j1925},
+						{label: "<span data-bs-placement='right' data-bs-toggle='popover' title='unvollständig'>1930-1940</span>", layer: j1938},
+						{label: "<span data-bs-placement='right' data-bs-toggle='popover' title='unvollständig'>1940-1950</span>", layer: j1952},
+						{label: "<span data-bs-placement='right' data-bs-toggle='popover' title=''>1950-1960</span>", layer: j1960},
+						{label: "<span data-bs-placement='right' data-bs-toggle='popover' title=''>1960-1970</span>", layer: j1970},
+						{label: "<span data-bs-placement='right' data-bs-toggle='popover' title=''>1970-1980</span>", layer: j1980},
+						{label: "<span data-bs-placement='right' data-bs-toggle='popover' title=''>1980-1990</span>", layer: j1990},
+						{label: "<span data-bs-placement='right' data-bs-toggle='popover' title=''>1990-2000</span>", layer: j2000},
 						{label: "<span data-bs-placement='right' data-bs-toggle='popover' title=''>2005</span>", layer: j2005},
 						{label: "<span data-bs-placement='right' data-bs-toggle='popover' title=''>2010</span>", layer: j2010},
 						{label: "<span data-bs-placement='right' data-bs-toggle='popover' title=''>2015</span>", layer: j2015},
@@ -1995,10 +2008,28 @@ var j1929_legend = L.control.htmllegend({
 	toggleIcon: false
 })
 map.addControl(j1929_legend)
+var j1925_legend = L.control.htmllegend({
+	position: 'bottomright',
+	legends: [{
+		name: 'Amtl. Grundkarten 1925-1930 (unvollständig)',
+		layer:j1925,
+		elements: [{
+			html: 'Quellnachweis: ' + geohhhist_long,
+		}]
+	}],
+	collapseSimple: false,
+	detectStretched: true,
+	collapsedOnInit: true,
+	defaultOpacity: 1.0,
+	visibleIcon: 'icon icon-eye',
+	hiddenIcon: 'icon icon-eye-slash',
+	toggleIcon: false
+})
+map.addControl(j1925_legend)
 var j1938_legend = L.control.htmllegend({
 	position: 'bottomright',
 	legends: [{
-		name: 'Amtl. Grundkarte 1938 (unvollständig)',
+		name: 'Amtl. Grundkarten 1930-1940 (unvollständig)',
 		layer:j1938,
 		elements: [{
 			html: 'Quellnachweis: ' + geohhhist_long,
@@ -2016,7 +2047,7 @@ map.addControl(j1938_legend)
 var j1952_legend = L.control.htmllegend({
 	position: 'bottomright',
 	legends: [{
-		name: 'Amtl. Grundkarte ca. 1952 (unvollständig)',
+		name: 'Amtl. Grundkarten 1940-1950 (unvollständig)',
 		layer:j1952,
 		elements: [{
 			html: 'Quellnachweis: ' + geohhhist_long,
@@ -2034,7 +2065,7 @@ map.addControl(j1952_legend)
 var j1960_legend = L.control.htmllegend({
 	position: 'bottomright',
 	legends: [{
-		name: 'Amtl. Grundkarte ca. 1960',
+		name: 'Amtl. Grundkarten 1950-1960',
 		layer:j1960,
 		elements: [{
 			html: 'Quellnachweis: ' + geohhhist_long,
@@ -2052,7 +2083,7 @@ map.addControl(j1960_legend)
 var j1970_legend = L.control.htmllegend({
 	position: 'bottomright',
 	legends: [{
-		name: 'Amtl. Grundkarte ca. 1970',
+		name: 'Amtl. Grundkarten 1960-1970',
 		layer:j1970,
 		elements: [{
 			html: 'Quellnachweis: ' + geohhhist_long,
@@ -2070,7 +2101,7 @@ map.addControl(j1970_legend)
 var j1980_legend = L.control.htmllegend({
 	position: 'bottomright',
 	legends: [{
-		name: 'Amtl. Grundkarte ca. 1980',
+		name: 'Amtl. Grundkarten 1970-1980',
 		layer:j1980,
 		elements: [{
 			html: 'Quellnachweis: ' + geohhhist_long,
@@ -2088,7 +2119,7 @@ map.addControl(j1980_legend)
 var j1990_legend = L.control.htmllegend({
 	position: 'bottomright',
 	legends: [{
-		name: 'Amtl. Grundkarte ca. 1990',
+		name: 'Amtl. Grundkarten 1980-1990',
 		layer:j1990,
 		elements: [{
 			html: 'Quellnachweis: ' + geohhhist_long,
@@ -2106,7 +2137,7 @@ map.addControl(j1990_legend)
 var j2000_legend = L.control.htmllegend({
 	position: 'bottomright',
 	legends: [{
-		name: 'Amtl. Grundkarte 2000',
+		name: 'Amtl. Grundkarten 1990-2000',
 		layer:j2000,
 		elements: [{
 			html: 'Quellnachweis: ' + geohhhist_long,
