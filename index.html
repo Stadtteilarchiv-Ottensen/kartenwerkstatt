@@ -1,362 +1,2532 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Stadtteilarchiv Ottensen e.V. – AG Kartenwerkstatt</title>
+	<script><!-- Konfigurationen -->
+		var url_path_datenschutz = "http://stadtteilarchiv-ottensen.de/kontakt/datenschutz";
+		var url_path_impressum = "http://stadtteilarchiv-ottensen.de/kontakt/impressum";
+		var url_path_hauptkarte = window.location.href;
+	</script><!-- Konfigurationen ENDE-->
+	<title>Stadtteilarchiv Ottensen e.V. – AG Kartenwerkstatt – Hauptkarte</title>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, -scale=1.0, maximum-scale=1.0, user-scalable=no" />
-	<meta name="description" content="Interaktive historische Karten des Stadtteilarchivs Ottensen" />
+	<meta name="description" content="Hauptkarte der AG Kartenwerkstatt im Stadtteilarchiv Ottensen e.V." />
 	<meta name="author" content="Martin Podolak" />
-	<meta name="DC.title" content="Stadtteilarchiv Ottensen e.V. – AG Kartenwerkstatt" />
-	<meta name="DC.description" content="Interaktive historische Karten des Stadtteilarchivs Ottensen" />
+	<meta name="DC.title" content="Stadtteilarchiv Ottensen e.V. – AG Kartenwerkstatt – Hauptkarte" />
 	<meta name="DC.type" content="map" />
 	<meta name="DC.author" content="Podolak, Martin" />
 	<meta name="DC.rights" content="Alle Rechte vorbehalten" />
-	<meta name="DC.date" content="06.11.2021" />
-	<meta name="DC.publisher" content="Stadtteilarchiv Ottensen e.V." />
-	<link rel="stylesheet" href="karte/dist/bootstrap.css"/>
-	<link rel="shortcut icon" type="image/x-icon" href="https://stadtteilarchiv-ottensen.github.io/favicon.ico" />
-	<script src="karte/dist/jquery-3.6.0.min.js"></script>
-	<script src="karte/dist/bootstrap.bundle.min.js"></script>
-	<style>
-body {
-	margin:0;
-}
-.site-header {
-	background-color: #fff;
-	min-height: 190px;
-	background: #fff url(https://stadtteilarchiv-ottensen.github.io/ottensen-altona.png) center;
-}
-article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
-	display: block;
-}
-body {
-	color: #333;
-}
-:root {
-	--wp-admin-theme-color: #007cba;
-	--wp-admin-theme-color-darker-10: #006ba1;
-	--wp-admin-theme-color-darker-20: #005a87;
-}
-.header-image .site-header .wrap {
-	background-position: left top;
-}
-.site-inner, .wrap {
-	max-width: 1140px;
-}
-.site-inner, .wrap {
-	margin: 0 auto;
-	max-width: 960px;
-}
-body {
-	color: #333;
-	font-family: "Baskerville","Palatino Linotype","Palatino","Times New Roman",serif;
-	font-size: 1em;
-	line-height: 1.5;
-}
-.author-box::before, .clearfix::before, .entry::before, .entry-content::before, .footer-widgets::before, .nav-primary::before, .nav-secondary::before, .pagination::before, .site-container::before, .site-footer::before, .site-header::before, .site-inner::before, .wrap::before {
-	content: " ";
-	display: table;
-}
-.sidebar-primary, .title-area {
-	width: 350px;
-}
-.title-area {
-	text-align: left;
-}
-.title-area {
-	float: left;
-	padding: 0;
-	text-align: center;
-	width: 100%;
-}
-.header-image .site-description, .header-image .site-title {
-	display: block;
-	text-indent: -9999px;
-}
-.site-description, .site-title {
-	margin-bottom: 0;
-}
-.site-title {
-	font-size: 32px;
-	font-weight: 400;
-	line-height: 1.2;
-}
-p {
-	margin: 0 0 .75em;
-}
-.title-area {
-	text-align: left;
-}
-a, button, input:focus, input[type="button"], input[type="reset"], input[type="submit"], textarea:focus, .button, .gallery img {
-	-webkit-transition-property: -webkit-transform;
-	-moz-transition-property: -moz-transform;
-	transition-property: transform;
-	-webkit-transition-duration: .1s;
-	-moz-transition-duration: .1s;
-	transition-duration: .1s;
-	-webkit-transition-timing-function: ease-in-out;
-	-moz-transition-timing-function: ease-in-out;
-	transition-timing-function: ease-in-out;
-	-webkit-transition-delay: 0s;
-	-moz-transition-delay: 0s;
-	transition-delay: 0s;
-}
-a {
-	-webkit-transition: color .1s linear;
-	-moz-transition: color .1s linear;
-	transition: color .1s linear;
-	color: #477dca;
-	text-decoration: none;
-}
-.author-box::after, .clearfix::after, .entry::after, .entry-content::after, .footer-widgets::after, .nav-primary::after, .nav-secondary::after, .pagination::after, .site-container::after, .site-footer::after, .site-header::after, .site-inner::after, .wrap::after {
-	clear: both;
-	content: " ";
-	display: table;
-}
-.site-title > a {
-	background: url(https://stadtteilarchiv-ottensen.github.io/logo-stadtteilarchiv-ottensen.png) no-repeat left;
-	float: left;
-	min-height: 60px;
-	width: 350px;
-	z-index: 1;
-	left: -70px;
-	position: relative;
-	top: 15px;
-}
-#forkme_banner {
-	z-index: 10;
-	padding: 10px 50px 10px 10px;
-	color: #fff;
-	background: url("https://pages-themes.github.io/slate/assets/images/blacktocat.png") #0090ff no-repeat 95% 50%;
-	font-weight: 700;
-	border-bottom-left-radius: 2px;
-	border-bottom-right-radius: 2px;
-}
-.contents {
-	padding:20px;
-}
-	</style>
+	<meta name="DC.date" content="30.01.2022" />
+	<meta name="DC.version" content="1.5.3" />
+	<meta name="DC.description" content="Hauptkarte der AG Kartenwerkstatt im Stadtteilarchiv Ottensen e.V." />
+	<meta name="DC.publisher" content="AG Kartenwerkstatt, Stadtteilarchiv Ottensen e.V." />
+	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+	<link rel="stylesheet" href="dist/leaflet.css" />
+	<link rel="stylesheet" href="dist/L.Control.HtmlLegend.css"/>
+	<link rel="stylesheet" href="dist/L.Control.Zoominfo.css"/>
+	<link rel="stylesheet" href="dist/L.Control.Layers.Tree.css"/>
+	<link rel="stylesheet" href="dist/bootstrap.css"/>
+	<link rel="stylesheet" href="dist/karte-standalone.css"/>
+	<link rel="stylesheet" href="dist/karte.css"/>
+	<script src="dist/jquery-3.6.0.min.js"></script>
+	<script src="dist/leaflet.js"></script>
+	<script src="dist/leaflet.ajax.min.js"></script>
+	<script src="dist/leaflet-hash.js"></script>
+	<script src="dist/L.Control.HtmlLegend.js"></script>
+	<script src="dist/L.Control.Zoominfo.js"></script>
+	<script src="dist/L.Control.Layers.Tree.js"></script>
+	<script src="dist/fallback.js"></script>
+	<script src="dist/attribution.js"></script>
+	<script src="config_hauptkarte.js"></script>
 </head>
-
 <body>
-<header class="site-header" itemscope itemtype="https://schema.org/WPHeader">
-	<div class="wrap">
-		<div class="title-area">
-			<p class="site-title" itemprop="headline">
-				<a title="Das Stadtteilarchiv Ottensen auf Github" href="https://stadtteilarchiv-ottensen.github.io/"></a>
-			</p>
-		</div>
-	</div>
-</header>
-<div class="contents">
-<div style="width:100%;text-align:right;">
-	<a href="https://doi.org/10.5281/zenodo.5769093"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.5769093.svg" alt="DOI"></a>
-	<a style="margin-bottom:200px;" id="forkme_banner" href="https://github.com/Stadtteilarchiv-Ottensen/kartenwerkstatt">View on GitHub</a>
-</div>
-<h1 class="card-title">AG Kartenwerkstatt</h1>
-<p>Herzlich Willkommen auf der Seite der <strong><em>Arbeitsgemeinschaft Kartenwerkstatt</em></strong> im Stadtteilarchiv Ottensen.</p>
+<div id='map'></div>
+<script type="text/javascript">
+var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+	return new bootstrap.Tooltip(tooltipTriggerEl)
+})
 
-<h2>Inhalt</h2>
-<ul>
-	<li><a href="#neuigkeiten">Neuigkeiten</a></li>
-	<li><a href="#wir">Über uns</a></li>
-	<li><a href="#kontakt">Kontakt</a></li>
-	<li><a href="#ergebnisse">Arbeitsergebnisse</a>
-		<ul>
-			<li><a href="#hauptkarte">Hauptkarte</a></li>
-			<li><a href="#karte-juedischer-friedhof">Spezialkarte Jüdischer Friedhof Ottensen</a></li>
-			<li><a href="#karte-hertie-quarree">Spezialkarte Hertie-Quarree / Mercado</a></li>
-		</ul></li>
-	<li><a href="#mitmachen">Mitmachen</a></li>
-	<li><a href="#quellen">Quellenangaben</a></li>
-	<li><a href="#technisches">Technisches</a></li>
-	<li><a href="#ausblick">Ausblick</a></li>
-	<li><a href="#spenden">Spenden</a></li>
-	<li><a href="#links">Nützliche Links</a></li>
-</ul>
+var map = L.map('map', {
+	zoominfoControl: true,
+	zoomControl: false,
+	center: [53.55257, 9.93518],
+	zoom: 15,
+	minZoom: 10,
+});
+map.attributionControl.addAttribution("<a data-bs-placement='top' data-bs-toggle='popover' title='Forum der AG Kartenwerkstatt' target='_blank' href='https://agkartenwerks-m3d7685.slack.com'>Slack</a> | <a title='Copyrights der Software' href='copyrights.html' data-bs-placement='top' data-bs-toggle='popover'>Copyrights</a> | <a href='" + url_path_datenschutz + "' target='_blank'>Datenschutz</a> | <a href='" + url_path_impressum + "' target='_blank'>Impressum</a>");
 
-<h2 id="neuigkeiten">Neuigkeiten</h2>
+// https://github.com/mlevans/leaflet-hash
+var hash = new L.Hash(map);
 
-<p><em>Unsere nächsten Treffen und neueste Arbeitsergebnisse werden hier bekanntgegeben.</em></p>
 
-<p>Derzeit keine Neuigkeiten.</p>
+// get meta for logo title
+var infotitle = "Hauptkarte";
+var metadate = document.querySelector('meta[name="DC.date"]').content;
+var metaversion = document.querySelector('meta[name="DC.version"]').content;
+var metadescription = document.querySelector('meta[name="DC.description"]').content;
+var metasitename = document.querySelector('meta[name="DC.publisher"]').content;
+var metatitle = document.querySelector('meta[name="DC.title"]').content;
+var metaauthor = document.querySelector('meta[name="DC.author"]').content;
 
-<h2 id="wir">Über uns</h2>
+// add logo
+var infocontent = "<div class='infocontent'><table><tbody><tr><td valign='top'><strong>Titel:</strong></td><td>" + metatitle + "</td></tr><tr><td valign='top'><strong>Publikation:</strong></td><td>" + metasitename + "</td></tr><tr><td valign='top'><strong>Version:</strong></td><td>" + metaversion + " (" + metadate + ")</td></tr><tr><td valign='top'><strong>Autor:</strong><td>Martin Podolak</td></tr><tr><td valign='top'><strong>URL:</strong></td><td><a href='" + url_path_hauptkarte + "'>" + url_path_hauptkarte + "</a></td></tr><tr><td valign='top'><strong>Rechte:</strong></td><td>Wo nicht anders gekennzeichnet, verbleiben die Urheberrechte beim Autor.<br />Daten anderer Quellen werden rechts unten in der Karte und der jeweiligen Kartenlegende mit Lizenz bzw. Urheberrechtshinweis genannt.</td></tr><tr><td valign='top'><strong>Zitiervorschlag:</strong> </td><td><span style='font-family:monospace;'>" + metaauthor + ": „" + infotitle + "“ in: <em>" + metasitename + "</em>, Hamburg " + metadate + " (Version " + metaversion + "). URL: " + url_path_hauptkarte + "</span></td></tr><tr><td valign='top'></td><td><a href='https://doi.org/10.5281/zenodo.5769093'><img src='https://zenodo.org/badge/DOI/10.5281/zenodo.5769093.svg' alt='DOI'></a></td></tr></tbody></table></div>";
 
-<p>Im Sommer 2021 haben wir uns als "AG Kartenwerkstatt" im Stadtteilarchiv Ottensen gegründet. Unser Interesse an Karten beschränkt sich nicht nur auf Online-Karten, es gibt auch noch genügend gedrucktes Material im Stadtteilarchiv. Wir sind noch am Anfang und freuen uns über neue Teilnehmer. Ihr könnt gerne zu unseren Treffen kommen oder euch <a href="#mitmachen">online einbringen</a>. Bei Interesse gerne eine <a href="mailto:kartenwerkstatt@altona.ws">Nachricht an die Kartenwerkstatt schreiben</a>.</p>
+var logo = L.control({position: 'topleft'});
+logo.onAdd = function (map) {
+	var div = L.DomUtil.create('div', 'logo');
+	div.innerHTML = "<div class='leaflet-control-layers leaflet-control-layers-expanded leaflet-control bzag-info' data-bs-placement='right' data-bs-toggle='popover' title='Anklicken für Metadaten zur Karte'><div style='cursor:pointer;text-decoration:none;text-align:center;font-size:30px;color:#333;font-weight:bold;font-family:sans-serif;margin-bottom:0;' data-bs-toggle='modal' data-bs-target='#karteninfo'><img src='logo-stadtteilarchiv-ottensen.png'><p style='font-family:monospace;font-weight:bold;font-size:1rem;margin:0;'>AG Kartenwerkstatt</p><p style='margin:0;'>" + infotitle + "</p><p style='width:100%;text-align:center;text-decoration:underline;cursor:pointer;text-align:center;font-size:0.8rem;font-weight:normal;margin:0;'>Metadaten zur Karte</p></div></div></div>";
+return div;
+};
+logo.addTo(map);
 
-<p>Auch wenn unsere bisherigen Arbeitsergebnisse bisher nur online zu sehen sind, trifft sich unsere Gruppe physisch und nicht online, zuletzt waren wir zu siebt im Tagungsraum der Bücherhalle Altona. In Zukunft treffen wir uns natürlich auch im Stadtteilarchiv.</p>
+// crop non-Altona from map
+var corner1 = L.latLng(53.53971, 9.6671961);
+var corner2 = L.latLng(53.6304895, 9.9640428);
+var boundsaltona = L.latLngBounds(corner1, corner2);
 
-<h2 id="kontakt">Kontakt</h2>
+var j1880_1889_layer = L.layerGroup();
+var j1890_1899_layer = L.layerGroup();
+var j1900_1910_layer = L.layerGroup();
+var j1910_1915_layer = L.layerGroup();
+var j1916_1925_layer = L.layerGroup();
+var j1929_layer = L.layerGroup();
+var j1938_layer = L.layerGroup();
+var j1952_layer = L.layerGroup();
+var j1960_layer = L.layerGroup();
+var j1964_layer = L.layerGroup();
+var j1970_layer = L.layerGroup();
+var j1980_layer = L.layerGroup();
+var j1990_layer = L.layerGroup();
+var j2000_layer = L.layerGroup();
+var j2005_layer = L.layerGroup();
+var j2010_layer = L.layerGroup();
+var j2015_layer = L.layerGroup();
+var altonalayer1 = L.layerGroup();
+var altonalayer4 = L.layerGroup();
+var infotafeln_layer = L.layerGroup();
+var stolpersteine_layer = L.layerGroup();
+var geoportalhh_pointslayer = L.layerGroup();
+var geoportalhh_layer = L.layerGroup();
+var hh_backstein_kat_layer = L.layerGroup();
+var geoportalhh_info_layer = L.layerGroup();
+var wiki_layer = L.layerGroup();
+var grenze_alt = L.layerGroup(); //.addTo(map);
+var grenze_aktuell = L.layerGroup();
+var gebietsveraenderungen = L.layerGroup({transparent: true});
 
-<p>Wir bitten euch, Anfragen an uns und zum Thema "Karten" ausschließlich per E-Mail an <a href="mailto:kartenwerkstatt@altona.ws">kartenwerkstatt@altona.ws</a> (und nicht ans Büro) zu senden. Vielen Dank!</p>
+//Tile and WMS server addresses
+var Historische_Karte_1_5000 = "https://geodienste.hamburg.de/HH_WMS_Historische_Karte_1_5000?";
+var Vermessungskarten_1880_1925 = "https://geodienste.hamburg.de/HH_WMS_Vermessungskarten_1880_1925?";
+var ALKIS_Basiskarte = "https://geodienste.hamburg.de/HH_WMS_ALKIS_Basiskarte?";
+var HH_DK5 = "https://geodienste.hamburg.de/HH_WMS_DK5?";
+var HamburgDE = "https://geodienste.hamburg.de/HH_WMS_HamburgDE?";
+var HH_Geobasiskarten_GB = "https://geodienste.hamburg.de/HH_WMS_Geobasiskarten_GB?";
+var HH_Denkmalschutz = "https://geodienste.hamburg.de/HH_WMS_Denkmalschutz?";
+var DOP_belaubt = "https://geodienste.hamburg.de/HH_WMS_DOP_belaubt?";
+var DOP_unbelaubt = "https://geodienste.hamburg.de/HH_WMS_DOP?";
+var HH_Denkmal_public = "https://geodienste.hamburg.de/HH_WMS_Denkmal_public";
+var HH_Denkmal_Backstein = "https://geodienste.hamburg.de/HH_WMS_Backstein_Kategorien?";
+var mundialis_wms = "https://ows.mundialis.de/services/service?";
+var mapwarpermosaic1374 ="https://mapwarper.net/mosaics/wms/1374?";
+var mapwarpermosaic1376 ="https://mapwarper.net/mosaics/wms/1376?";
+var mapwarpermosaic1377 ="https://mapwarper.net/mosaics/wms/1377?";
+var mapwarper55864 = "https://mapwarper.net/maps/wms/55864?";
+var mapwarper55863 = "https://mapwarper.net/maps/wms/55863?";
+var mapwarper15735 = "https://mapwarper.net/maps/wms/15735?";
+var mapwarper55599 = "https://mapwarper.net/maps/wms/55599?";
+var mapwarper55598 = "https://mapwarper.net/maps/wms/55598?";
+var mapwarper15734 = "https://mapwarper.net/maps/wms/15734?";
+var mapwarper15777 = "https://mapwarper.net/maps/wms/15777?";
+var mapwarper55631 = "https://mapwarper.net/maps/wms/55631?";
+var mapwarper55731 = "https://mapwarper.net/maps/wms/55731?";
+var mapwarper55805 = "https://mapwarper.net/maps/wms/55805?";
+var mapwarper55822 = "https://mapwarper.net/maps/wms/55822?";
+var mapwarper55834 = "https://mapwarper.net/maps/wms/55834?";
+var mapwarper55745 = "https://mapwarper.net/maps/wms/55745?";
+var mapwarper55841 = "https://mapwarper.net/maps/wms/55841?";
+var mapwarper55961 = "https://mapwarper.net/maps/wms/55961?";
+var mapwarper55962 = "https://mapwarper.net/maps/wms/55962?";
+var mapwarper55963 = "https://mapwarper.net/maps/wms/55963?";
+var wikiwarper55805 = "https://warper.wmflabs.org/maps/wms/2589?";
+var HH_Bodenrichtwertkarte_1964 = "https://geodienste.hamburg.de/HH_WMS_Bodenrichtwertkarte_1964?";
+var terrestris_wms = "https://ows.terrestris.de/osm-gray/service?";
+var osmfr = "https://{s}.tile.openstreetmap.fr/osmfr/{z}/{x}/{y}.png";
+//var osmfr = "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png";
+var mapwarper60870 = "https://mapwarper.net/maps/wms/60870?";
+var mapwarper60869 = "https://mapwarper.net/maps/wms/60869?";
+var mapwarper60871 = "https://mapwarper.net/maps/wms/60871?";
 
-<h2 id="ergebnisse">Arbeitsergebnisse</h2>
+//// Getting tile and WMS maps
+var blank_base = L.tileLayer('');
+var OSM = L.tileLayer.fallback(osmfr, {
+	maxZoom: 20,
+	attribution: osmattrib
+});
+var terrestris = L.tileLayer.wms(terrestris_wms, {
+	layers: 'OSM-WMS',
+	format: 'image/png',
+	transparent: true,
+	attribution: osmattrib,
+	maxZoom: 20,
+});
+var j1938 = L.tileLayer.wms(Historische_Karte_1_5000, {
+	layers: 'Jahrgang_1930-1940', 
+	format: 'image/png',
+	transparent: true,
+	attribution: geohhhist,
+	maxZoom: 20,
+});
+var j1952 = L.tileLayer.wms(Historische_Karte_1_5000, {
+	layers: 'Jahrgang_1940-1950',
+	format: 'image/png',
+	transparent: true,
+	attribution: geohhhist,
+	maxZoom: 20,
+});
+var j1960 = L.tileLayer.wms(Historische_Karte_1_5000, {
+	layers: 'Jahrgang_1950-1960',
+	format: 'image/png',
+	transparent: true,
+	attribution: geohhhist,
+	maxZoom: 20,
+});
+var j1964 = L.tileLayer.wms(HH_Bodenrichtwertkarte_1964, {
+	layers: 'Fortschreibung',
+	format: 'image/png',
+	transparent: true,
+	attribution: geohhhbodenrichtwerte + ' &copy; ' + dldeby20,
+	maxZoom: 20,
+});
+var j1970 = L.tileLayer.wms(Historische_Karte_1_5000, {
+	layers: 'Jahrgang_1960-1970',
+	format: 'image/png',
+	transparent: true,
+	attribution: geohhhist,
+	maxZoom: 20,
+});
+var j1980 = L.tileLayer.wms(Historische_Karte_1_5000, {
+	layers: 'Jahrgang_1970-1980',
+	format: 'image/png',
+	transparent: true,
+	attribution: geohhhist,
+	maxZoom: 20,
+});
+var j1990 = L.tileLayer.wms(Historische_Karte_1_5000, {
+	layers: 'Jahrgang_1980-1990',
+	format: 'image/png',
+	transparent: true,
+	attribution: geohhhist,
+	maxZoom: 20,
+});
 
-<p>Hier stellen wir die Ergebnisse unserer bisherigen Arbeit vor, soweit sie online vorliegen.</p>
+var j2000 = L.tileLayer.wms(Historische_Karte_1_5000, {
+	layers: 'Jahrgang_1990-2000',
+	format: 'image/png',
+	transparent: true,
+	attribution: geohhhist,
+	maxZoom: 20,
+});
 
-<div class="card">
-<div class="card-header">
-    <h3 id="hauptkarte" class="card-title">Hauptkarte</h3>
-</div>
-<div class="card-body">
-<a title="Karte öffnen" href="karte"><img src="images/screenshot_hauptkarte.jpg" style="border:1px solid darkgray;float:left;margin:0 5px 3px 0;max-width:100%;"></a><p>Diese interaktive Karte des <a href="https://stadtteilarchiv-ottensen.de/">Stadtteilarchivs</a> bietet eine Reihe geschichtswissenschaftlich relevanter Materialien, insbesondere Altkarten seit 1800, aktuelle Karten zum Denkmalschutz und zum Kataster sowie verschiedene Informationslayer zum Aufrufen näherer Informationen zu historischen Objekten auf der Karte. Die Karten werden als Overlay projiziert, d.h. sie können übereinandergelegt und damit verglichen werden. <a title="Karte öffnen" href="karte">Zur Karte</a></p>
-<a class="btn btn-primary" data-bs-toggle="collapse" href="#hauptkarte-info" role="button" aria-expanded="false" aria-controls="collapseExample">Nähere Informationen</a>
-</p>
-<div class="collapse" id="hauptkarte-info">
-<h3>Die Karten im Einzelnen</h3>
-<ul>
-  <li><strong>Luftbildpläne 1952-2020</strong></li>
-<ul>
-	<li>Orthophotos (Luftbild – LGV), belaubt und unbelaubt von 2020, flächendeckend</li>
-	<li>Luftbilder 1952 und 1957, Originalmaßstab 1:5000, nur Teile von Altona</li>
-	<li>Luftbilder 1956, Originalmaßstab 1:2500, nur Teile von Altona</li>
-</ul>
-<li><strong>Amtliche Liegenschaftskarten</strong> für die Jahre 1938, 1952, 1960, 1970, 1980, 1990, 2000, 2005, 2010 und 2015</li>
-<li><strong>Vermessungskarten</strong> für die Zeiträume 1880-1925, 1880-1889, 1890-1899, 1900-1910, 1910-1915 und 1916-1925</li>
-<li><strong>Industrialisierung</strong></li>
-<ul>
-	<li>Plan der Stadt Altona (1908)</li>
-	<li>Ottensener Industriebahn ca. 1960</li>
-</ul>
-<li><strong>Zweiter Weltkrieg</strong></li>
-<ul>
-	<li>Bombenschäden in Ottensen und Altona (Angriff 24./25. Juli 1943)</li>
-	<li>Schadenstellen in Hbg.-Altona (ab Juli 1943 und nach 17. Dezember 1943)</li>
-	<li>Schadenstellen in Hbg.-Altona (ab 29.7.1944)</li>
-</ul>
-<li><strong>Weitere Altkarten</strong></li>
-<ul>
-	<li>Altona unter Schauenburgischer Herrschaft 1534-1550 (1893)</li>
-  <li>Geometrischer Grundriss der Stadt Altona aufgemessen und delineiret durch C. Dilleben (1736)</li>
-<li><em>Dem, über den Altonaischen Gräntz Vergleich de Dato 17. Nov. 1740 errichteten Executions-Recesse de dato 11. Junij 1744 gemäss, aus den gemeinschaftlich gemachten grösseren Rissen nach dem verjüngten Maas-Stab verfertigte Gräntz-Charte, worauf die Gräntz-Zeichen zwischen der Stadt Hamburg und Altona beschrieben...</em> (1744)</li>
-  <li>Verkoppelungskarte Kirchdorf Ottensen, Herrschaft Pinneberg (1789)</li>
-  <li>Altona 1803</li>
-<li>Altona im Jahre 1836 (1839)</li>
-<li>Plan von Altona (1848)</li>
-  <li>Plan von Hamburg und Altona (1856)</li>
-  <li>Altona 1860</li>
-<li>Plan von Hamburg, Altona und Umgegend als Billwärder, Borgfelde, Eilbeck, Eimsbüttel, Harvestehude, Hamm, Hohenfelde, Pöseldorf, Steinwärder, Uhlenhorst (1867)</li>
-  <li>Plan der Stadt Ottensen (1879)</li>
-<li>Großer Plan von Plan von Hamburg, Altona-Ottensen und Wandsbek (1900)</li>
-  <li>Karte aus <em>Nicht nach Altona! Ein Notruf des Kreises Pinneberg und seiner Gemeinden an die preußischen Gesetzgeber</em> (1926)</li>
-  <li>Verkehrs-Übersichtsplan (1927)</li>
-  <li>Bauzonenplan (1928)</li>
-<li>Adreßbuch-Karte für Hamburg, Altona, Wandsbek u. Umgebung (1929)</li>
-<li>Bodenrichtwertekarte zum 1.1.1964</li>
-</ul>
-<li><strong>Denkmalschutzkarten</strong></li>
-<ul>
-<li>Erhaltenswerte Backsteingebiete und -ensembles</li>
-<li>Flächen</li>
-</ul>
-<li><strong>Katasterkarten</strong></li>
-<ul>
-<li>Gebäude</li>
-<li>Grundstücksumringe</li>
-</ul>
-  <li><strong>Grenziehungen</strong> (mit Informationen als Popups)</li>
-	<ul>
-		<li>Historische Grenzen der Gemeinden und Stadtteile, hierbei die ganz genaue Grenze zu Hamburg</li>
-		<li>Aktuelle Grenzen</li>
-		<li>Stadtgebietsveränderungen 1889-1927</li>
-	</ul>
-<li><strong>Popup-Layer</strong> für nähere Informationen zu verschiedenen Objekte</li>
-<ul>
-<li>Punkte des Denkmalschutzamtes</li>
-<li>Openstreetmap – historische Objekte</li>
-<li>Wikipedia – Links zu allen georeferenzierten Artikeln in Altona. <span style="text-decoration:underline;">Hinweis</span>: dieser Overlay braucht aufgrund seines Umfangs einige Sekunden zum Laden</li>
-<li>Stolpersteine</li>
-<li>Infotafeln des Stadtteilarchivs Ottensen</li>
+var j2005 = L.tileLayer.wms(Historische_Karte_1_5000, {
+	layers: 'Jahrgang_2005',
+	format: 'image/png',
+	transparent: true,
+	attribution: geohhhist,
+	maxZoom: 20,
+});
+var j2010 = L.tileLayer.wms(Historische_Karte_1_5000, {
+	layers: 'Jahrgang_2010',
+	format: 'image/png',
+	transparent: true,
+	attribution: geohhhist,
+	maxZoom: 20,
+});
+var j2015 = L.tileLayer.wms(Historische_Karte_1_5000, {
+	layers: 'Jahrgang_2015',
+	format: 'image/png',
+	transparent: true,
+	attribution: geohhhist,
+	maxZoom: 20,
+});
 
-</ul>
-<li><strong>Grundkarten</strong></li>
-<ul>
-<li>Openstreemaps farbig / graustufig / einfach</li>
-<li>Katasterkarte (ALKIS – LGV)</li>
-<li>Digitale Karte Hamburg 1: 5000 (DK5 – LGV)</li>
-<li>Geobasiskarte Hamburg (graustufig – LGV)</li>
-<li>Geobasiskarte Hamburg (HHde – LGV)</li>
-</ul>
-</ul>
-<h3>Historische Adressbücher</h3>
-<p>
-  Außerdem steht eine <strong>Suchfunktion für die Adressbücher der Zeit zwischen 1782 und 1976</strong> zur Verfügung. Hier können Straßennamen, Personen, Firmen und Branchen nach Zeitraum und Suchwort abgefragt werden, zusätzlich Verkehrs- und Kommunikationseinrichtungen, Behörden sowie Werbung nach Zeitraum. Durchsucht werden die bei der <a href="https://agora.sub.uni-hamburg.de/subhh-adress/digbib/start" target="_blank">Staatsbibliothek Hamburg digitalisierten Adressbücher</a>. Die Sucheingabe wird auf die Suchergergebnisseite der der Stabi HH weitergeleitet. <a title="Karte öffnen" href="karte">Zur Karte</a>
-</p>
-</div>
-  </div>
-</div><br />
+var warpermosaic_1374 = L.tileLayer.wms(mapwarpermosaic1374, {
+	layers: 'image',
+	format: 'image/png',
+	transparent: true,
+	attribution: luftbild_nrw_1952 + '  &copy; ' + ccby30de,
+	maxZoom: 20,
+});
+var warpermosaic_1376 = L.tileLayer.wms(mapwarpermosaic1376, {
+	layers: 'image',
+	format: 'image/png',
+	transparent: true,
+	attribution: luftbild_nrw_1957 + '  &copy; ' + ccby30de,
+	maxZoom: 20,
+});
+var warpermosaic_1377 = L.tileLayer.wms(mapwarpermosaic1377, {
+	layers: 'image',
+	format: 'image/png',
+	transparent: true,
+	attribution: luftbild_nrw_1956 + '  &copy; ' + ccby30de,
+	maxZoom: 20,
+});
+var warper_55864 = L.tileLayer.wms(mapwarper55864, {
+	layers: 'image',
+	format: 'image/png',
+	transparent: true,
+	attribution: PPN612024857 + '  &copy; ' + ccbysa40,
+	maxZoom: 20,
+});
+var warper_55863 = L.tileLayer.wms(mapwarper55863, {
+	layers: 'image',
+	format: 'image/png',
+	transparent: true,
+	attribution: PPN620448482 + '  &copy; ' + ccbysa40,
+	maxZoom: 20,
+});
+var j1929 = L.tileLayer.wms(mapwarper15735, {
+	layers: 'image',
+	format: 'image/png',
+	transparent: true,
+	attribution: PPN741316862 + '  &copy; ' + ccbysa40,
+	maxZoom: 20,
+});
+var warper_55598 = L.tileLayer.wms(mapwarper55598, {
+	layers: 'image',
+	format: 'image/png',
+	transparent: true,
+	attribution: PPN612292940 + '  &copy; ' + ccbysa40,
+	maxZoom: 20,
+});
+var warper_55599 = L.tileLayer.wms(mapwarper55599, {
+	layers: 'image',
+	format: 'image/png',
+	transparent: true,
+	attribution: PPN1675872090 + '  &copy; ' + ccbysa40,
+	maxZoom: 20,
+});
+var warper_15734 = L.tileLayer.wms(mapwarper15734, {
+	layers: 'image',
+	format: 'image/png',
+	transparent: true,
+	attribution: PPN611185121 + ' &copy; ' + ccbysa40,
+	maxZoom: 20,
+});
+var warper_15777 = L.tileLayer.wms(mapwarper15777, {
+	layers: 'image',
+	format: 'image/png',
+	transparent: true,
+	attribution: PPN612293521 + '  &copy; ' + ccbysa40,
+	maxZoom: 20,
+});
+var warper_55631 = L.tileLayer.wms(mapwarper55631, {
+	layers: 'image',
+	format: 'image/png',
+	transparent: true,
+	attribution: Sp_Hamburg1900 + ' ' + public_domain,
+	maxZoom: 20,
+});
+var warper_55731 = L.tileLayer.wms(mapwarper55731, {
+	layers: 'image',
+	format: 'image/png',
+	transparent: true,
+	attribution: PPN611968711 + '  &copy; ' + ccbysa40,
+	maxZoom: 20,
+});
+var warper_55805 = L.tileLayer.wms(mapwarper55805, {
+	layers: 'image',
+	format: 'image/png',
+	transparent: true,
+	attribution: PPN717756688 + '  &copy; ' + ccbysa40,
+	maxZoom: 20,
+});
+var warper_55822 = L.tileLayer.wms(mapwarper55822, {
+	layers: 'image',
+	format: 'image/png',
+	transparent: true,
+	attribution: PPN656426772 + '  &copy; ' + ccbysa40,
+	maxZoom: 20,
+});
+var warper_55834 = L.tileLayer.wms(mapwarper55834, {
+	layers: 'image',
+	format: 'image/png',
+	transparent: true,
+	attribution: PPN79779798X + '  &copy; ' + ccbysa40,
+	maxZoom: 20,
+});
+var warper_55745 = L.tileLayer.wms(mapwarper55745, {
+	layers: 'image',
+	format: 'image/png',
+	transparent: true,
+	attribution: PPN1040632130 + '  &copy; ' + ccbysa40,
+	maxZoom: 20,
+});
+var warper_55841 = L.tileLayer.wms(mapwarper55841, {
+	layers: 'image',
+	format: 'image/png',
+	transparent: true,
+	attribution: PPN688573649 + '  &copy; ' + ccbysa40,
+	maxZoom: 20,
+});
+var warper_55961 = L.tileLayer.wms(mapwarper55961, {
+	layers: 'image',
+	format: 'image/png',
+	transparent: true,
+	attribution: stadtteilarchiv + ', ' + public_domain_mark,
+	maxZoom: 20,
+});
+var warper_55962 = L.tileLayer.wms(mapwarper55962, {
+	layers: 'image',
+	format: 'image/png',
+	transparent: true,
+	attribution: stadtteilarchiv + ', ' + public_domain_mark,
+	maxZoom: 20,
+});
+var warper_55963 = L.tileLayer.wms(mapwarper55963, {
+	layers: 'image',
+	format: 'image/png',
+	transparent: true,
+	attribution: stadtteilarchiv + ', ' + public_domain_mark,
+	maxZoom: 20,
+});
+var wikiwarper_55805 = L.tileLayer.wms(wikiwarper55805, {
+	layers: 'image',
+	format: 'image/png',
+	transparent: true,
+	attribution: PPN610391070 + '  &copy; ' + ccbysa40,
+	maxZoom: 20,
+});
+var j1880_1889 = L.tileLayer.wms(Vermessungskarten_1880_1925, {
+	layers: 'vermessungskarten_1879_89',
+	format: 'image/png',
+	transparent: true,
+	attribution: geohhhist2 + '  &copy; ' + dldeby20,
+	maxZoom: 20,
+});
+var j1890_1899 = L.tileLayer.wms(Vermessungskarten_1880_1925, {
+	layers: 'vermessungskarten_1890_99',
+	format: 'image/png',
+	transparent: true,
+	attribution: geohhhist2 + '  &copy; ' + dldeby20,
+	maxZoom: 20,
+});
+var j1900_1910 = L.tileLayer.wms(Vermessungskarten_1880_1925, {
+	layers: 'vermessungskarten_1900_10',
+	format: 'image/png',
+	transparent: true,
+	attribution: geohhhist2 + '  &copy; ' + dldeby20,
+	maxZoom: 20,
+});
+var j1910_1915 = L.tileLayer.wms(Vermessungskarten_1880_1925, {
+	layers: 'vermessungskarten_1911_15',
+	format: 'image/png',
+	transparent: true,
+	attribution: geohhhist2 + '  &copy; ' + dldeby20,
+	maxZoom: 20,
+});
+var j1916_1925 = L.tileLayer.wms(Vermessungskarten_1880_1925, {
+	layers: 'vermessungskarten_1916_25',
+	format: 'image/png',
+	transparent: true,
+	attribution: geohhhist2 + '  &copy; ' + dldeby20,
+	maxZoom: 20,
+});
+var alkis = L.tileLayer.wms(ALKIS_Basiskarte, {
+	layers: '1,7,6,20,17,12,29,35,34,23,28,13,16,5,14,15,30,24,36,19,21',
+	format: 'image/png',
+	transparent: false,
+	attribution: geohhhalkis + ', 2014,  &copy; ' + dldeby20,
+	maxZoom: 20,
+});
+var hhdk5 = L.tileLayer.wms(HH_DK5, {
+	layers: 'DK5',
+	format: 'image/png',
+	transparent: false,
+	attribution: geohhhdk5 + ' &copy; ' + dldeby20,
+	maxZoom: 20,
+});
+var hhde = L.tileLayer.wms(HamburgDE, {
+	layers: 'Geobasiskarten_HHde',
+	format: 'image/png',
+	transparent: false,
+	attribution: geohhhde + ' &copy; ' + dldeby20,
+	maxZoom: 20,
+});
+var geobasis_gb = L.tileLayer.wms(HH_Geobasiskarten_GB, {
+	layers: 'Geobasiskarten_graublau',
+	format: 'image/png',
+	transparent: false,
+	attribution: geohhhbasis_gb + ' &copy; ' + dldeby20,
+	maxZoom: 20,
+});
+var orthophotos = L.tileLayer.wms(DOP_belaubt, {
+	layers: 'DOP_belaubt',
+	format: 'image/png',
+	transparent: true,
+	attribution: geohhhorthophotos + ' &copy; ' + dldeby20,
+	maxZoom: 20,
+});
+var orthophotos_unbelaubt = L.tileLayer.wms(DOP_unbelaubt, {
+	layers: 'DOP_2020_downscale',
+	format: 'image/png',
+	transparent: true,
+	attribution: geohhhorthophotos_unbelaubt + ' &copy; ' + dldeby20,
+	maxZoom: 20,
+});
+var mundialistopo = L.tileLayer.wms(mundialis_wms, {
+	layers: 'OSM-WMS',
+	format: 'image/png',
+	transparent: true,
+	attribution: osmattrib,
+	maxZoom: 20,
+}).addTo(map);
+var hh_denkmalschutz = L.tileLayer.wms(HH_Denkmalschutz, {
+	layers: 'kd_ensembles,kd_flaechen_gartendenkmale,kd_gebaeude,kd_gebaeude_unterirdisch,welterbe_pufferzone,welterbe_kernzone',
+	format: 'image/png',
+	transparent: true,
+	attribution: geohhdenkmalschutz + ' &copy; ' + dldeby20,
+	bounds: boundsaltona,
+	maxZoom: 20,
+}).addTo(geoportalhh_layer);
+var hh_denkmalschutz2 = L.tileLayer.wms(HH_Denkmal_public, {
+	layers: 'fundplaetze_elemente_weitere,fundplaetze_elemente_bodendenkmale,bodendenkmal,ensemble_elemente_ortsstadtkern,ensemble_elemente_grabungsschutzgebiet,ensemble_elemente_archvorbehaltsflaeche',
+	format: 'image/png',
+	transparent: true,
+	attribution: geohhbodendenkmalschutz + ' &copy; ' + dldeby20,
+	bounds: boundsaltona,
+	maxZoom: 20,
+}).addTo(geoportalhh_layer);
+var hh_backstein_geb = L.tileLayer.wms(HH_Denkmal_Backstein, {
+	layers: 'b_gebaeude_kulturdenkmal_donut',
+	format: 'image/png',
+	transparent: true,
+	attribution: backsteinattrib + ' &copy; ' + dldeby20,
+	bounds: boundsaltona,
+	maxZoom: 20,
+}).addTo(geoportalhh_layer);
+var hh_backstein_kat = L.tileLayer.wms(HH_Denkmal_Backstein, {
+	layers: 'backstein_kategorien',
+	format: 'image/png',
+	transparent: true,
+	attribution: backsteinattrib + ' &copy; ' + dldeby20,
+	bounds: boundsaltona,
+	maxZoom: 20,
+}).addTo(hh_backstein_kat_layer);
+var hh_denkmalschutz_punkte_1 = L.tileLayer.wms(HH_Denkmalschutz, {
+	layers: 'kd_denkmalobjekte_symbolhaft,kd_grenzsteine,kd_tafeln',
+	format: 'image/png',
+	transparent: true,
+	attribution: geohhdenkmalschutz + ' &copy; ' + dldeby20,
+	bounds: boundsaltona,
+	maxZoom: 20,
+}).addTo(geoportalhh_pointslayer);
+var warper_60870 = L.tileLayer.wms(mapwarper60870, {
+	layers: 'image',
+	format: 'image/png',
+	transparent: true,
+	attribution: stadtteilarchiv_title + ', ' + vorbehalten,
+	maxZoom: 20,
+});
+var warper_60871 = L.tileLayer.wms(mapwarper60871, {
+	layers: 'image',
+	format: 'image/png',
+	transparent: true,
+	attribution: stadtteilarchiv_title + ', ' + vorbehalten,
+	maxZoom: 20,
+});
+var warper_60869 = L.tileLayer.wms(mapwarper60869, {
+	layers: 'image',
+	format: 'image/png',
+	transparent: true,
+	attribution: stadtteilarchiv_title + ', ' + vorbehalten,
+	maxZoom: 20,
+});
 
-<div class="card">
-<div class="card-header">
-    <h3 id="karte-juedischer-friedhof" class="card-title">Spezialkarte Jüdischer Friedhof Ottensen</h3>
-</div>
-<div class="card-body">
-<a title="Karte öffnen" href="karte/quarree/friedhof"><img src="images/screenshot_friedhof.jpg" style="border:1px solid darkgray;float:left;margin:0 5px 3px 0;max-width:100%;"></a><p>Diese interaktive Karte des <a href="https://stadtteilarchiv-ottensen.de/">Stadtteilarchivs</a> gehört zu einem längeren Artikel zur Entstehungsgeschichte des Einkaufszentrums <em>Mercado</em>, der im Laufe des Jahres erscheinen wird.</p>
-  <p>
-    Dargestellt wird die Geschichte des jüdischen Friedhofs seit dem 19. Jahrhundert bis heute anhand von altem Kartenmaterial, Info-Overlays und Fotos.
-</p>
-<p>
-  Die Karte befindet sich dezeit im Aufbau, insbesondere Fotos zu den einzelnen Objekten werden noch folgen. <a title="Karte öffnen" href="karte/quarree/friedhof">Zur Karte</a>
-</p>
-</div></div><br />
+var alkis_layer = L.tileLayer.wms(ALKIS_Basiskarte, {
+	layers: '14,3,15',
+	format: 'image/png',
+	transparent: true,
+	attribution: geohhhalkis + ', 2014 &copy; ' + dldeby20,
+	bounds: boundsaltona,
+	maxZoom: 20,
+});
+var alkis_layer2 = L.tileLayer.wms(ALKIS_Basiskarte, {
+	layers: '20,16,12,17,18,11,10,9,6,5,2,8,19,21,24,30,36,29,35',
+	format: 'image/png',
+	transparent: true,
+	attribution: geohhhalkis + ', 2014 &copy;' + dldeby20,
+	bounds: boundsaltona,
+	maxZoom: 20,
+});	
 
-<div class="card">
-<div class="card-header">
-    <h3 id="karte-hertie-quarree" class="card-title">Spezialkarte Hertie-Quarree / Mercado</h3>
-</div>
-<div class="card-body">
-<a title="Karte öffnen" href="karte/quarree"><img src="images/screenshot_quarree.jpg" style="border:1px solid darkgray;float:left;margin:0 5px 3px 0;max-width:100%;"></a><p>Diese interaktive Karte des <a href="https://stadtteilarchiv-ottensen.de/">Stadtteilarchivs</a> gehört zu einem längeren Artikel zur Entstehungsgeschichte des Einkaufszentrums <em>Mercado</em>, der im Laufe des Jahres erscheinen wird. Sie stellt anhand von altem Kartenmaterial, Info-Overlays und Fotos die Planungs-, Bau- und Folgegeschichte des <em>Mercados</em> dar, welches zunächst als "Hertie-Quarree" bekannt wurde.
-<p>
-  <p>
-  Die Karte befindet sich dezeit im Aufbau, insbesondere Fotos zu den einzelnen Objekten werden noch folgen, außerdem weitere Baupläne der ersten und der beiden Alternativplanungen sowie weitere Hinweise auf verschiedene damalige Begebenheiten. <a title="Karte öffnen" href="karte/quarree">Zur Karte</a>
-</p>
-</div></div><br />
+// process geojson feature properties for popups
+function process_osm_hist_obj(feature, layer) {
+	var popupContent = [];
+	popupContent.push("<div style='margin:0;padding:0;overflow-y:auto;overflow-x:hidden;max-height:200px;'><table><tbody>");
+	for (var key in feature.properties) {
+		if((feature.properties[key] != null) && (feature.properties[key] != "")) {
+			if(key == "name") {
+				popupContent.splice(1, 0, "<tr><td colspan=2><strong>" + feature.properties[key] + "</strong></td></tr>");
+			}
+			else if(key == "Name") {
+				popupContent.splice(1, 0, "<tr><td colspan=2><strong>" + feature.properties[key] + "</strong></td></tr>");
+			}
+			else if(key == "bezeichnung") {
+				popupContent.splice(1, 0, "<tr><td colspan=2><strong>" + feature.properties[key] + "</strong></td></tr>");
+			}
+			else if(key == "info") {
+				popupContent.splice(2, 0, "<tr><td colspan=2>" + feature.properties[key] + "</td></tr>");
+			}
+			else if(key == "descriptio") {
+				popupContent.splice(2, 0, "<tr><td colspan=2>" + feature.properties[key] + "</td></tr>");
+			}
+			else if(key == "bautyp") {
+				popupContent.splice(3, 0, "<tr><td>" + key + "</td><td>" + feature.properties[key] + "</td></tr>");
+			}
+			else if(key == "baujahr") {
+				popupContent.splice(3, 0, "<tr><td>" + key + "</td><td>" + feature.properties[key] + "</td></tr>");
+			}
+			else if(key == "wikipedia") {
+				popupContent.splice(3, 0, "<tr><td></td><td><a target='_blank' href='https://wikipedia.org/wiki/" + feature.properties[key] + "'>Wikipedia</a></td></tr>");
+			}
+			else if(key == "wikidata") {
+				popupContent.splice(3, 0, "<tr><td>Wikidata</td><td><a target='_blank' href='https://www.wikidata.org/wiki/" + feature.properties[key] + "'>" + feature.properties[key] + "</a></td></tr>");
+			}
+			else if(key == "wikimedia_") {
+				popupContent.splice(3, 0, "<tr><td></td><td><a target='_blank' href='https://commons.wikimedia.org/wiki/" + feature.properties[key] + "'>Wikimedia</a></td></tr>");
+			}			
+			else if(key == "memorial_w") {
+				varfeature = feature.properties[key];
+				var websitecheck = varfeature.match(/\bhttps?:\/\/\S+/gi);
+				var laenge = websitecheck.length; 
+				if (laenge >= 1)
+				{
+					websitecheck.forEach(function (item, index) {
+						item = item.replace(/(^[,\s]+)|([,\s]+$)/g, '');
+						popupContent.splice(3, 0, "<tr><td colspan=2><a target='_blank' href='" + item + "'>Projektinformationen</a></td></tr>");
+					});
+				}
+				else {
+					popupContent.splice(3, 0, "<tr><td colspan=2>" + feature.properties[key] + "</td></tr>");
+				}
+			}
+			else if(key == "network:website") {
+				varfeature = feature.properties[key];
+				var websitecheck = varfeature.match(/\bhttps?:\/\/\S+/gi);
+				var laenge = websitecheck.length; 
+				if (laenge >= 1)
+				{
+					websitecheck.forEach(function (item, index) {
+						item = item.replace(/(^[,\s]+)|([,\s]+$)/g, '');
+						popupContent.splice(2, 0, "<tr><td colspan=2><a target='_blank' href='" + item + "'>Projektinformationen</a></td></tr>");
+					});
+				}
+				else {
+					popupContent.splice(2, 0, "<tr><td colspan=2>" + feature.properties[key] + "</td></tr>");
+				}
+			}
+			else if(key == "website") {
+			///////Das Problem: einige polygone werden nicht angezeigt, solange diese Schleife drin ist
+				varfeature = feature.properties[key];
+				var websitecheck = varfeature.match(/\bhttps?:\/\/\S+/gi);
+				var laenge = websitecheck.length; 
+				if (laenge >= 1)
+				{
+					websitecheck.forEach(function (item, index) {
+						item = item.replace(/(^[,\s]+)|([,\s]+$)/g, '');
+						popupContent.splice(2, 0, "<tr><td colspan=2><a target='_blank' href='" + item + "'>" + item + "</a></td></tr>");
+					});
+				}
+				else {
+					popupContent.push("<tr><td colspan=2>" + feature.properties[key] + "</td></tr>");
+				}
+			}
+			else if(key == "email") {
+				popupContent.splice(3, 0, "<tr><td>E-Mail</td><td><a href='mailto:" + feature.properties[key] + "'>" + feature.properties[key] + "</a></td></tr>");
+			}
+			else if(key == "image") {
+				popupContent.splice(3, 0, "<tr><td></td><td><a href='" + feature.properties[key] + "'>Foto / Bild</a></td></tr>");
+			}
+			else if(key == "network") {
+				popupContent.splice(2, 0, "<tr><td colspan=2>" + feature.properties[key] + "</td></tr>");
+			}
+			else if(key == "phone") {
+				popupContent.splice(3, 0, "<tr><td>Telefon</td><td><a href='tel:" + feature.properties[key] + "'>" + feature.properties[key] + "</a></td></tr>");
+			}
+			else if(key == "memorial_1") {
+				popupContent.splice(2, 0, "<td colspan=2>" + feature.properties[key] + "</td></tr>");
+			}			
+			else if(key == "osm_id") {}
+			else if(key == "osm_type") {}
+			else if(key == "full_id") {}
+			else if(key == "gml_id") {}
+			else if(key == "kdstatus") {}
+			else if(key == "fsid") {}
+			else if(key == "kontrwer") {}
+			else if(key == "kontrwann") {}
+			else if(key == "x_koord") {}
+			else if(key == "y_koord") {}
+			else if(key == "alkis_show") {}
+			else if(key == "alkis_kon") {}
+			else if(key == "tessellate") {}
+			else if(key == "visibility") {}
+			else {
+				popupContent.push("<tr><td>" + key + "</td><td>" + feature.properties[key] + "</td></tr>");
+			}
+		}
+	}
+	if(feature.geometry.type === "Point")
+	{
+		popupContent.push("<tr><td>Breite/Länge</td><td><a data-bs-placement='right' data-bs-toggle='popover' title='GeoHack-Werkzeug' target='_blank' href='https://geohack.toolforge.org/geohack.php?language=de&params=" + feature.geometry.coordinates[1] + "_N_" + feature.geometry.coordinates[0] + "_E_dim:10000_region:DE-HH_type:city'>" + feature.geometry.coordinates[1] + " / " + feature.geometry.coordinates[0] + "</a></td></tr>");
+	}
+	popupContent.push("</tbody></table></div>");
+	layer.bindPopup(popupContent.join(""));  //
+}
 
-<h2 id="mitmachen">Mitmachen</h2>
+// get local geojson files
+new L.GeoJSON.AJAX(["geojson/osm_historic_altona_punkte.geojson"], {
+	onEachFeature: process_osm_hist_obj,
+	attribution: osm + osm_odbl
+}).addTo(altonalayer1);
+new L.GeoJSON.AJAX(["geojson/osm_historic_altona_linien.geojson"], {
+	onEachFeature: process_osm_hist_obj,
+	attribution: osm + osm_odbl
+}).addTo(altonalayer1);
+new L.GeoJSON.AJAX(["geojson/osm_historic_altona_flaechen.geojson"], {
+	onEachFeature: process_osm_hist_obj,
+	attribution: osm + osm_odbl
+}).addTo(altonalayer1);
 
-<p>Um bei uns mitzumachen, müsst ihr nicht unbedingt zu unseren Treffen kommen. Ihr könnt euch auch online einbringen, indem ihr unsere Karten online verbessert oder neue erstellt.<br>Beispielsweise sind mehrere Karten noch nicht optimal georeferenziert und können daher noch verbessert werden. Diese Karten enthalten in der Legende einen Link zum Georeferenzierungstool <a href="https://mapwarper.net/" target="_blank" rel="noreferrer noopener">Map Warper</a> bzw. <a href="https://warper.wmflabs.org/" target="_blank" rel="noreferrer noopener">Wikimaps Warper</a>. Dort kann sich jeder anmelden und die Karten anpassen.<br>Bei diesen Diensten kann jeder eine neue Karte erstellen. Gerne übernehmen wir hochauflösende, thematisch passende Karten. Postet uns eine Nachricht per <a href="mailto:kartenwerkstatt@altona.ws">E-Mail</a> oder auf <a href="https://github.com/Stadtteilarchiv-Ottensen/kartenwerkstatt/issues" target="_blank" rel="noreferrer noopener">Github</a> mit dem entsprechenden Link aus <em>Map Warper</em>. Das Einbauen einer neuen Karte nimmt lediglich 4 Minuten in Anspruch.<br>Wer sich mit dem Programmieren auskennt, kann das <a href="https://github.com/Stadtteilarchiv-Ottensen/kartenwerkstatt/" target="_blank" rel="noreferrer noopener"><em>Github-Repository</em></a> auch gerne forken, den Code verbessern oder neues Kartenmaterial hinzufügen und danach die Änderungen per <em>Push</em> der Kartenwerkstatt vorschlagen, damit wir sie direkt übernehmen können.</p>
+// same again
+function process_stadtteile(feature, layer) {
+	var popupContent = [];
+	popupContent.push("<div style='margin:0;padding:0;overflow-y:auto;overflow-x:hidden;max-height:200px;'><table><tbody>");
+	for (var key in feature.properties) {
+		if((feature.properties[key] != null) && (feature.properties[key] != "")) {
+			if(key == "name") {
+				popupContent.splice(1, 0, "<tr><td colspan=2><strong>" + feature.properties[key] + "</strong></td></tr>");
+			}
+			else if(key == "leafletID") {}
+			else if(key == "type") {}
+			else if(key == "eingemeindungaltona") {
+				popupContent.splice(2, 0, "<tr><td>Eingemeindung nach Altona: </td><td>" + feature.properties[key] + "</td></tr>");
+			}
+			else if(key == "eingemeindungdesc") {
+				popupContent.splice(3, 0, "<tr><td colspan=2>" + feature.properties[key] + "</td></tr>");
+			}
+			else if(key == "desc") {
+				popupContent.splice(3, 0, "<tr><td colspan=2>" + feature.properties[key] + "</td></tr>");
+			}
+			else {
+				popupContent.push("<tr><td>" + key + "</td><td>" + feature.properties[key] + "</td></tr>");
+			}
+		}
+	}
+	popupContent.push("</tbody></table></div>");
+	layer.bindPopup(popupContent.join(""));
+}
 
-<h2 id="quellen">Quellenangaben</h2>
+new L.GeoJSON.AJAX(["geojson/bezirk.geojson"], {
+	filter: function(feature, layer) {
+	return (feature.properties.leafletID === "bezirk");
+	},
+	color: "Teal", // DarkSlateGray Olive SlateGray DarkOliveGreen
+	fillOpacity:"0.0",
+	dashArray: '10, 7, 1, 7',
+	dashOffset: '0',
+	className: "class_altonagrenze2"
+}).addTo(grenze_aktuell);
+new L.GeoJSON.AJAX(["geojson/bezirk.geojson"], {
+	onEachFeature: process_stadtteile,
+	filter: function(feature, layer) {
+	return (feature.properties.leafletID === "altstadt");
+	},
+	color: "Teal",
+	fillOpacity:"0.0",
+	weight: "1",
+	//className: "class_altonagrenze"
+}).addTo(grenze_aktuell);
+new L.GeoJSON.AJAX(["geojson/bezirk.geojson"], {
+	onEachFeature: process_stadtteile,
+	filter: function(feature, layer) {
+	return (feature.properties.leafletID === "nord");
+	},
+	color: "Teal",
+	fillOpacity:"0.0",
+	weight: "1",
+	//className: "class_altonagrenze"
+}).addTo(grenze_aktuell);
+new L.GeoJSON.AJAX(["geojson/bezirk.geojson"], {
+	onEachFeature: process_stadtteile,
+	filter: function(feature, layer) {
+	return (feature.properties.leafletID === "bahrenfeld");
+	},
+	color: "Teal",
+	fillOpacity:"0.0",
+	weight: "1",
+	//className: "class_altonagrenze"
+}).addTo(grenze_aktuell);
+new L.GeoJSON.AJAX(["geojson/bezirk.geojson"], {
+	onEachFeature: process_stadtteile,
+	filter: function(feature, layer) {
+	return (feature.properties.leafletID === "blankenese");
+	},
+	color: "Teal",
+	fillOpacity:"0.0",
+	weight: "1",
+	//className: "class_altonagrenze"
+}).addTo(grenze_aktuell);
+new L.GeoJSON.AJAX(["geojson/bezirk.geojson"], {
+	onEachFeature: process_stadtteile,
+	filter: function(feature, layer) {
+	return (feature.properties.leafletID === "grossflottbek");
+	},
+	color: "Teal",
+	fillOpacity:"0.0",
+	weight: "1",
+	//className: "class_altonagrenze"
+}).addTo(grenze_aktuell);
+new L.GeoJSON.AJAX(["geojson/bezirk.geojson"], {
+	onEachFeature: process_stadtteile,
+	filter: function(feature, layer) {
+	return (feature.properties.leafletID === "iserbrook");
+	},
+	color: "Teal",
+	fillOpacity:"0.0",
+	weight: "1",
+	//className: "class_altonagrenze"
+}).addTo(grenze_aktuell);
+new L.GeoJSON.AJAX(["geojson/bezirk.geojson"], {
+	onEachFeature: process_stadtteile,
+	filter: function(feature, layer) {
+	return (feature.properties.leafletID === "lurup");
+	},
+	color: "Teal",
+	fillOpacity:"0.0",
+	weight: "1",
+	//className: "class_altonagrenze"
+}).addTo(grenze_aktuell);
+new L.GeoJSON.AJAX(["geojson/bezirk.geojson"], {
+	onEachFeature: process_stadtteile,
+	filter: function(feature, layer) {
+	return (feature.properties.leafletID === "nienstedten");
+	},
+	color: "Teal",
+	fillOpacity:"0.0",
+	weight: "1",
+	//className: "class_altonagrenze"
+}).addTo(grenze_aktuell);
+new L.GeoJSON.AJAX(["geojson/bezirk.geojson"], {
+	onEachFeature: process_stadtteile,
+	filter: function(feature, layer) {
+	return (feature.properties.leafletID === "osdorf");
+	},
+	color: "Teal",
+	fillOpacity:"0.0",
+	weight: "1",
+	//className: "class_altonagrenze"
+}).addTo(grenze_aktuell);
+new L.GeoJSON.AJAX(["geojson/bezirk.geojson"], {
+	onEachFeature: process_stadtteile,
+	filter: function(feature, layer) {
+	return (feature.properties.leafletID === "othmarschen");
+	},
+	color: "Teal",
+	fillOpacity:"0.0",
+	weight: "1",
+	//className: "class_altonagrenze"
+}).addTo(grenze_aktuell);
+new L.GeoJSON.AJAX(["geojson/bezirk.geojson"], {
+	onEachFeature: process_stadtteile,
+	filter: function(feature, layer) {
+	return (feature.properties.leafletID === "ottensen");
+	},
+	color: "Teal",
+	fillOpacity:"0.0",
+	weight: "1",
+	//className: "class_altonagrenze"
+}).addTo(grenze_aktuell);
+new L.GeoJSON.AJAX(["geojson/bezirk.geojson"], {
+	onEachFeature: process_stadtteile,
+	filter: function(feature, layer) {
+	return (feature.properties.leafletID === "rissen");
+	},
+	color: "Teal",
+	fillOpacity:"0.0",
+	weight: "1",
+	//className: "class_altonagrenze"
+}).addTo(grenze_aktuell);
+new L.GeoJSON.AJAX(["geojson/bezirk.geojson"], {
+	onEachFeature: process_stadtteile,
+	filter: function(feature, layer) {
+	return (feature.properties.leafletID === "sternschanze");
+	},
+	color: "Teal",
+	fillOpacity:"0.0",
+	weight: "1",
+	//className: "class_altonagrenze"
+}).addTo(grenze_aktuell);
+new L.GeoJSON.AJAX(["geojson/bezirk.geojson"], {
+	onEachFeature: process_stadtteile,
+	filter: function(feature, layer) {
+	return (feature.properties.leafletID === "suelldorf");
+	},
+	color: "Teal",
+	fillOpacity:"0.0",
+	weight: "1",
+	//className: "class_altonagrenze"
+}).addTo(grenze_aktuell);
 
-<p>Korrektheit von Quellenangaben wird bei der AG Kartenwerkstatt großgeschrieben. Zudem wird darauf Wert gelegt, dass nur Daten veröffentlicht werden, die vom jeweiligen Urheber dafür freigegeben wurden. Bitte teilt uns etwaige Fehler per <a href="mailto:kartenwerkstatt@altona.ws">E-Mail</a> oder auf <a href="https://github.com/Stadtteilarchiv-Ottensen/kartenwerkstatt/issues" target="_blank" rel="noreferrer noopener">Github</a> mit. Quellenangaben und Urheberrechte können unten in der jeweiligen Karte oder in der Legende abgerufen werden. Ausführliche Quellinformationen sind zudem in der <a href="https://www.zotero.org/groups/4428990/stadtteilarchiv_ottensen__kartenwerkstatt/collections/DLD3U8U8" target="_blank" rel="noreferrer noopener">Zotero-Bibliographie</a> verzeichnet. Siehe auch die Copyrights der <a href="/karte/copyrights.html" target="_blank" rel="noreferrer noopener">Software</a> und der <a href="/karte/geojson/copyrights.html" target="_blank" rel="noreferrer noopener">GeoJSON-Dateien</a>.</p>
+new L.GeoJSON.AJAX(["geojson/stadt.geojson"], {
+	filter: function(feature, layer) {
+	return (feature.properties.leafletID === "stadt1927");
+	},
+	color: "red",
+	fillOpacity:"0.0",
+	dashArray: '10, 7, 1, 7',
+	dashOffset: '0',
+	//className: "class_altonagrenze2"
+ }).addTo(grenze_alt);
+new L.GeoJSON.AJAX(["geojson/stadt.geojson"], { // ungestrichelt
+	onEachFeature: process_stadtteile,
+	filter: function(feature, layer) {
+	return (feature.properties.leafletID === "grossflottbek");
+	},
+	color: "red",
+	fillOpacity:"0.0",
+	weight: "1",
+}).addTo(grenze_alt);
+new L.GeoJSON.AJAX(["geojson/stadt.geojson"], {
+	onEachFeature: process_stadtteile,
+	filter: function(feature, layer) {
+	return (feature.properties.leafletID === "osdorf");
+	},
+	color: "red",
+	fillOpacity:"0.0",
+	weight: "1",
+}).addTo(grenze_alt);
+new L.GeoJSON.AJAX(["geojson/stadt.geojson"], {
+	onEachFeature: process_stadtteile,
+	filter: function(feature, layer) {
+	return (feature.properties.leafletID === "stellingen");
+	},
+	color: "red",
+	fillOpacity:"0.0",
+	weight: "1",
+}).addTo(grenze_alt);
+new L.GeoJSON.AJAX(["geojson/stadt.geojson"], {
+	onEachFeature: process_stadtteile,
+	filter: function(feature, layer) {
+	return (feature.properties.leafletID === "eidelstedt");
+	},
+	color: "red",
+	fillOpacity:"0.0",
+	weight: "1",
+}).addTo(grenze_alt);
+new L.GeoJSON.AJAX(["geojson/stadt.geojson"], {
+	onEachFeature: process_stadtteile,
+	filter: function(feature, layer) {
+	return (feature.properties.leafletID === "oevelgoenne");
+	},
+	color: "red",
+	fillOpacity:"0.0",
+	weight: "1",
+}).addTo(grenze_alt);
+new L.GeoJSON.AJAX(["geojson/stadt.geojson"], {
+	onEachFeature: process_stadtteile,
+	filter: function(feature, layer) {
+	return (feature.properties.leafletID === "blankenese");
+	},
+	color: "red",
+	fillOpacity:"0.0",
+	weight: "1",
+}).addTo(grenze_alt);
+new L.GeoJSON.AJAX(["geojson/stadt.geojson"], {
+	onEachFeature: process_stadtteile,
+	filter: function(feature, layer) {
+	return (feature.properties.leafletID === "rissen");
+	},
+	color: "red",
+	fillOpacity:"0.0",
+	weight: "1",
+}).addTo(grenze_alt);
+new L.GeoJSON.AJAX(["geojson/stadt.geojson"], {
+	onEachFeature: process_stadtteile,
+	filter: function(feature, layer) {
+	return (feature.properties.leafletID === "lurup");
+	},
+	color: "red",
+	fillOpacity:"0.0",
+	weight: "1",
+}).addTo(grenze_alt);
+new L.GeoJSON.AJAX(["geojson/stadt.geojson"], {
+	onEachFeature: process_stadtteile,
+	filter: function(feature, layer) {
+	return (feature.properties.leafletID === "nienstedten");
+	},
+	color: "red",
+	fillOpacity:"0.0",
+	weight: "1",
+}).addTo(grenze_alt);
+new L.GeoJSON.AJAX(["geojson/stadt.geojson"], {
+	onEachFeature: process_stadtteile,
+	filter: function(feature, layer) {
+	return (feature.properties.leafletID === "bahrenfeld");
+	},
+	color: "red",
+	fillOpacity:"0.0",
+	weight: "1",
+}).addTo(grenze_alt);
+new L.GeoJSON.AJAX(["geojson/stadt.geojson"], {
+	onEachFeature: process_stadtteile,
+	filter: function(feature, layer) {
+	return (feature.properties.leafletID === "ottensen");
+	},
+	color: "red",
+	fillOpacity:"0.0",
+	weight: "1",
+}).addTo(grenze_alt);
+new L.GeoJSON.AJAX(["geojson/stadt.geojson"], {
+	onEachFeature: process_stadtteile,
+	filter: function(feature, layer) {
+	return (feature.properties.leafletID === "kleinflottbek");
+	},
+	color: "red",
+	fillOpacity:"0.0",
+	weight: "1",
+}).addTo(grenze_alt);
+new L.GeoJSON.AJAX(["geojson/stadt.geojson"], {
+	onEachFeature: process_stadtteile,
+	filter: function(feature, layer) {
+	return (feature.properties.leafletID === "othmarschen");
+	},
+	color: "red",
+	fillOpacity:"0.0",
+	weight: "1",
+}).addTo(grenze_alt);
+new L.GeoJSON.AJAX(["geojson/stadt.geojson"], {
+	onEachFeature: process_stadtteile,
+	filter: function(feature, layer) {
+	return (feature.properties.leafletID === "suelldorf");
+	},
+	color: "red",
+	fillOpacity:"0.0",
+	weight: "1",
+}).addTo(grenze_alt);
+new L.GeoJSON.AJAX(["geojson/stadt.geojson"], {
+	onEachFeature: process_stadtteile,
+	filter: function(feature, layer) {
+	return (feature.properties.leafletID === "altstadt");
+	},
+	color: "red",
+	fillOpacity:"0.0",
+	weight: "1",
+}).addTo(grenze_alt);
+new L.GeoJSON.AJAX(["geojson/stadt.geojson"], { // gestrichelt
+	onEachFeature: process_stadtteile,
+	filter: function(feature, layer) {
+	return (feature.properties.leafletID === "neumuehlen");
+	},
+	color: "red",
+	fillOpacity:"0.0",
+	dashArray: '5, 1, 1',
+	//dashOffset: '3',
+	weight: "1",
+}).addTo(grenze_alt);
+new L.GeoJSON.AJAX(["geojson/stadt.geojson"], {
+	onEachFeature: process_stadtteile,
+	filter: function(feature, layer) {
+	return (feature.properties.leafletID === "dockenhuden");
+	},
+	color: "red",
+	fillOpacity:"0.0",
+	dashArray: '5, 1, 1',
+	//dashOffset: '3',
+	weight: "1",
+}).addTo(grenze_alt);
 
-<h2 id="technisches">Technisches</h2>
 
-<p>Die Karten basieren auf der JavaScript-Bibliothek <a href="https://leafletjs.com/" target="_blank" rel="noreferrer noopener">Leaflet</a>. Die Kartendaten werden einerseits dynamisch von verschiedenen Anbietern mithilfe des <a href="https://de.wikipedia.org/wiki/Web_Map_Service" target="_blank" rel="noreferrer noopener">WMS-Protokolls</a> geholt (bspw. Landesbetrieb Geoinformation und Vermessung Hamburg, Map Warper, Openstreetmap, siehe <a href="https://www.zotero.org/groups/4428990/stadtteilarchiv_ottensen__kartenwerkstatt/collections/DLD3U8U8" target="_blank" rel="noreferrer noopener">Quellen</a>). Andererseits werden verschiedene Daten auch direkt auf <a href="https://github.com/Stadtteilarchiv-Ottensen/kartenwerkstatt/tree/main/karte/geojson" target="_blank" rel="noreferrer noopener">Github</a> als GeoJSON-Dateien gehostet (insbesondere die Popup-Infolayer). Das Datenmaterial musste vor der Einbindung zunächst von verschiedenen Quellen geholt und aufbereitet werden (vor Allem mit <a href="https://qgis.org/de/" target="_blank" rel="noreferrer noopener">QGIS</a>, <a href="https://josm.openstreetmap.de/" target="_blank" rel="noreferrer noopener">JOSM</a> und per <a href="https://de.wikipedia.org/wiki/Regul%C3%A4rer_Ausdruck" target="_blank" rel="noreferrer noopener">REGEX</a>).</p>
+// Gebietsveränderungen
+new L.GeoJSON.AJAX(["geojson/stadt.geojson"], {
+	onEachFeature: process_stadtteile,
+	filter: function(feature, layer) {
+	return (feature.properties.leafletID === "grossflottbek");
+	},
+	color: "yellow",
+	fillOpacity:"0.5",
+	weight: "0",
+}).addTo(gebietsveraenderungen);
+new L.GeoJSON.AJAX(["geojson/stadt.geojson"], {
+	onEachFeature: process_stadtteile,
+	filter: function(feature, layer) {
+	return (feature.properties.leafletID === "osdorf");
+	},
+	color: "yellow",
+	fillOpacity:"0.5",
+	weight: "0",
+}).addTo(gebietsveraenderungen);
+new L.GeoJSON.AJAX(["geojson/stadt.geojson"], {
+	onEachFeature: process_stadtteile,
+	filter: function(feature, layer) {
+	return (feature.properties.leafletID === "stellingen");
+	},
+	color: "yellow",
+	fillOpacity:"0.5",
+	weight: "0",
+}).addTo(gebietsveraenderungen);
+new L.GeoJSON.AJAX(["geojson/stadt.geojson"], {
+	onEachFeature: process_stadtteile,
+	filter: function(feature, layer) {
+	return (feature.properties.leafletID === "eidelstedt");
+	},
+	color: "yellow",
+	fillOpacity:"0.5",
+	weight: "0",
+}).addTo(gebietsveraenderungen);
+new L.GeoJSON.AJAX(["geojson/stadt.geojson"], {
+	onEachFeature: process_stadtteile,
+	filter: function(feature, layer) {
+	return (feature.properties.leafletID === "oevelgoenne");
+	},
+	color: "DarkOrange",
+	fillOpacity:"0.5",
+	weight: "0",
+}).addTo(gebietsveraenderungen);
+new L.GeoJSON.AJAX(["geojson/stadt.geojson"], {
+	onEachFeature: process_stadtteile,
+	filter: function(feature, layer) {
+	return (feature.properties.leafletID === "blankenese");
+	},
+	color: "yellow",
+	fillOpacity:"0.5",
+	weight: "0",
+}).addTo(gebietsveraenderungen);
+new L.GeoJSON.AJAX(["geojson/stadt.geojson"], {
+	onEachFeature: process_stadtteile,
+	filter: function(feature, layer) {
+	return (feature.properties.leafletID === "rissen");
+	},
+	color: "yellow",
+	fillOpacity:"0.5",
+	weight: "0",
+}).addTo(gebietsveraenderungen);
+new L.GeoJSON.AJAX(["geojson/stadt.geojson"], {
+	onEachFeature: process_stadtteile,
+	filter: function(feature, layer) {
+	return (feature.properties.leafletID === "lurup");
+	},
+	color: "yellow",
+	fillOpacity:"0.5",
+	weight: "0",
+}).addTo(gebietsveraenderungen);
+new L.GeoJSON.AJAX(["geojson/stadt.geojson"], {
+	onEachFeature: process_stadtteile,
+	filter: function(feature, layer) {
+	return (feature.properties.leafletID === "nienstedten");
+	},
+	color: "yellow",
+	fillOpacity:"0.5",
+	weight: "0",
+}).addTo(gebietsveraenderungen);
+new L.GeoJSON.AJAX(["geojson/stadt.geojson"], {
+	onEachFeature: process_stadtteile,
+	filter: function(feature, layer) {
+	return (feature.properties.leafletID === "bahrenfeld");
+	},
+	color: "DarkOrange",
+	fillOpacity:"0.5",
+	weight: "0",
+}).addTo(gebietsveraenderungen);
+new L.GeoJSON.AJAX(["geojson/stadt.geojson"], {
+	onEachFeature: process_stadtteile,
+	filter: function(feature, layer) {
+	return (feature.properties.leafletID === "ottensen");
+	},
+	color: "red",
+	fillOpacity:"0.5",
+	weight: "0",
+}).addTo(gebietsveraenderungen);
+new L.GeoJSON.AJAX(["geojson/stadt.geojson"], {
+	onEachFeature: process_stadtteile,
+	filter: function(feature, layer) {
+	return (feature.properties.leafletID === "kleinflottbek");
+	},
+	color: "yellow",
+	fillOpacity:"0.5",
+	weight: "0",
+}).addTo(gebietsveraenderungen);
+new L.GeoJSON.AJAX(["geojson/stadt.geojson"], {
+	onEachFeature: process_stadtteile,
+	filter: function(feature, layer) {
+	return (feature.properties.leafletID === "othmarschen");
+	},
+	color: "DarkOrange",
+	fillOpacity:"0.5",
+	weight: "0",
+}).addTo(gebietsveraenderungen);
+new L.GeoJSON.AJAX(["geojson/stadt.geojson"], {
+	onEachFeature: process_stadtteile,
+	filter: function(feature, layer) {
+	return (feature.properties.leafletID === "suelldorf");
+	},
+	color: "yellow",
+	fillOpacity:"0.5",
+	weight: "0",
+}).addTo(gebietsveraenderungen);
+new L.GeoJSON.AJAX(["geojson/stadt.geojson"], {
+	onEachFeature: process_stadtteile,
+	filter: function(feature, layer) {
+	return (feature.properties.leafletID === "altstadt");
+	},
+	color: "darkred",
+	fillOpacity:"0.5",
+	weight: "0",
+}).addTo(gebietsveraenderungen);
 
-<h2 id="ausblick">Ausblick</h2>
 
-<p>Die Hauptkarte wird weiterhin mit verschiedenen historisch relevanten Karten befüllt. Weitere Spezialkarten sind in Arbeit.</p>
+new L.GeoJSON.AJAX(["geojson/Denkmalkartierung_HH_grenzsteine.geojson"], {
+	onEachFeature: process_osm_hist_obj,
+	//attribution: geohhdenkmalschutz
+}).addTo(geoportalhh_pointslayer);
+new L.GeoJSON.AJAX(["geojson/Denkmalkartierung_HH_tafeln.geojson"], {
+	onEachFeature: process_osm_hist_obj,
+	//attribution: geohhdenkmalschutz
+}).addTo(geoportalhh_pointslayer);
+new L.GeoJSON.AJAX(["geojson/Denkmalkartierung_HH_denkmalobjekte_symbolhaft.geojson"], {
+	onEachFeature: process_osm_hist_obj,
+	//attribution: geohhdenkmalschutz
+}).addTo(geoportalhh_pointslayer);
+new L.GeoJSON.AJAX(["geojson/Denkmalkartierung_HH_ensembles.geojson"], {
+	onEachFeature: process_osm_hist_obj,
+	attribution: geohhdenkmalschutz + ' &copy; ' + dldeby20,
+}).addTo(geoportalhh_info_layer);
+new L.GeoJSON.AJAX(["geojson/Denkmalkartierung_HH_flaechen_gartendenkmale.geojson"], {
+	onEachFeature: process_osm_hist_obj,
+	attribution: geohhdenkmalschutz + ' &copy; ' + dldeby20,
+}).addTo(geoportalhh_info_layer);
+new L.GeoJSON.AJAX(["geojson/Denkmalkartierung_HH_gebaeude.geojson"], {
+	onEachFeature: process_osm_hist_obj,
+	attribution: geohhdenkmalschutz + ' &copy; ' + dldeby20,
+}).addTo(geoportalhh_info_layer);
+new L.GeoJSON.AJAX(["geojson/infotafeln_stadtteilarchiv.geojson"], {
+	onEachFeature: process_osm_hist_obj,
+	attribution: '&copy; ' + stadtteilarchiv
+}).addTo(infotafeln_layer);
+new L.GeoJSON.AJAX(["geojson/stolpersteine.geojson"], {
+	onEachFeature: process_osm_hist_obj,
+	attribution: osm + osm_odbl
+}).addTo(stolpersteine_layer);
+new L.GeoJSON.AJAX(["geojson/wiki.geojson"], {
+	onEachFeature: process_osm_hist_obj,
+	attribution: wikiattrib
+}).addTo(wiki_layer);
 
-<h2 id="spenden">Spenden</h2>
+// create base map list in tree
+var baseTree = {
+	label: "Grundkarten",
+	collapsed: true,
+	children: [
+		{label: "Keine (ausgeschaltet)", layer: blank_base},
+		{label: "<span data-bs-placement='right' data-bs-toggle='popover' title='Amtliches Liegen­schafts­kataster­informations­system (ALKIS®)'>Kataster</span> <span class='smallnote' data-bs-placement='top' data-bs-toggle='popover' title='Sichtbar ab Zoomstufe 13'>Zoom >12</span>", layer: alkis},
+		{label: "<span data-bs-placement='right' data-bs-toggle='popover' title='Geobasiskarte Hamburg (grau/blau)'>Geobasiskarte HH <em>(g/b)</em></span>", layer: geobasis_gb},
+		{label: "<span data-bs-placement='right' data-bs-toggle='popover' title='Hamburger digitale Karte 1:5000'>HH DK5</span>", layer: hhdk5},
+		{label: "<span>HamburgDE</span>", layer: hhde},
+		{label: "<span data-bs-placement='right' data-bs-toggle='popover' title='OpenStreetMap'>OSM</span>", layer: OSM},
+		{label: "<span data-bs-placement='right' data-bs-toggle='popover' title='OpenStreetMap (graustufen)'>OSM <em>(graustufen)</em></span>", layer: terrestris},
+		{label: "<span data-bs-placement='right' data-bs-toggle='popover' title='OpenStreetMap (einfach)'>OSM <em>(einfach)</em></span>", layer: mundialistopo},
+	]
+};
 
-<p>Wenn du die Arbeit der Kartenwerkstatt unterstützen möchtest, freuen wir uns natürlich über jede Spende:</p>
+// createoverlay list in tree
+var overlaysTree = {
+	label: "Overlays",
+	selectAllCheckbox: false,
+	children: [
+		{
+			label: "Karten",
+			selectAllCheckbox: false,
+			children: [
+					{
+					label: "Luftbildpläne 1952-2020",
+					selectAllCheckbox: false,
+					collapsed: true,
+					children: [
+						{label: "<span data-bs-placement='right' data-bs-toggle='popover' title='flächendeckend'>2020 – Orthophotos (belaubt)</span>", layer: orthophotos},
+						{label: "<span data-bs-placement='right' data-bs-toggle='popover' title='flächendeckend'>2020 – Orthophotos (unbelaubt)</span>", layer: orthophotos_unbelaubt},
+						{label: "<span data-bs-placement='right' data-bs-toggle='popover' title='nicht flächendeckend'>1952 – 1:5000</span>", layer: warpermosaic_1374},
+						{label: "<span data-bs-placement='right' data-bs-toggle='popover' title='nicht flächendeckend'>1956 – 1:2500</span>", layer: warpermosaic_1377},
+						{label: "<span data-bs-placement='right' data-bs-toggle='popover' title='nicht flächendeckend'>1957 – 1:5000</span>", layer: warpermosaic_1376},
 
-<table style="margin-bottom:20px;border:1px solid black;padding:5px;">
-	<tbody>
-		<tr>
-			<td style="padding:0 10px 0 10px;">Emfänger</td>
-			<td style="font-weight:bold;font-family:monospace;font-size:1.4em;">Stadtteilarchiv Ottensen e.V.</td>
-		</tr>
-		<tr>
-			<td style="padding:0 10px 0 10px;">IBAN</td>
-			<td style="font-weight:bold;font-family:monospace;font-size:1.4em;">DE63 2005 0550 1257 1212 26</td>
-		</tr>
-		<tr>
-			<td style="padding:0 10px 0 10px;">BIC</td>
-			<td><span style="font-weight:bold;font-family:monospace;font-size:1.4em;">HASPDEHHXXX</span>&nbsp;&nbsp;&nbsp;<small style="padding-right:7px;">(HASPA ‒ Hamburger Sparkasse)</small></td>
-		</tr>
-		<tr>
-			<td style="padding:0 10px 0 10px;">Verwendungszweck</td>
-			<td style="font-weight:bold;font-family:monospace;font-size:1.4em;">Kartenwerkstatt</td>
-		</tr>
-	</tbody>
-</table>
+					]
+				},
+				{
+					label: "<span data-bs-placement='right' data-bs-toggle='popover' title='Hrsgg. von der Kulturbehörde Hamburg, nur teilw. Altona'>Vermessungskarten 1880-1925</span>",
+					selectAllCheckbox: false,
+					collapsed: true,
+					children: [
+						{label: "<span data-bs-placement='right' data-bs-toggle='popover' title='unvollständig'>1880-1889</span>", layer: j1880_1889},
+						{label: "<span data-bs-placement='right' data-bs-toggle='popover' title=''>1890-1899</span>", layer: j1890_1899},
+						{label: "<span data-bs-placement='right' data-bs-toggle='popover' title='unvollständig'>1900-1910</span>", layer: j1900_1910},
+						{label: "<span data-bs-placement='right' data-bs-toggle='popover' title='unvollständig'>1910-1915</span>", layer: j1910_1915},
+						{label: "<span data-bs-placement='right' data-bs-toggle='popover' title=''>1916-1925</span>", layer: j1916_1925},
+					]
+				},
+				{
+					label: "<span data-bs-placement='right' data-bs-toggle='popover' title='Amtliche Grundkarten'>Grundkarten 1938-2015</span>",
+					selectAllCheckbox: false,
+					collapsed: true,
+					children: [
+						{label: "<span data-bs-placement='right' data-bs-toggle='popover' title=''>1938</span>", layer: j1938},
+						{label: "<span data-bs-placement='right' data-bs-toggle='popover' title='unvollständig'>1952</span>", layer: j1952},
+						{label: "<span data-bs-placement='right' data-bs-toggle='popover' title=''>1960</span>", layer: j1960},
+						{label: "<span data-bs-placement='right' data-bs-toggle='popover' title=''>1970</span>", layer: j1970},
+						{label: "<span data-bs-placement='right' data-bs-toggle='popover' title=''>1980</span>", layer: j1980},
+						{label: "<span data-bs-placement='right' data-bs-toggle='popover' title=''>1990</span>", layer: j1990},
+						{label: "<span data-bs-placement='right' data-bs-toggle='popover' title=''>2000</span>", layer: j2000},
+						{label: "<span data-bs-placement='right' data-bs-toggle='popover' title=''>2005</span>", layer: j2005},
+						{label: "<span data-bs-placement='right' data-bs-toggle='popover' title=''>2010</span>", layer: j2010},
+						{label: "<span data-bs-placement='right' data-bs-toggle='popover' title=''>2015</span>", layer: j2015},
+					]
+				},
+				{
+					label: "<span>Industrialisierung</span>",
+					selectAllCheckbox: false,
+					collapsed: true,
+					children: [
+						{label: "1908 – Plan der Stadt Altona", layer: warper_55863},
+						{label: "<span data-bs-placement='right' data-bs-toggle='popover' title='Übersichtsplan über die Ottensener Industriebahn (ca. 1960)'>Ottensener Industriebahn</span>", layer: warper_55961},
+					]
+				},
+				{
+					label: "<span>Zweiter Weltkrieg</span>",
+					selectAllCheckbox: false,
+					collapsed: true,
+					children: [
+						{label: "<span data-bs-placement='right' data-bs-toggle='popover' title='Bombenschäden in Ottensen und Altona (Angriff 24./25. Juli 1943)'>Angriff 24./25. Juli 1943</span>", layer: warper_60869},
+						{label: "<span data-bs-placement='right' data-bs-toggle='popover' title='Schadenstellen in Hbg.-Altona (ab Juli 1943 und nach 17. Dezember 1943)'>ab Juli 1943 und nach 17. Dezember 1943</span>", layer: warper_60870},
+						{label: "<span data-bs-placement='right' data-bs-toggle='popover' title='Schadenstellen in Hbg.-Altona (ab 29.7.1944)'>ab 29.7.1944</span>", layer: warper_60871},
+					]
+				},
+				{
+					label: "<span>Weitere Altkarten</span>",
+					selectAllCheckbox: false,
+					collapsed: true,
+					children: [
+						{label: "<span data-bs-placement='right' data-bs-toggle='popover' title='Über die Jahre 1536-1540 (Erscheinungsjahr 1893)'>1540 – Schauenburgische Herrschaft</span>", layer: warper_55599},
+						{label: "<span data-bs-placement='right' data-bs-toggle='popover' title='Geometrischer Grundriss der Stadt Altona'>1736 – Geometrischer Grundriss</span>", layer: warper_55962},
+						{label: "<span data-bs-placement='right' data-bs-toggle='popover' title='„Altonaischer Gräntz Vergleich de Dato 17. Nov. 1740“'>1744 – Altonaischer Gräntz Vergleich</span>", layer: warper_55731},
+						{label: "1789 – Verkoppelungskarte Ottensen", layer: warper_55841},
+						{label: "1803 – Altona", layer: warper_55864},
+						{label: "1836 – Altona im Jahre ~", layer: warper_55598},
+						{label: "1848 – Plan von Altona", layer: warper_15777},
+						{label: "1856 – Plan von Hamburg und Altona", layer: wikiwarper_55805},
+						{label: "1860 – Altona", layer: warper_55822},
+						{label: "<span data-bs-placement='right' data-bs-toggle='popover' title='Plan von Hamburg, Altona und Umgegend'>1867 – Altona und Umgegend</span>", layer: warper_15734},
+						{label: "1879 – Plan der Stadt Ottensen", layer: warper_55963},
+						{label: "<span data-bs-placement='right' data-bs-toggle='popover' title='Großer Plan von Hamburg, Altona-Ottensen und Wandsbek'>1900 – Großer Plan</span>", layer: warper_55631},
+						{label: "1926 – Pamphlet gegen Altona", layer: warper_55805},
+						{label: "1927 – Verkehrs-Übersichtsplan", layer: warper_55834},
+						{label: "1928 – Bauzonenplan", layer: warper_55745},
+						{label: "<span data-bs-placement='right' data-bs-toggle='popover' title='Adressbuch-Stadtplan von Hamburg, Altona, Wandsbek und Umgebung'>1929 – Adressbuch-Stadtplan</span>", layer: j1929},
+						{label: "<span data-bs-placement='right' data-bs-toggle='popover' title='Bodenrichtwerte zum 1.1.1964'>1964 – Bodenrichtwerte</span> <span class='smallnote' data-bs-placement='top' data-bs-toggle='popover' title='Sichtbar ab Zoomstufe 16'>Zoom >15</span>", layer: j1964},
+					]
+				},
+				{
+					label: "<span data-bs-placement='right' data-bs-toggle='popover' title='Bodendenkmäler und Denkmalkartierung Hamburg'>Denkmalschutzkarten</span>",
+					selectAllCheckbox: false,
+					collapsed: true,
+					children: [
 
-<h2 id="links">Nützliche Links</h2>
+						{label: "<span data-bs-placement='right' data-bs-toggle='popover' title='Transparenz nicht verfügbar'>Backsteinensembles</span>", layer: hh_backstein_kat_layer},
+						{label: "<span>Flächen</span>", layer: geoportalhh_layer},
+					]
+				},
+				{
+					label: "<span data-bs-placement='right' data-bs-toggle='popover' title='Amtliches Liegen­schafts­kataster­informations­system (ALKIS®)'>Kataster</span>",
+					selectAllCheckbox: false,
+					collapsed: true,
+					children: [
+						{label: "<span>Gebäude</span> <span class='smallnote' data-bs-placement='top' data-bs-toggle='popover' title='Sichtbar ab Zoomstufe 17'>Zoom >16</span>", layer: alkis_layer},
+						{label: "<span>Flurstücksumringe</span> <span class='smallnote' data-bs-placement='top' data-bs-toggle='popover' title='Sichtbar ab Zoomstufe 16'>Zoom >15</span>", layer: alkis_layer2},
+					]
+				},
+				{
+					label: "<span data-bs-placement='right' data-bs-toggle='popover' title='Grenzziehungen'>Grenzen</span>",
+					selectAllCheckbox: false,
+					collapsed: true,
+					children: [
+				{label: "<span data-bs-placement='right' data-bs-toggle='popover' title='Historische Grenzverläufe'>Grenzen (historisch)</span>", layer: grenze_alt},
+				{label: "<span data-bs-placement='right' data-bs-toggle='popover' title='Heutige Grenzverläufe'>Grenzen (heute)</span>", layer: grenze_aktuell},
+				{label: "<span data-bs-placement='right' data-bs-toggle='popover' title=''>Gebietsveränderungen</span>", layer: gebietsveraenderungen},
+					]
+				},
+			]
+		},
+		{
+			label: "<span>Info-Layer</span>",
+			selectAllCheckbox: false,
+			collapsed: true,
+			children: [
+				{label: "<span data-bs-placement='right' data-bs-toggle='popover' title='Bodendenkmäler und Denkmalkartierung Hamburg'>Denkmalschutz – Punkte</span>", layer: geoportalhh_pointslayer},
+				{label: "<span data-bs-placement='right' data-bs-toggle='popover' title='Bodendenkmäler und Denkmalkartierung Hamburg'>Denkmalschutz – Flächen</span>", layer: geoportalhh_info_layer},
+				{label: "<span data-bs-placement='right' data-bs-toggle='popover' title='OpenStreetMap'>OSM historische Objekte</span>", layer: altonalayer1},
+				{label: "<span data-bs-placement='right' data-bs-toggle='popover' title='Georeferenzierte Wikipedia-Artikel'>Wikipedia</span> <em data-bs-placement='top' data-bs-toggle='popover' title='Das Laden dauert etwas, die Datei ist etwas größer'>(Geduld...)</em>", layer: wiki_layer},
+				{label: "<span>Stolpersteine</span>", layer: stolpersteine_layer},
+				{label: "<span>Stadtteilarchiv Ottensen</span>", layer: infotafeln_layer},
 
-<ul><li><a href="https://github.com/Stadtteilarchiv-Ottensen/kartenwerkstatt" target="_blank" rel="noreferrer noopener">AG Kartenwerkstatt auf Github</a></li><li><a href="https://www.zotero.org/groups/4428990/stadtteilarchiv_ottensen__kartenwerkstatt/library" target="_blank" rel="noreferrer noopener">Zotero-Bibliographie der Kartenwerkstatt</a></li><li><a href="https://mapwarper.net/users/27568" target="_blank" rel="noreferrer noopener">AG Kartenwerkstatt auf Map Warper</a></li><li><a href="https://stadtteilarchiv-ottensen.github.io/kartenwerkstatt/dok/dokumentation_bzag-kartenserver_v1.pdf">Dokumentation (PDF)</a></li><li><a href="https://stadtteilarchiv-ottensen.github.io/kartenwerkstatt/karte/geojson/copyrights.html" target="_blank" rel="noreferrer noopener">Downloads</a></li></ul>
+				
+			]
+		}
+	]
+}
+L.control.layers.tree(baseTree, overlaysTree, {collapsed: false, position: 'topleft'}).addTo(map);
 
+L.control.scale({position: 'bottomleft'}).addTo(map);
+
+// add search form for address book server
+var adressbuch = L.control({position: 'bottomright'});
+adressbuch.onAdd = function (map) {
+	var div = L.DomUtil.create('div', 'adressbuch');
+	div.innerHTML = "<div id='adressbuchsuche' class='leaflet-control leaflet-bar leaflet-html-legend'></div>";
+return div;
+};
+adressbuch.addTo(map);
+
+// create overlays' legends
+var grenze_alt_legend = L.control.htmllegend({
+	position: 'bottomright',
+	legends: [{
+		name: 'Legende: historische Grenzen',
+		layer:grenze_alt,
+		elements: [{
+			html:'<span>Für nähere Informationen Stadtteile anklicken</span>'
+		},{
+			label: 'Groß-Altona in den Grenzen von 1927 bis zur Eingemeindung nach Groß-Hamburg 1937',
+			html:'<svg height="5" width="30"><g fill="none" stroke-linecap="round" stroke="red" stroke-width="3"><path stroke-dasharray="7,5,1,5" d="M3 3 l40 0" /></g></svg>'
+		},{
+			label: 'Historische Gemeinde-/Stadtteilgrenzen',
+			html:'<svg height="5" width="30"><g fill="none" stroke-linecap="round" stroke="red" stroke-width="1"><path d="M3 3 l40 0" /></g></svg>'
+		},{
+			label: 'Frühere Eingemeindung in Nachbarort (anklicken für nähere Information)',
+			html:'<svg height="5" width="30"><g fill="none" stroke-linecap="round" stroke="red" stroke-width="1"><path path stroke-dasharray="5, 1, 1" d="M3 3 l40 0" /></g></svg>'
+		}]
+	}],
+	collapseSimple: true,
+	detectStretched: true,
+	collapsedOnInit: false,
+	defaultOpacity: 1.0,
+	visibleIcon: 'icon icon-eye',
+	hiddenIcon: 'icon icon-eye-slash',
+	toggleIcon: false
+})
+map.addControl(grenze_alt_legend)
+var grenze_neu_legend = L.control.htmllegend({
+	position: 'bottomright',
+	legends: [{
+		name: 'Legende: aktuelle Grenzen',
+		layer:grenze_aktuell,
+		elements: [{
+			label: 'Der Bezirk Altona in seinen heutigen Grenzen',
+			html:'<svg height="5" width="30"><g fill="none" stroke-linecap="round" stroke="Teal" stroke-width="3"><path stroke-dasharray="7,5,1,5" d="M3 3 l40 0" /></g></svg>'
+		},{
+			label: 'Heutige Stadtteilgrenzen',
+			html:'<svg height="5" width="30"><g fill="none" stroke-linecap="round" stroke="Teal" stroke-width="1"><path d="M3 3 l40 0" /></g></svg>'
+		}]
+	}],
+	collapseSimple: true,
+	detectStretched: true,
+	collapsedOnInit: false,
+	defaultOpacity: 1.0,
+	visibleIcon: 'icon icon-eye',
+	hiddenIcon: 'icon icon-eye-slash',
+	toggleIcon: false
+})
+map.addControl(grenze_neu_legend)
+var gebietsveraenderungen_legend = L.control.htmllegend({
+	position: 'bottomright',
+	legends: [{
+		name: 'Legende: Gebietsveränderungen',
+		layer:gebietsveraenderungen,
+		elements: [{
+			html:'<span><strong>Hinweis</strong>: Layer braucht etwas Zeit um aufzubauen</span>'
+		},{
+			html: '<span style="display:inline-flex;"><div style="background-color:darkred;width:15px;height:10px;border:1px solid black;margin-right:3px;"></div><label>Altona vor 1889</label></span>'
+		},{
+			html: '<span style="display:inline-flex;"><div style="background-color:red;width:15px;height:10px;border:1px solid black;margin-right:3px;"></div><label>Eingemeindungen 1889</label></span>'
+		},{
+			html: '<span style="display:inline-flex;"><div style="background-color:darkorange;width:15px;height:10px;border:1px solid black;margin-right:3px;"></div><label>Eingemeindungen 1890</label></span>'
+		},{
+			html: '<span style="display:inline-flex;"><div style="background-color:yellow;width:15px;height:10px;border:1px solid black;margin-right:3px;"></div><label>Eingemeindungen 1927</label></span>'
+		}]
+	}],
+	collapseSimple: true,
+	detectStretched: true,
+	collapsedOnInit: false,
+	defaultOpacity: 0.0,
+	visibleIcon: 'icon icon-eye',
+	hiddenIcon: 'icon icon-eye-slash',
+	toggleIcon: false,
+	disableVisibilityControls: true
+})
+map.addControl(gebietsveraenderungen_legend)
+var warper_55864_legend = L.control.htmllegend({
+	position: 'bottomright',
+	legends: [{
+		name: 'Legende: Altona 1803',
+		layer:warper_55864,
+		elements: [{
+			html: 'Quellennachweis: ' + PPN612024857_long,
+		}]
+	}],
+	collapseSimple: false,
+	detectStretched: true,
+	collapsedOnInit: true,
+	defaultOpacity: 1.0,
+	visibleIcon: 'icon icon-eye',
+	hiddenIcon: 'icon icon-eye-slash',
+	toggleIcon: false
+})
+map.addControl(warper_55864_legend)
+
+var orthophotos_legend = L.control.htmllegend({
+	position: 'bottomright',
+	legends: [{
+		name: 'Legende: Digitale Orthophotos (belaubt) 2020',
+		layer:orthophotos,
+		elements: [{
+			html: 'DOP20 - ganz Hamburg.',
+		},{
+			html: 'Quellennachweis: ' + geohhhorthophotos_long,
+		}]
+	}],
+	collapseSimple: false,
+	detectStretched: true,
+	collapsedOnInit: true,
+	defaultOpacity: 1.0,
+	visibleIcon: 'icon icon-eye',
+	hiddenIcon: 'icon icon-eye-slash',
+	toggleIcon: false
+})
+map.addControl(orthophotos_legend)
+
+var orthophotos_unbelaubt_legend = L.control.htmllegend({
+	position: 'bottomright',
+	legends: [{
+		name: 'Legende: Digitale Orthophotos (unbelaubt) 2020',
+		layer:orthophotos_unbelaubt,
+		elements: [{
+			html: 'DOP20 - ganz Hamburg, Befliegungszeitraum März/April 2020.',
+		},{
+			html: 'Quellennachweis: ' + geohhhorthophotos_unbelaubt_long,
+		}]
+	}],
+	collapseSimple: false,
+	detectStretched: true,
+	collapsedOnInit: true,
+	defaultOpacity: 1.0,
+	visibleIcon: 'icon icon-eye',
+	hiddenIcon: 'icon icon-eye-slash',
+	toggleIcon: false
+})
+map.addControl(orthophotos_unbelaubt_legend)
+var warpermosaic_1374_legend = L.control.htmllegend({
+	position: 'bottomright',
+	legends: [{
+		name: 'Legende: Luftbildpläne 1952 – 1:5000',
+		layer:warpermosaic_1374,
+		elements: [{
+			html: luftbild_nrw_1952_long,
+		}]
+	}],
+	collapseSimple: false,
+	detectStretched: true,
+	collapsedOnInit: true,
+	defaultOpacity: 1.0,
+	visibleIcon: 'icon icon-eye',
+	hiddenIcon: 'icon icon-eye-slash',
+	toggleIcon: false
+})
+map.addControl(warpermosaic_1374_legend)
+var warpermosaic_1374_legend = L.control.htmllegend({
+	position: 'bottomright',
+	legends: [{
+		name: 'Legende: Luftbildpläne 1956 – 1:2500',
+		layer:warpermosaic_1377,
+		elements: [{
+			html: luftbild_nrw_1956_long,
+		}]
+	}],
+	collapseSimple: false,
+	detectStretched: true,
+	collapsedOnInit: true,
+	defaultOpacity: 1.0,
+	visibleIcon: 'icon icon-eye',
+	hiddenIcon: 'icon icon-eye-slash',
+	toggleIcon: false
+})
+map.addControl(warpermosaic_1374_legend)
+var warpermosaic_1376_legend = L.control.htmllegend({
+	position: 'bottomright',
+	legends: [{
+		name: 'Legende: Luftbildpläne 1957 – 1:5000',
+		layer:warpermosaic_1376,
+		elements: [{
+			html: luftbild_nrw_1957_long,
+		}]
+	}],
+	collapseSimple: false,
+	detectStretched: true,
+	collapsedOnInit: true,
+	defaultOpacity: 1.0,
+	visibleIcon: 'icon icon-eye',
+	hiddenIcon: 'icon icon-eye-slash',
+	toggleIcon: false
+})
+map.addControl(warpermosaic_1376_legend)
+var warper_55863_legend = L.control.htmllegend({
+	position: 'bottomright',
+	legends: [{
+		name: 'Legende: Plan der Stadt Altona',
+		layer:warper_55863,
+		elements: [{
+			html: 'Quellennachweis: ' + PPN620448482_long,
+		}]
+	}],
+	collapseSimple: false,
+	detectStretched: true,
+	collapsedOnInit: true,
+	defaultOpacity: 1.0,
+	visibleIcon: 'icon icon-eye',
+	hiddenIcon: 'icon icon-eye-slash',
+	toggleIcon: false
+})
+map.addControl(warper_55863_legend)
+var warper_55598_legend = L.control.htmllegend({
+	position: 'bottomright',
+	legends: [{
+		name: 'Legende: Altona im Jahre 1836',
+		layer:warper_55598,
+		elements: [{
+			html: 'Quellennachweis: ' + PPN612292940_long,
+		}]
+	}],
+	collapseSimple: false,
+	detectStretched: true,
+	collapsedOnInit: true,
+	defaultOpacity: 1.0,
+	visibleIcon: 'icon icon-eye',
+	hiddenIcon: 'icon icon-eye-slash',
+	toggleIcon: false
+})
+map.addControl(warper_55598_legend)
+var warper_55599_legend = L.control.htmllegend({
+	position: 'bottomright',
+	legends: [{
+		name: 'Legende: Altona unter Schauenburgischer Herrschaft 1536-1550',
+		layer:warper_55599,
+		elements: [{
+			html: 'Quellennachweis: ' + PPN1675872090_long,
+		}]
+	}],
+	collapseSimple: false,
+	detectStretched: true,
+	collapsedOnInit: true,
+	defaultOpacity: 1.0,
+	visibleIcon: 'icon icon-eye',
+	hiddenIcon: 'icon icon-eye-slash',
+	toggleIcon: false
+})
+map.addControl(warper_55599_legend)
+var warper_15734_legend = L.control.htmllegend({
+	position: 'bottomright',
+	legends: [{
+		name: 'Legende: Plan von Hamburg, Altona und Umgegend (1867)',
+		layer:warper_15734,
+		elements: [{
+			html: 'Quellennachweis: ' + PPN611185121_long,
+		}]
+	}],
+	collapseSimple: false,
+	detectStretched: true,
+	collapsedOnInit: true,
+	defaultOpacity: 1.0,
+	visibleIcon: 'icon icon-eye',
+	hiddenIcon: 'icon icon-eye-slash',
+	toggleIcon: false
+})
+map.addControl(warper_15734_legend)
+var warper_15777_legend = L.control.htmllegend({
+	position: 'bottomright',
+	legends: [{
+		name: 'Legende: Plan von Altona (1848)',
+		layer:warper_15777,
+		elements: [{
+			html: 'Quellennachweis: ' + PPN612293521_long,
+		}]
+	}],
+	collapseSimple: false,
+	detectStretched: true,
+	collapsedOnInit: true,
+	defaultOpacity: 1.0,
+	visibleIcon: 'icon icon-eye',
+	hiddenIcon: 'icon icon-eye-slash',
+	toggleIcon: false
+})
+map.addControl(warper_15777_legend)
+var warper_55631_legend = L.control.htmllegend({
+	position: 'bottomright',
+	legends: [{
+		name: 'Legende: Großer Plan von Hamburg, Altona-Ottensen und Wandsbek (1900)',
+		layer:warper_55631,
+		elements: [{
+			html: 'Quellennachweis: ' + Sp_Hamburg1900_long,
+		}]
+	}],
+	collapseSimple: false,
+	detectStretched: true,
+	collapsedOnInit: true,
+	defaultOpacity: 1.0,
+	visibleIcon: 'icon icon-eye',
+	hiddenIcon: 'icon icon-eye-slash',
+	toggleIcon: false
+})
+map.addControl(warper_55631_legend)
+var warper_55731_legend = L.control.htmllegend({
+	position: 'bottomright',
+	legends: [{
+		name: 'Legende: Über den Altonaischen Gräntz Vergleich (1744)',
+		layer:warper_55731,
+		elements: [{
+			html: '<em>Dem, über den Altonaischen Gräntz Vergleich de Dato 17. Nov. 1740 errichteten Executions-Recesse de dato 11. Junij 1744 gemäss, aus den gemeinschaftlich gemachten grösseren Rissen nach dem verjüngten Maas-Stab verfertigte Gräntz-Charte, worauf die Gräntz-Zeichen zwischen der Stadt Hamburg und Altona beschrieben ...</em>',
+		},{
+			html: 'Quellennachweis: ' + PPN611968711_long,
+		}]
+	}],
+	collapseSimple: false,
+	detectStretched: true,
+	collapsedOnInit: true,
+	defaultOpacity: 1.0,
+	visibleIcon: 'icon icon-eye',
+	hiddenIcon: 'icon icon-eye-slash',
+	toggleIcon: false
+})
+map.addControl(warper_55731_legend)
+var warper_55822_legend = L.control.htmllegend({
+	position: 'bottomright',
+	legends: [{
+		name: 'Legende: Karte von Altona 1860',
+		layer:warper_55822,
+		elements: [{
+			html: '<em>Aus dem Bericht über die Gemeinde-Verwaltung der Stadt Altona von 1906</em>',
+		},{
+			html: 'Quellennachweis: ' + PPN656426772_long,
+		}]
+	}],
+	collapseSimple: false,
+	detectStretched: true,
+	collapsedOnInit: true,
+	defaultOpacity: 1.0,
+	visibleIcon: 'icon icon-eye',
+	hiddenIcon: 'icon icon-eye-slash',
+	toggleIcon: false
+})
+map.addControl(warper_55822_legend)
+var warper_55834_legend = L.control.htmllegend({
+	position: 'bottomright',
+	legends: [{
+		name: 'Legende: Verkehrs-Übersichtsplan von Groß-Altona (1927)',
+		layer:warper_55834,
+		elements: [{
+			html: '<em>Aus: "Kleiner Führer durch Altona"</em>',
+		},{
+			html: 'Quellennachweis: ' + PPN79779798X_long,
+		}]
+	}],
+	collapseSimple: false,
+	detectStretched: true,
+	collapsedOnInit: true,
+	defaultOpacity: 1.0,
+	visibleIcon: 'icon icon-eye',
+	hiddenIcon: 'icon icon-eye-slash',
+	toggleIcon: false
+})
+map.addControl(warper_55834_legend)
+var warper_55745_legend = L.control.htmllegend({
+	position: 'bottomright',
+	legends: [{
+		name: 'Legende: Altona Bauzonenplan (1928)',
+		layer:warper_55745,
+		elements: [{
+			html: '<em>Hrsgg. von der Städtischen Bauverwaltung Altona, Städtebauamt</em>',
+		},{
+			html: 'Quellennachweis: ' + PPN1040632130_long,
+		}]
+	}],
+	collapseSimple: false,
+	detectStretched: true,
+	collapsedOnInit: true,
+	defaultOpacity: 1.0,
+	visibleIcon: 'icon icon-eye',
+	hiddenIcon: 'icon icon-eye-slash',
+	toggleIcon: false
+})
+map.addControl(warper_55745_legend)
+var warper_55841_legend = L.control.htmllegend({
+	position: 'bottomright',
+	legends: [{
+		name: 'Legende: Verkoppelungskarte Kirchdorf Ottensen, Herrschaft Pinneberg (1789)',
+		layer:warper_55841,
+		elements: [{
+			html: 'Aus: <em>Neumühlen und Oevelgönne (1895)</em>',
+		},{
+			html: 'Quellennachweis: ' + PPN688573649_long,
+		}]
+	}],
+	collapseSimple: false,
+	detectStretched: true,
+	collapsedOnInit: true,
+	defaultOpacity: 1.0,
+	visibleIcon: 'icon icon-eye',
+	hiddenIcon: 'icon icon-eye-slash',
+	toggleIcon: false
+})
+map.addControl(warper_55841_legend)
+var warper_55805_legend = L.control.htmllegend({
+	position: 'bottomright',
+	legends: [{
+		name: 'Legende: Nicht nach Altona! (1926)',
+		layer:warper_55805,
+		elements: [{
+			html: 'Karte aus: <em>Ein Notruf des Kreises Pinneberg und seiner Gemeinden an die preußischen Gesetzgeber.</em>',
+		},{
+			html: 'Quellennachweis: ' + PPN717756688_long,
+		}]
+	}],
+	collapseSimple: false,
+	detectStretched: true,
+	collapsedOnInit: true,
+	defaultOpacity: 1.0,
+	visibleIcon: 'icon icon-eye',
+	hiddenIcon: 'icon icon-eye-slash',
+	toggleIcon: false
+})
+map.addControl(warper_55805_legend)
+var warper_55961_legend = L.control.htmllegend({
+	position: 'bottomright',
+	legends: [{
+		name: 'Legende: Ottensener Industriebahn',
+		layer:warper_55961,
+		elements: [{
+			html: 'Übersichtsplan von ca. 1960',
+		},{
+			html: 'Quellennachweis: ' + industriebahn_long,
+		}]
+	}],
+	collapseSimple: false,
+	detectStretched: true,
+	collapsedOnInit: true,
+	defaultOpacity: 1.0,
+	visibleIcon: 'icon icon-eye',
+	hiddenIcon: 'icon icon-eye-slash',
+	toggleIcon: false
+})
+map.addControl(warper_55961_legend)
+var warper_55962_legend = L.control.htmllegend({
+	position: 'bottomright',
+	legends: [{
+		name: 'Legende: Geometrischer Grundriss',
+		layer:warper_55962,
+		elements: [{
+			html: 'Christian Gottfried Dillebens Karte aus dem Jahre 1736',
+		},{
+			html: 'Quellennachweis: ' + dilleben1736_long,
+		}]
+	}],
+	collapseSimple: false,
+	detectStretched: true,
+	collapsedOnInit: true,
+	defaultOpacity: 1.0,
+	visibleIcon: 'icon icon-eye',
+	hiddenIcon: 'icon icon-eye-slash',
+	toggleIcon: false
+})
+map.addControl(warper_55962_legend)
+var warper_55963_legend = L.control.htmllegend({
+	position: 'bottomright',
+	legends: [{
+		name: 'Legende: Plan der Stadt Ottensen',
+		layer:warper_55963,
+		elements: [{
+			html: 'Quellennachweis: ' + ottensen1879_long,
+		}]
+	}],
+	collapseSimple: false,
+	detectStretched: true,
+	collapsedOnInit: true,
+	defaultOpacity: 1.0,
+	visibleIcon: 'icon icon-eye',
+	hiddenIcon: 'icon icon-eye-slash',
+	toggleIcon: false
+})
+map.addControl(warper_55963_legend)
+var wikiwarper_55805_legend = L.control.htmllegend({
+	position: 'bottomright',
+	legends: [{
+		name: 'Legende: Plan von Hamburg und Altona (1856)',
+		layer:wikiwarper_55805,
+		elements: [{
+			html: 'Quellennachweis: ' + PPN610391070_long,
+		}]
+	}],
+	collapseSimple: false,
+	detectStretched: true,
+	collapsedOnInit: true,
+	defaultOpacity: 1.0,
+	visibleIcon: 'icon icon-eye',
+	hiddenIcon: 'icon icon-eye-slash',
+	toggleIcon: false
+})
+map.addControl(wikiwarper_55805_legend)
+var j1880_1889_legend = L.control.htmllegend({
+	position: 'bottomright',
+	legends: [{
+		name: 'Vermessungskarte 1880-1889 (unvollständig)',
+		layer:j1880_1889,
+		elements: [{
+			html: 'Quellnachweis: ' + geohhhist2_long + ' &copy; ' + dldeby20,
+		}]
+	}],
+	collapseSimple: false,
+	detectStretched: true,
+	collapsedOnInit: true,
+	defaultOpacity: 1.0,
+	visibleIcon: 'icon icon-eye',
+	hiddenIcon: 'icon icon-eye-slash',
+	toggleIcon: false
+})
+map.addControl(j1880_1889_legend)
+var j1890_1899_legend = L.control.htmllegend({
+	position: 'bottomright',
+	legends: [{
+		name: 'Vermessungskarte 1890-1899 (unvollständig)',
+		layer:j1890_1899,
+		elements: [{
+			html: 'Quellnachweis: ' + geohhhist2_long + ' &copy; ' + dldeby20,
+		}]
+	}],
+	collapseSimple: false,
+	detectStretched: true,
+	collapsedOnInit: true,
+	defaultOpacity: 1.0,
+	visibleIcon: 'icon icon-eye',
+	hiddenIcon: 'icon icon-eye-slash',
+	toggleIcon: false
+})
+map.addControl(j1890_1899_legend)
+var j1900_1910_legend = L.control.htmllegend({
+	position: 'bottomright',
+	legends: [{
+		name: 'Vermessungskarte 1900-1910 (unvollständig)',
+		layer:j1900_1910,
+		elements: [{
+			html: 'Quellnachweis: ' + geohhhist2_long + ' &copy; ' + dldeby20,
+		}]
+	}],
+	collapseSimple: false,
+	detectStretched: true,
+	collapsedOnInit: true,
+	defaultOpacity: 1.0,
+	visibleIcon: 'icon icon-eye',
+	hiddenIcon: 'icon icon-eye-slash',
+	toggleIcon: false
+})
+map.addControl(j1900_1910_legend)
+var j1910_1915_legend = L.control.htmllegend({
+	position: 'bottomright',
+	legends: [{
+		name: 'Vermessungskarte 1910-1915 (unvollständig)',
+		layer:j1910_1915,
+		elements: [{
+			html: 'Quellnachweis: ' + geohhhist2_long + ' &copy; ' + dldeby20,
+		}]
+	}],
+	collapseSimple: false,
+	detectStretched: true,
+	collapsedOnInit: true,
+	defaultOpacity: 1.0,
+	visibleIcon: 'icon icon-eye',
+	hiddenIcon: 'icon icon-eye-slash',
+	toggleIcon: false
+})
+map.addControl(j1910_1915_legend)
+var j1916_1925_legend = L.control.htmllegend({
+	position: 'bottomright',
+	legends: [{
+		name: 'Vermessungskarte 1916-1925 (unvollständig)',
+		layer:j1916_1925,
+		elements: [{
+			html: 'Quellnachweis: ' + geohhhist2_long + ' &copy; ' + dldeby20,
+		}]
+	}],
+	collapseSimple: false,
+	detectStretched: true,
+	collapsedOnInit: true,
+	defaultOpacity: 1.0,
+	visibleIcon: 'icon icon-eye',
+	hiddenIcon: 'icon icon-eye-slash',
+	toggleIcon: false
+})
+map.addControl(j1916_1925_legend)
+var j1929_legend = L.control.htmllegend({
+	position: 'bottomright',
+	legends: [{
+		name: 'Adressbuch-Stadtplan 1929',
+		layer:j1929,
+		elements: [{
+			html: 'Quellennachweis: ' + PPN741316862_long + ' &copy; ' + ccbysa40,
+		}]
+	}],
+	collapseSimple: false,
+	detectStretched: true,
+	collapsedOnInit: true,
+	defaultOpacity: 1.0,
+	visibleIcon: 'icon icon-eye',
+	hiddenIcon: 'icon icon-eye-slash',
+	toggleIcon: false
+})
+map.addControl(j1929_legend)
+var j1938_legend = L.control.htmllegend({
+	position: 'bottomright',
+	legends: [{
+		name: 'Amtl. Grundkarte 1938 (unvollständig)',
+		layer:j1938,
+		elements: [{
+			html: 'Quellnachweis: ' + geohhhist_long,
+		}]
+	}],
+	collapseSimple: false,
+	detectStretched: true,
+	collapsedOnInit: true,
+	defaultOpacity: 1.0,
+	visibleIcon: 'icon icon-eye',
+	hiddenIcon: 'icon icon-eye-slash',
+	toggleIcon: false
+})
+map.addControl(j1938_legend)
+var j1952_legend = L.control.htmllegend({
+	position: 'bottomright',
+	legends: [{
+		name: 'Amtl. Grundkarte ca. 1952 (unvollständig)',
+		layer:j1952,
+		elements: [{
+			html: 'Quellnachweis: ' + geohhhist_long,
+		}]
+	}],
+	collapseSimple: false,
+	detectStretched: true,
+	collapsedOnInit: true,
+	defaultOpacity: 1.0,
+	visibleIcon: 'icon icon-eye',
+	hiddenIcon: 'icon icon-eye-slash',
+	toggleIcon: false
+})
+map.addControl(j1952_legend)
+var j1960_legend = L.control.htmllegend({
+	position: 'bottomright',
+	legends: [{
+		name: 'Amtl. Grundkarte ca. 1960',
+		layer:j1960,
+		elements: [{
+			html: 'Quellnachweis: ' + geohhhist_long,
+		}]
+	}],
+	collapseSimple: false,
+	detectStretched: true,
+	collapsedOnInit: true,
+	defaultOpacity: 1.0,
+	visibleIcon: 'icon icon-eye',
+	hiddenIcon: 'icon icon-eye-slash',
+	toggleIcon: false
+})
+map.addControl(j1960_legend)
+var j1970_legend = L.control.htmllegend({
+	position: 'bottomright',
+	legends: [{
+		name: 'Amtl. Grundkarte ca. 1970',
+		layer:j1970,
+		elements: [{
+			html: 'Quellnachweis: ' + geohhhist_long,
+		}]
+	}],
+	collapseSimple: false,
+	detectStretched: true,
+	collapsedOnInit: true,
+	defaultOpacity: 1.0,
+	visibleIcon: 'icon icon-eye',
+	hiddenIcon: 'icon icon-eye-slash',
+	toggleIcon: false
+})
+map.addControl(j1970_legend)
+var j1980_legend = L.control.htmllegend({
+	position: 'bottomright',
+	legends: [{
+		name: 'Amtl. Grundkarte ca. 1980',
+		layer:j1980,
+		elements: [{
+			html: 'Quellnachweis: ' + geohhhist_long,
+		}]
+	}],
+	collapseSimple: false,
+	detectStretched: true,
+	collapsedOnInit: true,
+	defaultOpacity: 1.0,
+	visibleIcon: 'icon icon-eye',
+	hiddenIcon: 'icon icon-eye-slash',
+	toggleIcon: false
+})
+map.addControl(j1980_legend)
+var j1990_legend = L.control.htmllegend({
+	position: 'bottomright',
+	legends: [{
+		name: 'Amtl. Grundkarte ca. 1990',
+		layer:j1990,
+		elements: [{
+			html: 'Quellnachweis: ' + geohhhist_long,
+		}]
+	}],
+	collapseSimple: false,
+	detectStretched: true,
+	collapsedOnInit: true,
+	defaultOpacity: 1.0,
+	visibleIcon: 'icon icon-eye',
+	hiddenIcon: 'icon icon-eye-slash',
+	toggleIcon: false
+})
+map.addControl(j1990_legend)
+var j2000_legend = L.control.htmllegend({
+	position: 'bottomright',
+	legends: [{
+		name: 'Amtl. Grundkarte 2000',
+		layer:j2000,
+		elements: [{
+			html: 'Quellnachweis: ' + geohhhist_long,
+		}]
+	}],
+	collapseSimple: false,
+	detectStretched: true,
+	collapsedOnInit: true,
+	defaultOpacity: 1.0,
+	visibleIcon: 'icon icon-eye',
+	hiddenIcon: 'icon icon-eye-slash',
+	toggleIcon: false
+})
+map.addControl(j2000_legend)
+var j2005_legend = L.control.htmllegend({
+	position: 'bottomright',
+	legends: [{
+		name: 'Amtl. Grundkarte 2005',
+		layer:j2005,
+		elements: [{
+			html: 'Quellnachweis: ' + geohhhist_long,
+		}]
+	}],
+	collapseSimple: false,
+	detectStretched: true,
+	collapsedOnInit: true,
+	defaultOpacity: 1.0,
+	visibleIcon: 'icon icon-eye',
+	hiddenIcon: 'icon icon-eye-slash',
+	toggleIcon: false
+})
+map.addControl(j2005_legend)
+var j2010_legend = L.control.htmllegend({
+	position: 'bottomright',
+	legends: [{
+		name: 'Amtl. Grundkarte 2010',
+		layer:j2010,
+		elements: [{
+			html: 'Quellnachweis: ' + geohhhist_long,
+		}]
+	}],
+	collapseSimple: false,
+	detectStretched: true,
+	collapsedOnInit: true,
+	defaultOpacity: 1.0,
+	visibleIcon: 'icon icon-eye',
+	hiddenIcon: 'icon icon-eye-slash',
+	toggleIcon: false
+})
+map.addControl(j2010_legend)
+var j2015_legend = L.control.htmllegend({
+	position: 'bottomright',
+	legends: [{
+		name: 'Amtl. Grundkarte 2015',
+		layer:j2015,
+		elements: [{
+			html: 'Quellnachweis: ' + geohhhist_long,
+		}]
+	}],
+	collapseSimple: false,
+	detectStretched: true,
+	collapsedOnInit: true,
+	defaultOpacity: 1.0,
+	visibleIcon: 'icon icon-eye',
+	hiddenIcon: 'icon icon-eye-slash',
+	toggleIcon: false
+})
+map.addControl(j2015_legend)
+var j1964_legend = L.control.htmllegend({
+	position: 'bottomright',
+	legends: [{
+		name: 'Bodenrichtwerte zum 1.1.1964',
+		layer:j1964,
+		elements: [{
+			html: 'Quellnachweis: ' + geohhhbodenrichtwerte_long + ' &copy; ' + dldeby20,
+		}]
+	}],
+	collapseSimple: false,
+	detectStretched: true,
+	collapsedOnInit: true,
+	defaultOpacity: 1.0,
+	visibleIcon: 'icon icon-eye',
+	hiddenIcon: 'icon icon-eye-slash',
+	toggleIcon: false
+})
+map.addControl(j1964_legend)
+var osm_hist_obj = L.control.htmllegend({
+	position: 'bottomright',
+	legends: [{
+		name: 'Legende: OSM historische Objekte',
+		layer:altonalayer1,
+		elements: [{
+			label: '',
+			html: 'Dieser Overlay zeigt alle Objekte mit geschichtlichen Bezug aus OpenStreetMaps an. Für mehr Informationen jeweils die Objekte anklicken.<br />Quellennachweis: ' + osm + osm_odbl
+		}]
+	}],
+	collapseSimple: false,
+	detectStretched: true,
+	collapsedOnInit: true,
+	defaultOpacity: 1.0,
+	visibleIcon: 'icon icon-eye',
+	hiddenIcon: 'icon icon-eye-slash',
+	toggleIcon: false,
+	disableVisibilityControls: true
+})
+map.addControl(osm_hist_obj)
+
+var warper_60869_legend = L.control.htmllegend({
+	position: 'bottomright',
+	legends: [{
+		name: 'Legende: Bombenschäden in Ottensen und Altona - Angriff 24./25. Juli 1943.',
+		layer:warper_60869,
+		elements: [{
+			html: 'Quellennachweis: ' + stadtteilarchiv_title + ', ' + vorbehalten,
+			label: 'DigiCULT Inventarnummer: 20201229-007-018',
+		}]
+	}],
+	collapseSimple: false,
+	detectStretched: true,
+	collapsedOnInit: true,
+	defaultOpacity: 0,
+	visibleIcon: 'icon icon-eye',
+	hiddenIcon: 'icon icon-eye-slash',
+	toggleIcon: false
+})
+map.addControl(warper_60869_legend)
+var warper_60870_legend = L.control.htmllegend({
+	position: 'bottomright',
+	legends: [{
+		name: 'Legende: Schadenstellen in Hbg.-Altona ab Juli 1943 und nach 17. Dezember 1943',
+		layer:warper_60870,
+		elements: [{
+			html: 'Quellennachweis: ' + stadtteilarchiv_title + ', ' + vorbehalten,
+			label: 'DigiCULT Inventarnummer: 20201229-007-016',
+		}]
+	}],
+	collapseSimple: false,
+	detectStretched: true,
+	collapsedOnInit: true,
+	defaultOpacity: 0,
+	visibleIcon: 'icon icon-eye',
+	hiddenIcon: 'icon icon-eye-slash',
+	toggleIcon: false
+})
+map.addControl(warper_60870_legend)
+var warper_60871_legend = L.control.htmllegend({
+	position: 'bottomright',
+	legends: [{
+		name: 'Legende: Schadenstellen in Hbg.-Altona ab 29.7.1944',
+		layer:warper_60871,
+		elements: [{
+			html: 'Quellennachweis: ' + stadtteilarchiv_title + ', ' + vorbehalten,
+			label: 'DigiCULT Inventarnummer: 20201229-007-015',
+		}]
+	}],
+	collapseSimple: false,
+	detectStretched: true,
+	collapsedOnInit: true,
+	defaultOpacity: 0,
+	visibleIcon: 'icon icon-eye',
+	hiddenIcon: 'icon icon-eye-slash',
+	toggleIcon: false
+})
+map.addControl(warper_60871_legend)
+
+var geoportalhh_points_legend = L.control.htmllegend({
+	position: 'bottomright',
+	legends: [{
+		name: 'Legende: Denkmalschutz – Punkte (Info)',
+		layer:geoportalhh_pointslayer,
+		elements: [
+		{
+			label: '',
+			html:'<img src="https://geodienste.hamburg.de/HH_WMS_Denkmalschutz?request=GetLegendGraphic&version=1.3.0&service=WMS&layer=kd_denkmalobjekte_symbolhaft&style=kd_denkmalobjekte_symbolhaft&format=image/png">'
+		},
+		{
+			label: '',
+			html:'<img src="https://geodienste.hamburg.de/HH_WMS_Denkmalschutz?request=GetLegendGraphic&version=1.3.0&service=WMS&layer=kd_grenzsteine&style=kd_grenzsteine&format=image/png">'
+		},
+		{
+			label: 'Tafeln',
+			html:''
+		},
+		{
+			label: '',
+			html:'<img src="https://geodienste.hamburg.de/HH_WMS_Denkmalschutz?request=GetLegendGraphic&version=1.3.0&service=WMS&layer=kd_tafeln&style=style_kd_tafeln&format=image/png">'
+		},
+		{
+			html: 'Quellennachweis: ' + geohhdenkmalschutz_long + ' &copy; ' + dldeby20,
+		}
+		
+		
+		]
+	}],
+	collapseSimple: false,
+	detectStretched: true,
+	collapsedOnInit: true,
+	defaultOpacity: 1.0,
+	visibleIcon: 'icon icon-eye',
+	hiddenIcon: 'icon icon-eye-slash',
+	toggleIcon: false,
+	disableVisibilityControls: true
+})
+map.addControl(geoportalhh_points_legend)
+var denkmal_fl_legend = L.control.htmllegend({
+	position: 'bottomright',
+	legends: [{
+		name: 'Legende: Denkmalschutz – Flächen',
+		layer:hh_denkmalschutz,
+		elements: [
+		{
+			label: '',
+			html:'<img src="https://geodienste.hamburg.de/HH_WMS_Denkmalschutz?request=GetLegendGraphic&version=1.3.0&service=WMS&layer=kd_ensembles&style=kd_ensembles&format=image/png">'
+		},
+		{
+			label: '',
+			html:'<img src="https://geodienste.hamburg.de/HH_WMS_Denkmal_public?request=GetLegendGraphic&version=1.3.0&service=WMS&layer=ensemble_elemente_ortsstadtkern&style=ensemble_elemente_ortsstadtkern&format=image/png">'
+		},
+		{
+			label: '',
+			html:'<img src="https://geodienste.hamburg.de/HH_WMS_Denkmalschutz?request=GetLegendGraphic&version=1.3.0&service=WMS&layer=kd_flaechen_gartendenkmale&style=kd_flaechen_gartendenkmale&format=image/png">'
+		},{
+			label:'Baudenkmal',
+			html: ''
+		},
+		{
+			html:'<img src="https://geodienste.hamburg.de/HH_WMS_Denkmalschutz?request=GetLegendGraphic&version=1.3.0&service=WMS&layer=kd_gebaeude&style=kd_gebaeude&format=image/png&">',
+			label: ''
+		},
+		{
+			html:'<img src="https://geodienste.hamburg.de/HH_WMS_Backstein_Kategorien?request=GetLegendGraphic&version=1.3.0&service=WMS&layer=b_gebaeude_kulturdenkmal_donut&style=b_gebaeude_kulturdenkmal_donut&format=image/png&">',
+			label: ''
+		},{
+			label:'Baudenkmal unterirdisch',
+			html: ''
+		},
+		{
+			label: '',
+			html:'<img src="https://geodienste.hamburg.de/HH_WMS_Denkmalschutz?request=GetLegendGraphic&version=1.3.0&service=WMS&layer=kd_gebaeude_unterirdisch&style=kd_gebaeude&format=image/png">'
+		},{
+			label:'Welterbe',
+			html: ''
+		},
+		{
+			label: '',
+			html:'<img src="https://geodienste.hamburg.de/HH_WMS_Denkmalschutz?request=GetLegendGraphic&version=1.3.0&service=WMS&layer=welterbe_pufferzone&style=welterbe_pufferzone&format=image/png">'
+		},
+		{
+			label: '',
+			html:'<img src="https://geodienste.hamburg.de/HH_WMS_Denkmalschutz?request=GetLegendGraphic&version=1.3.0&service=WMS&layer=welterbe_kernzone&style=welterbe_kernzone&format=image/png">'
+		},{
+			label:'Bodendenkmäler',
+			html: ''
+		},
+		{
+			label: '',
+			html:'<img src="https://geodienste.hamburg.de/HH_WMS_Denkmal_public?request=GetLegendGraphic&version=1.3.0&service=WMS&layer=ensemble_elemente_grabungsschutzgebiet&style=ensemble_elemente_grabungsschutzgebiet&format=image/png">'
+		},
+		{
+			label: '',
+			html:'<img src="https://geodienste.hamburg.de/HH_WMS_Denkmal_public?request=GetLegendGraphic&version=1.3.0&service=WMS&layer=ensemble_elemente_archvorbehaltsflaeche&style=ensemble_elemente_archvorbehaltsflaeche&format=image/png">'
+		},{
+			label:'weitere Archäologische Fundplätze',
+			html: ''
+		},
+		{
+			label: '',
+			html:'<img src="https://geodienste.hamburg.de/HH_WMS_Denkmal_public?request=GetLegendGraphic&version=1.3.0&service=WMS&layer=fundplaetze_elemente_weitere&style=fundplaetze_elemente_bodendenkmale&format=image/png">'
+		},{
+			html: 'Quellennachweis: ' + backsteinattrib_long + '; ' + geohhdenkmalschutz_long + '; ' + geohhbodendenkmalschutz_long + ' &copy; ' + dldeby20,
+		}]
+	}],
+	collapseSimple: false,
+	detectStretched: true,
+	collapsedOnInit: true,
+	defaultOpacity: 0.5,
+	visibleIcon: 'icon icon-eye',
+	hiddenIcon: 'icon icon-eye-slash',
+	toggleIcon: false
+})
+map.addControl(denkmal_fl_legend)
+var denkmal_backstein_legend = L.control.htmllegend({
+	position: 'bottomright',
+	legends: [{
+		name: 'Erhaltenswerte Backsteingebiete und -ensembles',
+		layer:hh_backstein_kat_layer,
+		elements: [{
+			html: '<span>Transparenz nicht verfügbar</span>',
+		},{
+			html: '<img src="https://geodienste.hamburg.de/HH_WMS_Backstein_Kategorien?request=GetLegendGraphic&version=1.3.0&service=WMS&layer=backstein_kategorien&style=backstein_kategorien&format=image/png&">',
+			label:''
+		},{
+			html: 'Quellennachweis: ' + backsteinattrib_long + ' &copy; ' + dldeby20,
+		}]
+	}],
+	collapseSimple: false,
+	detectStretched: true,
+	collapsedOnInit: true,
+	defaultOpacity: 0.5,
+	visibleIcon: 'icon icon-eye',
+	hiddenIcon: 'icon icon-eye-slash',
+	toggleIcon: false,
+	disableVisibilityControls: true
+})
+map.addControl(denkmal_backstein_legend)
+var denkmal_fl_info_legend = L.control.htmllegend({
+	position: 'bottomright',
+	legends: [{
+		name: 'Denkmalschutz – Flächen (Info)',
+		layer:geoportalhh_info_layer,
+		elements: [{
+			html: 'Quellennachweis: ' + geohhdenkmalschutz_long + ' &copy; ' + dldeby20,
+		}]
+	}],
+	collapseSimple: false,
+	detectStretched: true,
+	collapsedOnInit: true,
+	defaultOpacity: 1.0,
+	visibleIcon: 'icon icon-eye',
+	hiddenIcon: 'icon icon-eye-slash',
+	toggleIcon: false
+})
+map.addControl(denkmal_fl_info_legend)
+var stolpersteine_legend = L.control.htmllegend({
+	position: 'bottomright',
+	legends: [{
+		name: 'Stolpersteine',
+		layer:stolpersteine_layer,
+		elements: [{
+			html: 'In diesem Overlay werden nicht sämtliche <a href="https://www.stolpersteine-hamburg.de/" title="zur offiziellen Homepage des Projekts" target="_blank" data-bs-placement="left" data-bs-toggle="popover">Stolpersteine</a> angezeigt, da die Daten hierfür aus OpenStreetmap stammen und unvollständig sind. Für mehr Informationen zu den einzelnen Steinen das jew. Objekt anklicken.<br />Quellennachweis: ' + osm + osm_odbl
+		}]
+	}],
+	collapseSimple: false,
+	detectStretched: true,
+	collapsedOnInit: true,
+	defaultOpacity: 1.0,
+	visibleIcon: 'icon icon-eye',
+	hiddenIcon: 'icon icon-eye-slash',
+	toggleIcon: false,
+	disableVisibilityControls: true
+})
+map.addControl(stolpersteine_legend)
+var infotafeln_legend = L.control.htmllegend({
+	position: 'bottomright',
+	legends: [{
+		name: 'Infotafeln des Stadtteilarchivs',
+		layer:infotafeln_layer,
+		elements: [{
+			html: '<div class="display:inline;"><strong>Stadtteilarchiv Ottensen e.V.</strong><br />Zeißstraße 28<br />22765 Hamburg-Ottensen<br /><Tel.:+49 40 3903666<br />E-Mail: <a href="mailto:info@stadtteilarchiv-ottensen.de">info@stadtteilarchiv-ottensen.de</a><br /><a target="_blank" href="https://stadtteilarchiv-ottensen.de">https://stadtteilarchiv-ottensen.de</a></div>',
+		}]
+	}],
+	collapseSimple: false,
+	detectStretched: true,
+	collapsedOnInit: true,
+	defaultOpacity: 1.0,
+	visibleIcon: 'icon icon-eye',
+	hiddenIcon: 'icon icon-eye-slash',
+	toggleIcon: false,
+	disableVisibilityControls: true
+})
+map.addControl(infotafeln_legend)
+var alkis_legend = L.control.htmllegend({
+	position: 'bottomright',
+	legends: [{
+		name: 'Legende: ALKIS Kataster – Gebäude',
+		layer:alkis_layer,
+		elements: [{
+			html: 'Zoomstufen:',
+			label:'Nur 17 und höher'
+		},{
+			html: 'Quellnachweis: ' + geohhhalkis_long + ' &copy; ' + dldeby20,
+		}]
+	}],
+	collapseSimple: false,
+	detectStretched: true,
+	collapsedOnInit: true,
+	defaultOpacity: 0.5,
+	visibleIcon: 'icon icon-eye',
+	hiddenIcon: 'icon icon-eye-slash',
+	toggleIcon: false
+})
+map.addControl(alkis_legend)
+var alkis_legend2 = L.control.htmllegend({
+	position: 'bottomright',
+	legends: [{
+		name: 'Legende: ALKIS Kataster – Linien',
+		layer:alkis_layer2,
+		elements: [{
+			html: 'Zoomstufen:',
+			label:'Nur 16 und höher'
+		},{
+			html: 'Quellnachweis: ' + geohhhalkis_long + ' &copy; ' + dldeby20,
+		}]
+	}],
+	collapseSimple: false,
+	detectStretched: true,
+	collapsedOnInit: true,
+	//defaultOpacity: 1.0,
+	visibleIcon: 'icon icon-eye',
+	hiddenIcon: 'icon icon-eye-slash',
+	toggleIcon: false,
+	disableVisibilityControls: true
+})
+map.addControl(alkis_legend2)
+
+basemaps.addTo(map);
+
+</script>
+
+<script src="dist/adressbuch.js"></script>
+<div id="modalsgohere"></div>
+<script src="dist/bootstrap.bundle.min.js"></script>
+<script type="text/javascript">
+var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
+var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+	return new bootstrap.Tooltip(tooltipTriggerEl)
+})
+$("#modalsgohere").append("<div class='modal fade' id='karteninfo' tabindex='-1' aria-labelledby='Info' aria-hidden='true'><div class='modal-dialog'><div class='modal-content'><div class='modal-header'><h5 class='modal-title'>" + infotitle + "</h5><button type='button' class='btn-close' data-bs-dismiss='modal' aria-label='Schließen'></button></div><div class='modal-body'>" + infocontent + "</div></div></div></div>");
+</script>
 </body>
 </html>
+
+
