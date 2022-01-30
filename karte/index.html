@@ -15,8 +15,8 @@
 	<meta name="DC.type" content="map" />
 	<meta name="DC.author" content="Podolak, Martin" />
 	<meta name="DC.rights" content="Alle Rechte vorbehalten" />
-	<meta name="DC.date" content="05.12.2021" />
-	<meta name="DC.version" content="1.5.2" />
+	<meta name="DC.date" content="30.01.2022" />
+	<meta name="DC.version" content="1.5.3" />
 	<meta name="DC.description" content="Hauptkarte der AG Kartenwerkstatt im Stadtteilarchiv Ottensen e.V." />
 	<meta name="DC.publisher" content="AG Kartenwerkstatt, Stadtteilarchiv Ottensen e.V." />
 	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
@@ -170,7 +170,7 @@ var terrestris = L.tileLayer.wms(terrestris_wms, {
 	maxZoom: 20,
 });
 var j1938 = L.tileLayer.wms(Historische_Karte_1_5000, {
-	layers: 'Jahrgang_1940-1950',   //Layer richtig? Alter Layer:'8'
+	layers: 'Jahrgang_1930-1940', 
 	format: 'image/png',
 	transparent: true,
 	attribution: geohhhist,
