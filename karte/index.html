@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<script><!-- Konfigurationen -->
+	<script> //<!-- Konfigurationen -->
 		var url_path_datenschutz = "http://stadtteilarchiv-ottensen.de/kontakt/datenschutz";
 		var url_path_impressum = "http://stadtteilarchiv-ottensen.de/kontakt/impressum";
 		var url_path_hauptkarte = window.location.href;
@@ -131,7 +131,7 @@ var DOP_belaubt = "https://geodienste.hamburg.de/HH_WMS_DOP_belaubt?";
 var DOP_unbelaubt = "https://geodienste.hamburg.de/HH_WMS_DOP?";
 var HH_Denkmal_public = "https://geodienste.hamburg.de/HH_WMS_Denkmal_public";
 var HH_Denkmal_Backstein = "https://geodienste.hamburg.de/HH_WMS_Backstein_Kategorien?";
-var mundialis_wms = "https://ows.mundialis.de/services/service?";
+//var mundialis_wms = "https://ows.mundialis.de/services/service?";
 var mapwarpermosaic1374 ="https://mapwarper.net/mosaics/wms/1374?";
 var mapwarpermosaic1376 ="https://mapwarper.net/mosaics/wms/1376?";
 var mapwarpermosaic1377 ="https://mapwarper.net/mosaics/wms/1377?";
@@ -154,7 +154,7 @@ var mapwarper55962 = "https://mapwarper.net/maps/wms/55962?";
 var mapwarper55963 = "https://mapwarper.net/maps/wms/55963?";
 var wikiwarper55805 = "https://warper.wmflabs.org/maps/wms/2589?";
 var HH_Bodenrichtwertkarte_1964 = "https://geodienste.hamburg.de/HH_WMS_Bodenrichtwertkarte_1964?";
-var terrestris_wms = "https://ows.terrestris.de/osm-gray/service?";
+//var terrestris_wms = "https://ows.terrestris.de/osm-gray/service?";
 var osmfr = "https://{s}.tile.openstreetmap.fr/osmfr/{z}/{x}/{y}.png";
 //var osmfr = "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png";
 var mapwarper60870 = "https://mapwarper.net/maps/wms/60870?";
@@ -166,14 +166,14 @@ var blank_base = L.tileLayer('');
 var OSM = L.tileLayer.fallback(osmfr, {
 	maxZoom: 20,
 	attribution: osmattrib
-});
-var terrestris = L.tileLayer.wms(terrestris_wms, {
-	layers: 'OSM-WMS',
-	format: 'image/png',
-	transparent: true,
-	attribution: osmattrib,
-	maxZoom: 20,
-});
+}).addTo(map);
+//var terrestris = L.tileLayer.wms(terrestris_wms, {
+//	layers: 'OSM-WMS',
+//	format: 'image/png',
+//	transparent: true,	
+//	attribution: osmattrib,
+//	maxZoom: 20,
+//});
 var j1925 = L.tileLayer.wms(Historische_Karte_1_5000, {
 	layers: 'Jahrgang_1925-1930', 
 	format: 'image/png',
@@ -484,14 +484,14 @@ var orthophotos_unbelaubt = L.tileLayer.wms(DOP_unbelaubt, {
 	transparent: true,
 	attribution: geohhhorthophotos_unbelaubt + ' &copy; ' + dldeby20,
 	maxZoom: 20,
-});
-var mundialistopo = L.tileLayer.wms(mundialis_wms, {
-	layers: 'OSM-WMS',
-	format: 'image/png',
-	transparent: true,
-	attribution: osmattrib,
-	maxZoom: 20,
-}).addTo(map);
+})
+//var mundialistopo = L.tileLayer.wms(mundialis_wms, {
+//	layers: 'OSM-WMS',
+//	format: 'image/png',
+//	transparent: true,
+//	attribution: osmattrib,
+//	maxZoom: 20,
+//}).addTo(map);
 var hh_denkmalschutz = L.tileLayer.wms(HH_Denkmalschutz, {
 	layers: 'kd_ensembles,kd_flaechen_gartendenkmale,kd_gebaeude,kd_gebaeude_unterirdisch,welterbe_pufferzone,welterbe_kernzone',
 	format: 'image/png',
@@ -1244,8 +1244,8 @@ var baseTree = {
 		{label: "<span data-bs-placement='right' data-bs-toggle='popover' title='Hamburger digitale Karte 1:5000'>HH DK5</span>", layer: hhdk5},
 		{label: "<span>HamburgDE</span>", layer: hhde},
 		{label: "<span data-bs-placement='right' data-bs-toggle='popover' title='OpenStreetMap'>OSM</span>", layer: OSM},
-		{label: "<span data-bs-placement='right' data-bs-toggle='popover' title='OpenStreetMap (graustufen)'>OSM <em>(graustufen)</em></span>", layer: terrestris},
-		{label: "<span data-bs-placement='right' data-bs-toggle='popover' title='OpenStreetMap (einfach)'>OSM <em>(einfach)</em></span>", layer: mundialistopo},
+		//{label: "<span data-bs-placement='right' data-bs-toggle='popover' title='OpenStreetMap (graustufen)'>OSM <em>(graustufen)</em></span>", layer: terrestris},
+		//{label: "<span data-bs-placement='right' data-bs-toggle='popover' title='OpenStreetMap (einfach)'>OSM <em>(einfach)</em></span>", layer: mundialistopo},
 	]
 };
 
